@@ -51,6 +51,12 @@ Partial Class admin_dashboard
         Dim StateProperties17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim Animation1 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
+        Dim BorderEdges10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties19 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties20 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.BunifuButton8 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton7 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
@@ -67,13 +73,42 @@ Partial Class admin_dashboard
         Me.BunifuLabel3 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel1 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuPages1 = New Bunifu.UI.WinForms.BunifuPages()
+        Me.admin_pages = New Bunifu.UI.WinForms.BunifuPages()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.BunifuLabel8 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel7 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel6 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.BunifuLabel10 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuCards2 = New Bunifu.Framework.UI.BunifuCards()
+        Me.BunifuLabel11 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.BunifuButton11 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.BunifuCards1 = New Bunifu.Framework.UI.BunifuCards()
+        Me.BunifuButton10 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.BunifuLabel9 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
-        Me.BunifuPages1.SuspendLayout()
+        Me.admin_pages.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
+        Me.BunifuCards2.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuCards1.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -629,7 +664,7 @@ Partial Class admin_dashboard
         Me.BunifuButton9.BackColor1 = System.Drawing.Color.AntiqueWhite
         Me.BunifuButton9.BackgroundImage = CType(resources.GetObject("BunifuButton9.BackgroundImage"), System.Drawing.Image)
         Me.BunifuButton9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton9.ButtonText = ""
+        Me.BunifuButton9.ButtonText = " "
         Me.BunifuButton9.ButtonTextMarginLeft = 0
         Me.BunifuButton9.ColorContrastOnClick = 45
         Me.BunifuButton9.ColorContrastOnHover = 45
@@ -657,7 +692,7 @@ Partial Class admin_dashboard
         Me.BunifuButton9.IdleIconLeftImage = CType(resources.GetObject("BunifuButton9.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton9.IdleIconRightImage = Nothing
         Me.BunifuButton9.IndicateFocus = False
-        Me.BunifuButton9.Location = New System.Drawing.Point(481, 23)
+        Me.BunifuButton9.Location = New System.Drawing.Point(466, 22)
         Me.BunifuButton9.Name = "BunifuButton9"
         StateProperties17.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties17.BorderRadius = 3
@@ -722,9 +757,9 @@ Partial Class admin_dashboard
         Me.BunifuLabel2.Location = New System.Drawing.Point(140, 25)
         Me.BunifuLabel2.Name = "BunifuLabel2"
         Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel2.Size = New System.Drawing.Size(147, 39)
+        Me.BunifuLabel2.Size = New System.Drawing.Size(82, 39)
         Me.BunifuLabel2.TabIndex = 1
-        Me.BunifuLabel2.Text = "ADMIN NAME!"
+        Me.BunifuLabel2.Text = "ADMIN!"
         Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
@@ -743,24 +778,31 @@ Partial Class admin_dashboard
         Me.BunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'BunifuPages1
+        'admin_pages
         '
-        Me.BunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom
-        Me.BunifuPages1.AllowTransitions = True
-        Me.BunifuPages1.Controls.Add(Me.TabPage1)
-        Me.BunifuPages1.Controls.Add(Me.TabPage2)
-        Me.BunifuPages1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuPages1.Location = New System.Drawing.Point(212, 81)
-        Me.BunifuPages1.Multiline = True
-        Me.BunifuPages1.Name = "BunifuPages1"
-        Me.BunifuPages1.Page = Me.TabPage1
-        Me.BunifuPages1.PageIndex = 0
-        Me.BunifuPages1.PageName = "TabPage1"
-        Me.BunifuPages1.PageTitle = "TabPage1"
-        Me.BunifuPages1.SelectedIndex = 0
-        Me.BunifuPages1.Size = New System.Drawing.Size(844, 491)
-        Me.BunifuPages1.TabIndex = 5
-        Animation1.AnimateOnlyDifferences = False
+        Me.admin_pages.Alignment = System.Windows.Forms.TabAlignment.Bottom
+        Me.admin_pages.AllowTransitions = False
+        Me.admin_pages.Controls.Add(Me.TabPage1)
+        Me.admin_pages.Controls.Add(Me.TabPage2)
+        Me.admin_pages.Controls.Add(Me.TabPage3)
+        Me.admin_pages.Controls.Add(Me.TabPage4)
+        Me.admin_pages.Controls.Add(Me.TabPage5)
+        Me.admin_pages.Controls.Add(Me.TabPage6)
+        Me.admin_pages.Controls.Add(Me.TabPage7)
+        Me.admin_pages.Controls.Add(Me.TabPage8)
+        Me.admin_pages.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.admin_pages.Location = New System.Drawing.Point(212, 84)
+        Me.admin_pages.Multiline = True
+        Me.admin_pages.Name = "admin_pages"
+        Me.admin_pages.Page = Me.TabPage2
+        Me.admin_pages.PageIndex = 1
+        Me.admin_pages.PageName = "TabPage2"
+        Me.admin_pages.PageTitle = "services"
+        Me.admin_pages.SelectedIndex = 0
+        Me.admin_pages.Size = New System.Drawing.Size(844, 527)
+        Me.admin_pages.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
+        Me.admin_pages.TabIndex = 6
+        Animation1.AnimateOnlyDifferences = True
         Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
         Animation1.LeafCoeff = 0!
         Animation1.MaxTime = 1.0!
@@ -768,43 +810,417 @@ Partial Class admin_dashboard
         Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
         Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
         Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0)
+        Animation1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
         Animation1.RotateCoeff = 0!
         Animation1.RotateLimit = 0!
         Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
         Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
         Animation1.TimeCoeff = 0!
-        Animation1.TransparencyCoeff = 0!
-        Me.BunifuPages1.Transition = Animation1
-        Me.BunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom
+        Animation1.TransparencyCoeff = 1.0!
+        Me.admin_pages.Transition = Animation1
+        Me.admin_pages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent
         '
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage1.Controls.Add(Me.BunifuLabel8)
+        Me.TabPage1.Controls.Add(Me.BunifuLabel7)
+        Me.TabPage1.Controls.Add(Me.BunifuLabel6)
+        Me.TabPage1.Controls.Add(Me.BunifuLabel5)
+        Me.TabPage1.Controls.Add(Me.PictureBox3)
+        Me.TabPage1.Controls.Add(Me.PictureBox2)
         Me.TabPage1.Location = New System.Drawing.Point(4, 4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(836, 450)
+        Me.TabPage1.Size = New System.Drawing.Size(836, 513)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.Text = "home"
+        '
+        'BunifuLabel8
+        '
+        Me.BunifuLabel8.AutoEllipsis = False
+        Me.BunifuLabel8.CursorType = Nothing
+        Me.BunifuLabel8.Font = New System.Drawing.Font("Poppins ExtraBold", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel8.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.BunifuLabel8.Location = New System.Drawing.Point(496, 365)
+        Me.BunifuLabel8.Name = "BunifuLabel8"
+        Me.BunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel8.Size = New System.Drawing.Size(228, 50)
+        Me.BunifuLabel8.TabIndex = 12
+        Me.BunifuLabel8.Text = "APPOINTMENT/S"
+        Me.BunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel7
+        '
+        Me.BunifuLabel7.AutoEllipsis = False
+        Me.BunifuLabel7.CursorType = Nothing
+        Me.BunifuLabel7.Font = New System.Drawing.Font("Poppins ExtraBold", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel7.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.BunifuLabel7.Location = New System.Drawing.Point(102, 365)
+        Me.BunifuLabel7.Name = "BunifuLabel7"
+        Me.BunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel7.Size = New System.Drawing.Size(251, 50)
+        Me.BunifuLabel7.TabIndex = 10
+        Me.BunifuLabel7.Text = "ACTIVE LIFE PLANS"
+        Me.BunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel6
+        '
+        Me.BunifuLabel6.AutoEllipsis = False
+        Me.BunifuLabel6.CursorType = Nothing
+        Me.BunifuLabel6.Font = New System.Drawing.Font("Poppins Black", 48.0!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel6.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.BunifuLabel6.Location = New System.Drawing.Point(589, 288)
+        Me.BunifuLabel6.Name = "BunifuLabel6"
+        Me.BunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel6.Size = New System.Drawing.Size(39, 115)
+        Me.BunifuLabel6.TabIndex = 11
+        Me.BunifuLabel6.Text = "2"
+        Me.BunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel5
+        '
+        Me.BunifuLabel5.AutoEllipsis = False
+        Me.BunifuLabel5.CursorType = Nothing
+        Me.BunifuLabel5.Font = New System.Drawing.Font("Poppins Black", 48.0!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel5.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.BunifuLabel5.Location = New System.Drawing.Point(191, 288)
+        Me.BunifuLabel5.Name = "BunifuLabel5"
+        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel5.Size = New System.Drawing.Size(71, 115)
+        Me.BunifuLabel5.TabIndex = 10
+        Me.BunifuLabel5.Text = "10"
+        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.ELYSIUM_FMS.My.Resources.Resources.home_appointment
+        Me.PictureBox3.Location = New System.Drawing.Point(483, 58)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(249, 224)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.ELYSIUM_FMS.My.Resources.Resources.home_lifeplan
+        Me.PictureBox2.Location = New System.Drawing.Point(102, 42)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(242, 240)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
         '
         'TabPage2
         '
+        Me.TabPage2.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage2.Controls.Add(Me.BunifuLabel10)
+        Me.TabPage2.Controls.Add(Me.BunifuCards2)
+        Me.TabPage2.Controls.Add(Me.BunifuCards1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(836, 450)
+        Me.TabPage2.Size = New System.Drawing.Size(836, 486)
         Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "TabPage2"
-        Me.TabPage2.UseVisualStyleBackColor = True
+        Me.TabPage2.Text = "services"
+        '
+        'BunifuLabel10
+        '
+        Me.BunifuLabel10.AutoEllipsis = False
+        Me.BunifuLabel10.CursorType = Nothing
+        Me.BunifuLabel10.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel10.ForeColor = System.Drawing.Color.DimGray
+        Me.BunifuLabel10.Location = New System.Drawing.Point(20, 14)
+        Me.BunifuLabel10.Name = "BunifuLabel10"
+        Me.BunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel10.Size = New System.Drawing.Size(279, 44)
+        Me.BunifuLabel10.TabIndex = 11
+        Me.BunifuLabel10.Text = "SERVICES & PACKAGES"
+        Me.BunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuCards2
+        '
+        Me.BunifuCards2.BackColor = System.Drawing.Color.Tan
+        Me.BunifuCards2.BorderRadius = 30
+        Me.BunifuCards2.BottomSahddow = False
+        Me.BunifuCards2.color = System.Drawing.Color.SaddleBrown
+        Me.BunifuCards2.Controls.Add(Me.BunifuLabel11)
+        Me.BunifuCards2.Controls.Add(Me.PictureBox5)
+        Me.BunifuCards2.Controls.Add(Me.BunifuButton11)
+        Me.BunifuCards2.LeftSahddow = False
+        Me.BunifuCards2.Location = New System.Drawing.Point(421, 64)
+        Me.BunifuCards2.Name = "BunifuCards2"
+        Me.BunifuCards2.RightSahddow = False
+        Me.BunifuCards2.ShadowDepth = 20
+        Me.BunifuCards2.Size = New System.Drawing.Size(397, 410)
+        Me.BunifuCards2.TabIndex = 1
+        '
+        'BunifuLabel11
+        '
+        Me.BunifuLabel11.AutoEllipsis = False
+        Me.BunifuLabel11.CursorType = Nothing
+        Me.BunifuLabel11.Font = New System.Drawing.Font("Poppins", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel11.ForeColor = System.Drawing.Color.SaddleBrown
+        Me.BunifuLabel11.Location = New System.Drawing.Point(81, 30)
+        Me.BunifuLabel11.Name = "BunifuLabel11"
+        Me.BunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel11.Size = New System.Drawing.Size(238, 50)
+        Me.BunifuLabel11.TabIndex = 12
+        Me.BunifuLabel11.Text = "DIRECT SERVICES"
+        Me.BunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.ELYSIUM_FMS.My.Resources.Resources.packages
+        Me.PictureBox5.Location = New System.Drawing.Point(3, 44)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(384, 291)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox5.TabIndex = 12
+        Me.PictureBox5.TabStop = False
+        '
+        'BunifuButton11
+        '
+        Me.BunifuButton11.AllowToggling = False
+        Me.BunifuButton11.AnimationSpeed = 200
+        Me.BunifuButton11.AutoGenerateColors = False
+        Me.BunifuButton11.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton11.BackColor1 = System.Drawing.Color.Sienna
+        Me.BunifuButton11.BackgroundImage = CType(resources.GetObject("BunifuButton11.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BunifuButton11.ButtonText = "VIEW SERVICES"
+        Me.BunifuButton11.ButtonTextMarginLeft = 0
+        Me.BunifuButton11.ColorContrastOnClick = 45
+        Me.BunifuButton11.ColorContrastOnHover = 45
+        Me.BunifuButton11.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges10.BottomLeft = True
+        BorderEdges10.BottomRight = True
+        BorderEdges10.TopLeft = True
+        BorderEdges10.TopRight = True
+        Me.BunifuButton11.CustomizableEdges = BorderEdges10
+        Me.BunifuButton11.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BunifuButton11.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.BunifuButton11.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BunifuButton11.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BunifuButton11.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.BunifuButton11.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.BunifuButton11.ForeColor = System.Drawing.Color.White
+        Me.BunifuButton11.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton11.IconMarginLeft = 11
+        Me.BunifuButton11.IconPadding = 10
+        Me.BunifuButton11.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton11.IdleBorderColor = System.Drawing.Color.Sienna
+        Me.BunifuButton11.IdleBorderRadius = 40
+        Me.BunifuButton11.IdleBorderThickness = 1
+        Me.BunifuButton11.IdleFillColor = System.Drawing.Color.Sienna
+        Me.BunifuButton11.IdleIconLeftImage = Nothing
+        Me.BunifuButton11.IdleIconRightImage = Nothing
+        Me.BunifuButton11.IndicateFocus = False
+        Me.BunifuButton11.Location = New System.Drawing.Point(94, 336)
+        Me.BunifuButton11.Name = "BunifuButton11"
+        StateProperties19.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties19.BorderRadius = 40
+        StateProperties19.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties19.BorderThickness = 1
+        StateProperties19.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties19.ForeColor = System.Drawing.Color.White
+        StateProperties19.IconLeftImage = Nothing
+        StateProperties19.IconRightImage = Nothing
+        Me.BunifuButton11.onHoverState = StateProperties19
+        StateProperties20.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties20.BorderRadius = 40
+        StateProperties20.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties20.BorderThickness = 1
+        StateProperties20.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties20.ForeColor = System.Drawing.Color.White
+        StateProperties20.IconLeftImage = Nothing
+        StateProperties20.IconRightImage = Nothing
+        Me.BunifuButton11.OnPressedState = StateProperties20
+        Me.BunifuButton11.Size = New System.Drawing.Size(209, 45)
+        Me.BunifuButton11.TabIndex = 12
+        Me.BunifuButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuButton11.TextMarginLeft = 0
+        Me.BunifuButton11.UseDefaultRadiusAndThickness = True
+        '
+        'BunifuCards1
+        '
+        Me.BunifuCards1.BackColor = System.Drawing.Color.Tan
+        Me.BunifuCards1.BorderRadius = 30
+        Me.BunifuCards1.BottomSahddow = False
+        Me.BunifuCards1.color = System.Drawing.Color.SaddleBrown
+        Me.BunifuCards1.Controls.Add(Me.BunifuButton10)
+        Me.BunifuCards1.Controls.Add(Me.BunifuLabel9)
+        Me.BunifuCards1.Controls.Add(Me.PictureBox4)
+        Me.BunifuCards1.LeftSahddow = False
+        Me.BunifuCards1.Location = New System.Drawing.Point(19, 64)
+        Me.BunifuCards1.Name = "BunifuCards1"
+        Me.BunifuCards1.RightSahddow = False
+        Me.BunifuCards1.ShadowDepth = 20
+        Me.BunifuCards1.Size = New System.Drawing.Size(397, 410)
+        Me.BunifuCards1.TabIndex = 0
+        '
+        'BunifuButton10
+        '
+        Me.BunifuButton10.AllowToggling = False
+        Me.BunifuButton10.AnimationSpeed = 200
+        Me.BunifuButton10.AutoGenerateColors = False
+        Me.BunifuButton10.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton10.BackColor1 = System.Drawing.Color.Sienna
+        Me.BunifuButton10.BackgroundImage = CType(resources.GetObject("BunifuButton10.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BunifuButton10.ButtonText = "VIEW PACKAGES"
+        Me.BunifuButton10.ButtonTextMarginLeft = 0
+        Me.BunifuButton10.ColorContrastOnClick = 45
+        Me.BunifuButton10.ColorContrastOnHover = 45
+        Me.BunifuButton10.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges11.BottomLeft = True
+        BorderEdges11.BottomRight = True
+        BorderEdges11.TopLeft = True
+        BorderEdges11.TopRight = True
+        Me.BunifuButton10.CustomizableEdges = BorderEdges11
+        Me.BunifuButton10.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BunifuButton10.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.BunifuButton10.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BunifuButton10.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BunifuButton10.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.BunifuButton10.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton10.ForeColor = System.Drawing.Color.White
+        Me.BunifuButton10.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton10.IconMarginLeft = 11
+        Me.BunifuButton10.IconPadding = 10
+        Me.BunifuButton10.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton10.IdleBorderColor = System.Drawing.Color.Sienna
+        Me.BunifuButton10.IdleBorderRadius = 40
+        Me.BunifuButton10.IdleBorderThickness = 1
+        Me.BunifuButton10.IdleFillColor = System.Drawing.Color.Sienna
+        Me.BunifuButton10.IdleIconLeftImage = Nothing
+        Me.BunifuButton10.IdleIconRightImage = Nothing
+        Me.BunifuButton10.IndicateFocus = False
+        Me.BunifuButton10.Location = New System.Drawing.Point(91, 336)
+        Me.BunifuButton10.Name = "BunifuButton10"
+        StateProperties21.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties21.BorderRadius = 40
+        StateProperties21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties21.BorderThickness = 1
+        StateProperties21.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties21.ForeColor = System.Drawing.Color.White
+        StateProperties21.IconLeftImage = Nothing
+        StateProperties21.IconRightImage = Nothing
+        Me.BunifuButton10.onHoverState = StateProperties21
+        StateProperties22.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties22.BorderRadius = 40
+        StateProperties22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties22.BorderThickness = 1
+        StateProperties22.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties22.ForeColor = System.Drawing.Color.White
+        StateProperties22.IconLeftImage = Nothing
+        StateProperties22.IconRightImage = Nothing
+        Me.BunifuButton10.OnPressedState = StateProperties22
+        Me.BunifuButton10.Size = New System.Drawing.Size(209, 45)
+        Me.BunifuButton10.TabIndex = 9
+        Me.BunifuButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuButton10.TextMarginLeft = 0
+        Me.BunifuButton10.UseDefaultRadiusAndThickness = True
+        '
+        'BunifuLabel9
+        '
+        Me.BunifuLabel9.AutoEllipsis = False
+        Me.BunifuLabel9.CursorType = Nothing
+        Me.BunifuLabel9.Font = New System.Drawing.Font("Poppins", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel9.ForeColor = System.Drawing.Color.SaddleBrown
+        Me.BunifuLabel9.Location = New System.Drawing.Point(59, 30)
+        Me.BunifuLabel9.Name = "BunifuLabel9"
+        Me.BunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel9.Size = New System.Drawing.Size(286, 50)
+        Me.BunifuLabel9.TabIndex = 10
+        Me.BunifuLabel9.Text = "LIFE PLAN PACKAGES"
+        Me.BunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.ELYSIUM_FMS.My.Resources.Resources.FAMILY
+        Me.PictureBox4.Location = New System.Drawing.Point(-4, 3)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(419, 322)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 11
+        Me.PictureBox4.TabStop = False
+        '
+        'TabPage3
+        '
+        Me.TabPage3.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage3.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(836, 513)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "staff_account"
+        '
+        'TabPage4
+        '
+        Me.TabPage4.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage4.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(836, 513)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "admin_profile"
+        '
+        'TabPage5
+        '
+        Me.TabPage5.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage5.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(836, 513)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "appointment"
+        '
+        'TabPage6
+        '
+        Me.TabPage6.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage6.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(836, 513)
+        Me.TabPage6.TabIndex = 5
+        Me.TabPage6.Text = "lifeplan"
+        '
+        'TabPage7
+        '
+        Me.TabPage7.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage7.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage7.Name = "TabPage7"
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(836, 513)
+        Me.TabPage7.TabIndex = 6
+        Me.TabPage7.Text = "direct_services"
+        '
+        'TabPage8
+        '
+        Me.TabPage8.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage8.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage8.Size = New System.Drawing.Size(836, 513)
+        Me.TabPage8.TabIndex = 7
+        Me.TabPage8.Text = "inventory"
         '
         'admin_dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.OldLace
-        Me.ClientSize = New System.Drawing.Size(1054, 577)
-        Me.Controls.Add(Me.BunifuPages1)
+        Me.ClientSize = New System.Drawing.Size(1054, 576)
+        Me.Controls.Add(Me.admin_pages)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -816,7 +1232,19 @@ Partial Class admin_dashboard
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.BunifuPages1.ResumeLayout(False)
+        Me.admin_pages.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        Me.BunifuCards2.ResumeLayout(False)
+        Me.BunifuCards2.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuCards1.ResumeLayout(False)
+        Me.BunifuCards1.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -836,8 +1264,29 @@ Partial Class admin_dashboard
     Friend WithEvents BunifuButton4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuButton3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuButton2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuPages1 As Bunifu.UI.WinForms.BunifuPages
-    Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents TabPage2 As TabPage
     Friend WithEvents BunifuButton9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents admin_pages As Bunifu.UI.WinForms.BunifuPages
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents BunifuLabel8 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel7 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel6 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel5 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents BunifuLabel10 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuCards2 As Bunifu.Framework.UI.BunifuCards
+    Friend WithEvents BunifuLabel11 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents BunifuButton11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents BunifuCards1 As Bunifu.Framework.UI.BunifuCards
+    Friend WithEvents BunifuButton10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents BunifuLabel9 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents TabPage4 As TabPage
+    Friend WithEvents TabPage5 As TabPage
+    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents TabPage7 As TabPage
+    Friend WithEvents TabPage8 As TabPage
 End Class

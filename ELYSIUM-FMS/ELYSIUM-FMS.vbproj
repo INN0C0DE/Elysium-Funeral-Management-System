@@ -150,5 +150,17 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_lifeplan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAMILY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\packages.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
