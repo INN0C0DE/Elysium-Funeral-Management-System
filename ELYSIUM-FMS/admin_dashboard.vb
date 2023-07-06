@@ -1,5 +1,5 @@
 ﻿Public Class admin_dashboard
-    Private Sub BunifuLabel4_Click(sender As Object, e As EventArgs) Handles BunifuLabel4.Click
+    Private Sub BunifuLabel4_Click(sender As Object, e As EventArgs) Handles date_label.Click
 
     End Sub
 
@@ -33,5 +33,17 @@
 
     Private Sub BunifuButton8_Click(sender As Object, e As EventArgs) Handles BunifuButton8.Click
         admin_pages.SetPage("inventory")
+    End Sub
+
+    Private Sub BunifuButton12_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub admin_dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Start()
+    End Sub
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        time_label.Text = DateTime.Now.ToString("hh:mm:ss tt") ' Display current time
+        date_label.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy") ' Display current date
     End Sub
 End Class
