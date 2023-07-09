@@ -3,8 +3,12 @@
         Timer1.Stop()
         'Dim login_form As New loading_screen
         'login_form.Show()
-        admin_dashboard.Show()
+        login_form.Show()
 
         Me.Hide()
+    End Sub
+
+    Private Sub loading_screen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

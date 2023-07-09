@@ -58,3 +58,6 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELY
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.add_staffaccount.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.login_form.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.update_staffaccount.resources

@@ -104,6 +104,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_staffaccount.Designer.vb">
+      <DependentUpon>add_staffaccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_staffaccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="admin_dashboard.Designer.vb">
       <DependentUpon>admin_dashboard.vb</DependentUpon>
     </Compile>
@@ -115,6 +121,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_form.Designer.vb">
+      <DependentUpon>login_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login_form.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -132,19 +144,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="update_staffaccount.Designer.vb">
+      <DependentUpon>update_staffaccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_staffaccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="add_staffaccount.resx">
+      <DependentUpon>add_staffaccount.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin_dashboard.resx">
       <DependentUpon>admin_dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="login_form.resx">
+      <DependentUpon>login_form.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_staffaccount.resx">
+      <DependentUpon>update_staffaccount.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +203,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ARCHIVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fms logo %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide%28new%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show%28new%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

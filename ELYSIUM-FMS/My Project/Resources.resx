@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="home_lifeplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_lifeplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ARCHIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ARCHIVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FAMILY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FAMILY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fms logo (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fms logo (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SEARCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SEARCH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,10 +130,25 @@
   <data name="packages" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\packages.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="home_lifeplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_lifeplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAMILY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAMILY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="home_appointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home_appointment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ARCHIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ARCHIVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hide(new)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide(new).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login-admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login-staff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login-staff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show(new)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\show(new).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

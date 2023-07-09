@@ -32,6 +32,16 @@ ELYSIUM-FMS
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.fms_logo__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.hide_new_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.home_appointment">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -42,12 +52,27 @@ ELYSIUM-FMS
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.login_admin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.login_staff">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.packages">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.SEARCH">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.show_new_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
