@@ -147,6 +147,12 @@
     <Compile Include="admin_dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ds_packages.Designer.vb">
+      <DependentUpon>ds_packages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ds_packages.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="admin_dashboard.resx">
       <DependentUpon>admin_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_packages.resx">
+      <DependentUpon>ds_packages.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>

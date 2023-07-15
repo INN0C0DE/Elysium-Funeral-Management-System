@@ -66,3 +66,4 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELY
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.exe.manifest
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.application
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.lifeplan_packages.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.ds_packages.resources

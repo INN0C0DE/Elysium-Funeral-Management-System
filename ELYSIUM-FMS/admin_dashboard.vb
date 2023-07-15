@@ -77,4 +77,9 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub ds_packagesBTN_Click(sender As Object, e As EventArgs) Handles ds_packagesBTN.Click
+        ds_packages.Show()
+        Me.Hide()
+    End Sub
 End Class

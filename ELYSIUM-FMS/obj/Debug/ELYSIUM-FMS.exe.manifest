@@ -163,14 +163,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ELYSIUM-FMS.exe" size="7094328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ELYSIUM-FMS.exe" size="7432248">
       <assemblyIdentity name="ELYSIUM-FMS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wCPpfR0G6lfx7IO1P2+qfs6cp7DXpy4+jpFBeta5xBs=</dsig:DigestValue>
+        <dsig:DigestValue>baGrDkvT0JQN8/mJuV+iVIEpR/WajGicNDvyL/vXb78=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -25,4 +25,52 @@
         Me.Close()
         admin_dashboard.Show()
     End Sub
+
+    Private Sub agapi_Click(sender As Object, e As EventArgs) Handles agapi.Click
+        If agapi_contract.Visible = False Then
+            agapi_contract.Visible = True
+        Else
+            agapi_contract.Visible = False
+        End If
+    End Sub
+
+    Private Sub eleos_Click(sender As Object, e As EventArgs) Handles eleos.Click
+        If eleos_contract.Visible = False Then
+            eleos_contract.Visible = True
+        Else
+            eleos_contract.Visible = False
+        End If
+    End Sub
+
+    Private Sub thalia_Click(sender As Object, e As EventArgs) Handles thalia.Click
+        If thalia_contract.Visible = False Then
+            thalia_contract.Visible = True
+        Else
+            thalia_contract.Visible = False
+        End If
+    End Sub
+
+    Private Sub sophronia_Click(sender As Object, e As EventArgs) Handles sophronia.Click
+        If sophronia_contract.Visible = False Then
+            sophronia_contract.Visible = True
+        Else
+            sophronia_contract.Visible = False
+        End If
+    End Sub
+
+    Private Sub theon_Click(sender As Object, e As EventArgs) Handles theon.Click
+        If theon_contract.Visible = False Then
+            theon_contract.Visible = True
+        Else
+            theon_contract.Visible = False
+        End If
+    End Sub
+
+    Private Sub irene_Click(sender As Object, e As EventArgs) Handles irene.Click
+        If irene_contract.Visible = False Then
+            irene_contract.Visible = True
+        Else
+            irene_contract.Visible = False
+        End If
+    End Sub
 End Class
