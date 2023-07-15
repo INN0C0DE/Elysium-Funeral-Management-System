@@ -22,7 +22,27 @@ ELYSIUM-FMS
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.ARCHIVE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.CASKET1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.CASKET2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.CASKET3">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -73,6 +93,21 @@ ELYSIUM-FMS
 </summary>
 </member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.show_new_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.URN1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.URN2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.URN3">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

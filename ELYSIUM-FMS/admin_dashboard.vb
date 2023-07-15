@@ -71,4 +71,10 @@
             Application.Exit()
         End If
     End Sub
+
+    Private Sub lp_packages_Click(sender As Object, e As EventArgs) Handles lp_packages.Click
+        lifeplan_packages.Show()
+        Me.Hide()
+
+    End Sub
 End Class
