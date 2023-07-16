@@ -199,14 +199,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ELYSIUM-FMS.exe" size="7435832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ELYSIUM-FMS.exe" size="8232504">
       <assemblyIdentity name="ELYSIUM-FMS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4ojkEgicT8Wr+743n73lzwAcFcUluPy9BTtkafhNkUw=</dsig:DigestValue>
+        <dsig:DigestValue>Og2vFiLV2kEbzWNnCWmZzU9jx+XswgrU2GmsX6bWRZM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

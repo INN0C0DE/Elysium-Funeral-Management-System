@@ -45,6 +45,7 @@ Public Class admin_dashboard
     Private Sub admin_dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
         AdminProfileLoad()
+        SetProfilePhoto()
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         time_label.Text = DateTime.Now.ToString("hh:mm:ss tt") ' Display current time
@@ -169,7 +170,21 @@ Public Class admin_dashboard
             ' Update the document in the collection
             collection.UpdateOne(Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", documentId), update)
 
-            MessageBox.Show("Data updated successfully!")
+            MessageBox.Show("Data updated successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+    End Sub
+
+    Private Sub admin_gender_SelectedIndexChanged(sender As Object, e As EventArgs) Handles admin_gender.SelectedIndexChanged
+        SetProfilePhoto()
+    End Sub
+    Private Sub SetProfilePhoto()
+
+        If admin_gender.Text = "Male" Then
+            admin_picture.Image = My.Resources.admin_male
+        ElseIf admin_gender.Text = "Female" Then
+            admin_picture.Image = My.Resources.admin_female
+        Else
+            admin_picture.Image = Nothing
         End If
     End Sub
 End Class

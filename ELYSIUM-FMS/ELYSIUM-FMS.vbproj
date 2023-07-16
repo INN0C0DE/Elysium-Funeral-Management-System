@@ -394,6 +394,8 @@
   <ItemGroup>
     <Content Include="fms logo %282%29.ico" />
     <Content Include="mongocrypt.dll" />
+    <None Include="Resources\admin-male.png" />
+    <None Include="Resources\admin-female.png" />
     <None Include="Resources\exit.png" />
     <None Include="Resources\URN3.png" />
     <None Include="Resources\URN2.png" />
