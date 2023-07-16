@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ELYSIUM-FMS.exe.manifest" size="11024">
+    <dependentAssembly dependencyType="install" codebase="ELYSIUM-FMS.exe.manifest" size="25878">
       <assemblyIdentity name="ELYSIUM-FMS.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WVl7F6qe/ypwbtcO6QTr46wbbTJXGOmUsY/csqy1EiQ=</dsig:DigestValue>
+        <dsig:DigestValue>q2NXRONrCq74HN8so9F16RTC9i9/okdQQUxBykXs1Ec=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

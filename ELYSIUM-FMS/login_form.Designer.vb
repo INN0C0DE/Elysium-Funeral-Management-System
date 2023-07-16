@@ -22,51 +22,52 @@ Partial Class login_form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim Animation2 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
+        Dim Animation1 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login_form))
-        Dim BorderEdges5 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges6 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties27 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties29 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties30 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties31 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties32 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties33 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties34 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties35 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties36 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges7 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties37 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties38 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges8 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties39 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties40 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties41 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties42 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties43 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties44 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties45 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties46 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties47 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties48 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties5 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties6 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties7 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties8 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties9 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties10 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties11 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties12 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties13 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties14 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges4 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties15 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties16 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties17 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties18 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties19 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties20 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties21 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties22 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties23 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties24 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.Login_Pages = New Bunifu.UI.WinForms.BunifuPages()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.ADMIN_BTN = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.staff_btn = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.rfidbtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuPictureBox3 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.staff_logintbn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.staff_password = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.staff_username = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.staffpwd_hide = New System.Windows.Forms.PictureBox()
         Me.staffpwd_show = New System.Windows.Forms.PictureBox()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.staff_btn = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.rfid_btn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuPictureBox4 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.admin_loginbtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
@@ -74,18 +75,17 @@ Partial Class login_form
         Me.admin_username = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.adminpwd_hide = New System.Windows.Forms.PictureBox()
         Me.adminpwd_show = New System.Windows.Forms.PictureBox()
-        Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Login_Pages.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.staffpwd_hide, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.staffpwd_show, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
         CType(Me.BunifuPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.adminpwd_hide, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.adminpwd_show, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -98,6 +98,21 @@ Partial Class login_form
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         '
+        'BunifuPictureBox1
+        '
+        Me.BunifuPictureBox1.AllowFocused = False
+        Me.BunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox1.BorderRadius = 50
+        Me.BunifuPictureBox1.Image = Global.ELYSIUM_FMS.My.Resources.Resources.fms_logo__3_
+        Me.BunifuPictureBox1.IsCircle = True
+        Me.BunifuPictureBox1.Location = New System.Drawing.Point(76, 60)
+        Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
+        Me.BunifuPictureBox1.Size = New System.Drawing.Size(394, 394)
+        Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox1.TabIndex = 0
+        Me.BunifuPictureBox1.TabStop = False
+        Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
+        '
         'Login_Pages
         '
         Me.Login_Pages.Alignment = System.Windows.Forms.TabAlignment.Bottom
@@ -108,34 +123,34 @@ Partial Class login_form
         Me.Login_Pages.Location = New System.Drawing.Point(576, -8)
         Me.Login_Pages.Multiline = True
         Me.Login_Pages.Name = "Login_Pages"
-        Me.Login_Pages.Page = Me.TabPage1
-        Me.Login_Pages.PageIndex = 0
-        Me.Login_Pages.PageName = "TabPage1"
-        Me.Login_Pages.PageTitle = "Staff_Login"
+        Me.Login_Pages.Page = Me.TabPage2
+        Me.Login_Pages.PageIndex = 1
+        Me.Login_Pages.PageName = "TabPage2"
+        Me.Login_Pages.PageTitle = "Admin_Login"
         Me.Login_Pages.SelectedIndex = 0
         Me.Login_Pages.Size = New System.Drawing.Size(360, 514)
         Me.Login_Pages.TabIndex = 2
-        Animation2.AnimateOnlyDifferences = True
-        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
-        Animation2.LeafCoeff = 0!
-        Animation2.MaxTime = 1.0!
-        Animation2.MinTime = 0!
-        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
-        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
-        Animation2.MosaicSize = 0
-        Animation2.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
-        Animation2.RotateCoeff = 0!
-        Animation2.RotateLimit = 0!
-        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
-        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
-        Animation2.TimeCoeff = 0!
-        Animation2.TransparencyCoeff = 1.0!
-        Me.Login_Pages.Transition = Animation2
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 0!
+        Animation1.TransparencyCoeff = 1.0!
+        Me.Login_Pages.Transition = Animation1
         Me.Login_Pages.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.BlanchedAlmond
+        Me.TabPage1.BackColor = System.Drawing.Color.AntiqueWhite
         Me.TabPage1.Controls.Add(Me.ADMIN_BTN)
         Me.TabPage1.Controls.Add(Me.rfidbtn)
         Me.TabPage1.Controls.Add(Me.BunifuPictureBox3)
@@ -168,71 +183,6 @@ Partial Class login_form
         Me.ADMIN_BTN.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.ADMIN_BTN.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'BunifuLabel2
-        '
-        Me.BunifuLabel2.AutoEllipsis = False
-        Me.BunifuLabel2.CursorType = Nothing
-        Me.BunifuLabel2.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuLabel2.ForeColor = System.Drawing.Color.DarkGoldenrod
-        Me.BunifuLabel2.Location = New System.Drawing.Point(152, 184)
-        Me.BunifuLabel2.Name = "BunifuLabel2"
-        Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel2.Size = New System.Drawing.Size(60, 36)
-        Me.BunifuLabel2.TabIndex = 14
-        Me.BunifuLabel2.Text = "STAFF"
-        Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'TabPage2
-        '
-        Me.TabPage2.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.TabPage2.Controls.Add(Me.staff_btn)
-        Me.TabPage2.Controls.Add(Me.BunifuLabel5)
-        Me.TabPage2.Controls.Add(Me.rfid_btn)
-        Me.TabPage2.Controls.Add(Me.BunifuPictureBox4)
-        Me.TabPage2.Controls.Add(Me.admin_loginbtn)
-        Me.TabPage2.Controls.Add(Me.admin_password)
-        Me.TabPage2.Controls.Add(Me.admin_username)
-        Me.TabPage2.Controls.Add(Me.adminpwd_hide)
-        Me.TabPage2.Controls.Add(Me.adminpwd_show)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 4)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(352, 473)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Admin_Login"
-        '
-        'staff_btn
-        '
-        Me.staff_btn.AutoEllipsis = False
-        Me.staff_btn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.staff_btn.CursorType = System.Windows.Forms.Cursors.Hand
-        Me.staff_btn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.staff_btn.ForeColor = System.Drawing.Color.Tan
-        Me.staff_btn.Location = New System.Drawing.Point(153, 412)
-        Me.staff_btn.Name = "staff_btn"
-        Me.staff_btn.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.staff_btn.Size = New System.Drawing.Size(52, 30)
-        Me.staff_btn.TabIndex = 25
-        Me.staff_btn.Text = "STAFF"
-        Me.staff_btn.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.staff_btn.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'BunifuLabel5
-        '
-        Me.BunifuLabel5.AutoEllipsis = False
-        Me.BunifuLabel5.CursorType = Nothing
-        Me.BunifuLabel5.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuLabel5.ForeColor = System.Drawing.Color.DarkGoldenrod
-        Me.BunifuLabel5.Location = New System.Drawing.Point(151, 185)
-        Me.BunifuLabel5.Name = "BunifuLabel5"
-        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel5.Size = New System.Drawing.Size(68, 36)
-        Me.BunifuLabel5.TabIndex = 23
-        Me.BunifuLabel5.Text = "ADMIN"
-        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
         'rfidbtn
         '
         Me.rfidbtn.AllowToggling = False
@@ -247,11 +197,11 @@ Partial Class login_form
         Me.rfidbtn.ColorContrastOnClick = 45
         Me.rfidbtn.ColorContrastOnHover = 45
         Me.rfidbtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges5.BottomLeft = True
-        BorderEdges5.BottomRight = True
-        BorderEdges5.TopLeft = True
-        BorderEdges5.TopRight = True
-        Me.rfidbtn.CustomizableEdges = BorderEdges5
+        BorderEdges1.BottomLeft = True
+        BorderEdges1.BottomRight = True
+        BorderEdges1.TopLeft = True
+        BorderEdges1.TopRight = True
+        Me.rfidbtn.CustomizableEdges = BorderEdges1
         Me.rfidbtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.rfidbtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.rfidbtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -272,24 +222,24 @@ Partial Class login_form
         Me.rfidbtn.IndicateFocus = False
         Me.rfidbtn.Location = New System.Drawing.Point(73, 365)
         Me.rfidbtn.Name = "rfidbtn"
-        StateProperties25.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties25.BorderRadius = 25
-        StateProperties25.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties25.BorderThickness = 1
-        StateProperties25.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties25.ForeColor = System.Drawing.Color.White
-        StateProperties25.IconLeftImage = Nothing
-        StateProperties25.IconRightImage = Nothing
-        Me.rfidbtn.onHoverState = StateProperties25
-        StateProperties26.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties26.BorderRadius = 25
-        StateProperties26.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties26.BorderThickness = 1
-        StateProperties26.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties26.ForeColor = System.Drawing.Color.White
-        StateProperties26.IconLeftImage = Nothing
-        StateProperties26.IconRightImage = Nothing
-        Me.rfidbtn.OnPressedState = StateProperties26
+        StateProperties1.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties1.BorderRadius = 25
+        StateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties1.BorderThickness = 1
+        StateProperties1.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties1.ForeColor = System.Drawing.Color.White
+        StateProperties1.IconLeftImage = Nothing
+        StateProperties1.IconRightImage = Nothing
+        Me.rfidbtn.onHoverState = StateProperties1
+        StateProperties2.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties2.BorderRadius = 25
+        StateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties2.BorderThickness = 1
+        StateProperties2.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties2.ForeColor = System.Drawing.Color.White
+        StateProperties2.IconLeftImage = Nothing
+        StateProperties2.IconRightImage = Nothing
+        Me.rfidbtn.OnPressedState = StateProperties2
         Me.rfidbtn.Size = New System.Drawing.Size(214, 41)
         Me.rfidbtn.TabIndex = 15
         Me.rfidbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -311,6 +261,21 @@ Partial Class login_form
         Me.BunifuPictureBox3.TabStop = False
         Me.BunifuPictureBox3.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
         '
+        'BunifuLabel2
+        '
+        Me.BunifuLabel2.AutoEllipsis = False
+        Me.BunifuLabel2.CursorType = Nothing
+        Me.BunifuLabel2.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel2.ForeColor = System.Drawing.Color.DarkGoldenrod
+        Me.BunifuLabel2.Location = New System.Drawing.Point(152, 184)
+        Me.BunifuLabel2.Name = "BunifuLabel2"
+        Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel2.Size = New System.Drawing.Size(60, 36)
+        Me.BunifuLabel2.TabIndex = 14
+        Me.BunifuLabel2.Text = "STAFF"
+        Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
         'staff_logintbn
         '
         Me.staff_logintbn.AllowToggling = False
@@ -325,11 +290,11 @@ Partial Class login_form
         Me.staff_logintbn.ColorContrastOnClick = 45
         Me.staff_logintbn.ColorContrastOnHover = 45
         Me.staff_logintbn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges6.BottomLeft = True
-        BorderEdges6.BottomRight = True
-        BorderEdges6.TopLeft = True
-        BorderEdges6.TopRight = True
-        Me.staff_logintbn.CustomizableEdges = BorderEdges6
+        BorderEdges2.BottomLeft = True
+        BorderEdges2.BottomRight = True
+        BorderEdges2.TopLeft = True
+        BorderEdges2.TopRight = True
+        Me.staff_logintbn.CustomizableEdges = BorderEdges2
         Me.staff_logintbn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.staff_logintbn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.staff_logintbn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -350,24 +315,24 @@ Partial Class login_form
         Me.staff_logintbn.IndicateFocus = False
         Me.staff_logintbn.Location = New System.Drawing.Point(73, 321)
         Me.staff_logintbn.Name = "staff_logintbn"
-        StateProperties27.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties27.BorderRadius = 25
-        StateProperties27.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties27.BorderThickness = 1
-        StateProperties27.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties27.ForeColor = System.Drawing.Color.White
-        StateProperties27.IconLeftImage = Nothing
-        StateProperties27.IconRightImage = Nothing
-        Me.staff_logintbn.onHoverState = StateProperties27
-        StateProperties28.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties28.BorderRadius = 25
-        StateProperties28.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties28.BorderThickness = 1
-        StateProperties28.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties28.ForeColor = System.Drawing.Color.White
-        StateProperties28.IconLeftImage = Nothing
-        StateProperties28.IconRightImage = Nothing
-        Me.staff_logintbn.OnPressedState = StateProperties28
+        StateProperties3.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties3.BorderRadius = 25
+        StateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties3.BorderThickness = 1
+        StateProperties3.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties3.ForeColor = System.Drawing.Color.White
+        StateProperties3.IconLeftImage = Nothing
+        StateProperties3.IconRightImage = Nothing
+        Me.staff_logintbn.onHoverState = StateProperties3
+        StateProperties4.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties4.BorderRadius = 25
+        StateProperties4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties4.BorderThickness = 1
+        StateProperties4.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties4.ForeColor = System.Drawing.Color.White
+        StateProperties4.IconLeftImage = Nothing
+        StateProperties4.IconRightImage = Nothing
+        Me.staff_logintbn.OnPressedState = StateProperties4
         Me.staff_logintbn.Size = New System.Drawing.Size(214, 41)
         Me.staff_logintbn.TabIndex = 11
         Me.staff_logintbn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -407,26 +372,26 @@ Partial Class login_form
         Me.staff_password.Modified = False
         Me.staff_password.Multiline = False
         Me.staff_password.Name = "staff_password"
-        StateProperties29.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties29.FillColor = System.Drawing.Color.Empty
-        StateProperties29.ForeColor = System.Drawing.Color.Empty
-        StateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.staff_password.OnActiveState = StateProperties29
-        StateProperties30.BorderColor = System.Drawing.Color.Empty
-        StateProperties30.FillColor = System.Drawing.Color.White
-        StateProperties30.ForeColor = System.Drawing.Color.Empty
-        StateProperties30.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.staff_password.OnDisabledState = StateProperties30
-        StateProperties31.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties31.FillColor = System.Drawing.Color.Empty
-        StateProperties31.ForeColor = System.Drawing.Color.Empty
-        StateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.staff_password.OnHoverState = StateProperties31
-        StateProperties32.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties32.FillColor = System.Drawing.Color.White
-        StateProperties32.ForeColor = System.Drawing.Color.Empty
-        StateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.staff_password.OnIdleState = StateProperties32
+        StateProperties5.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties5.FillColor = System.Drawing.Color.Empty
+        StateProperties5.ForeColor = System.Drawing.Color.Empty
+        StateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.staff_password.OnActiveState = StateProperties5
+        StateProperties6.BorderColor = System.Drawing.Color.Empty
+        StateProperties6.FillColor = System.Drawing.Color.White
+        StateProperties6.ForeColor = System.Drawing.Color.Empty
+        StateProperties6.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.staff_password.OnDisabledState = StateProperties6
+        StateProperties7.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties7.FillColor = System.Drawing.Color.Empty
+        StateProperties7.ForeColor = System.Drawing.Color.Empty
+        StateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.staff_password.OnHoverState = StateProperties7
+        StateProperties8.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties8.FillColor = System.Drawing.Color.White
+        StateProperties8.ForeColor = System.Drawing.Color.Empty
+        StateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.staff_password.OnIdleState = StateProperties8
         Me.staff_password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.staff_password.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.staff_password.PlaceholderText = "PASSWORD"
@@ -481,26 +446,26 @@ Partial Class login_form
         Me.staff_username.Modified = False
         Me.staff_username.Multiline = False
         Me.staff_username.Name = "staff_username"
-        StateProperties33.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties33.FillColor = System.Drawing.Color.Empty
-        StateProperties33.ForeColor = System.Drawing.Color.Empty
-        StateProperties33.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.staff_username.OnActiveState = StateProperties33
-        StateProperties34.BorderColor = System.Drawing.Color.Empty
-        StateProperties34.FillColor = System.Drawing.Color.White
-        StateProperties34.ForeColor = System.Drawing.Color.Empty
-        StateProperties34.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.staff_username.OnDisabledState = StateProperties34
-        StateProperties35.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties35.FillColor = System.Drawing.Color.Empty
-        StateProperties35.ForeColor = System.Drawing.Color.Empty
-        StateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.staff_username.OnHoverState = StateProperties35
-        StateProperties36.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(134, Byte), Integer), CType(CType(11, Byte), Integer))
-        StateProperties36.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.staff_username.OnIdleState = StateProperties36
+        StateProperties9.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties9.FillColor = System.Drawing.Color.Empty
+        StateProperties9.ForeColor = System.Drawing.Color.Empty
+        StateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.staff_username.OnActiveState = StateProperties9
+        StateProperties10.BorderColor = System.Drawing.Color.Empty
+        StateProperties10.FillColor = System.Drawing.Color.White
+        StateProperties10.ForeColor = System.Drawing.Color.Empty
+        StateProperties10.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.staff_username.OnDisabledState = StateProperties10
+        StateProperties11.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties11.FillColor = System.Drawing.Color.Empty
+        StateProperties11.ForeColor = System.Drawing.Color.Empty
+        StateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.staff_username.OnHoverState = StateProperties11
+        StateProperties12.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(134, Byte), Integer), CType(CType(11, Byte), Integer))
+        StateProperties12.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        StateProperties12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.staff_username.OnIdleState = StateProperties12
         Me.staff_username.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.staff_username.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.staff_username.PlaceholderText = "USERNAME"
@@ -543,6 +508,56 @@ Partial Class login_form
         Me.staffpwd_show.TabIndex = 13
         Me.staffpwd_show.TabStop = False
         '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.TabPage2.Controls.Add(Me.staff_btn)
+        Me.TabPage2.Controls.Add(Me.BunifuLabel5)
+        Me.TabPage2.Controls.Add(Me.rfid_btn)
+        Me.TabPage2.Controls.Add(Me.BunifuPictureBox4)
+        Me.TabPage2.Controls.Add(Me.admin_loginbtn)
+        Me.TabPage2.Controls.Add(Me.admin_password)
+        Me.TabPage2.Controls.Add(Me.admin_username)
+        Me.TabPage2.Controls.Add(Me.adminpwd_hide)
+        Me.TabPage2.Controls.Add(Me.adminpwd_show)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(352, 473)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Admin_Login"
+        '
+        'staff_btn
+        '
+        Me.staff_btn.AutoEllipsis = False
+        Me.staff_btn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.staff_btn.CursorType = System.Windows.Forms.Cursors.Hand
+        Me.staff_btn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.staff_btn.ForeColor = System.Drawing.Color.Tan
+        Me.staff_btn.Location = New System.Drawing.Point(153, 412)
+        Me.staff_btn.Name = "staff_btn"
+        Me.staff_btn.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.staff_btn.Size = New System.Drawing.Size(52, 30)
+        Me.staff_btn.TabIndex = 25
+        Me.staff_btn.Text = "STAFF"
+        Me.staff_btn.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.staff_btn.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel5
+        '
+        Me.BunifuLabel5.AutoEllipsis = False
+        Me.BunifuLabel5.CursorType = Nothing
+        Me.BunifuLabel5.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel5.ForeColor = System.Drawing.Color.DarkGoldenrod
+        Me.BunifuLabel5.Location = New System.Drawing.Point(151, 185)
+        Me.BunifuLabel5.Name = "BunifuLabel5"
+        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel5.Size = New System.Drawing.Size(68, 36)
+        Me.BunifuLabel5.TabIndex = 23
+        Me.BunifuLabel5.Text = "ADMIN"
+        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
         'rfid_btn
         '
         Me.rfid_btn.AllowToggling = False
@@ -557,11 +572,11 @@ Partial Class login_form
         Me.rfid_btn.ColorContrastOnClick = 45
         Me.rfid_btn.ColorContrastOnHover = 45
         Me.rfid_btn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges7.BottomLeft = True
-        BorderEdges7.BottomRight = True
-        BorderEdges7.TopLeft = True
-        BorderEdges7.TopRight = True
-        Me.rfid_btn.CustomizableEdges = BorderEdges7
+        BorderEdges3.BottomLeft = True
+        BorderEdges3.BottomRight = True
+        BorderEdges3.TopLeft = True
+        BorderEdges3.TopRight = True
+        Me.rfid_btn.CustomizableEdges = BorderEdges3
         Me.rfid_btn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.rfid_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.rfid_btn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -582,24 +597,24 @@ Partial Class login_form
         Me.rfid_btn.IndicateFocus = False
         Me.rfid_btn.Location = New System.Drawing.Point(73, 365)
         Me.rfid_btn.Name = "rfid_btn"
-        StateProperties37.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties37.BorderRadius = 25
-        StateProperties37.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties37.BorderThickness = 1
-        StateProperties37.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties37.ForeColor = System.Drawing.Color.White
-        StateProperties37.IconLeftImage = Nothing
-        StateProperties37.IconRightImage = Nothing
-        Me.rfid_btn.onHoverState = StateProperties37
-        StateProperties38.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties38.BorderRadius = 25
-        StateProperties38.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties38.BorderThickness = 1
-        StateProperties38.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties38.ForeColor = System.Drawing.Color.White
-        StateProperties38.IconLeftImage = Nothing
-        StateProperties38.IconRightImage = Nothing
-        Me.rfid_btn.OnPressedState = StateProperties38
+        StateProperties13.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties13.BorderRadius = 25
+        StateProperties13.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties13.BorderThickness = 1
+        StateProperties13.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties13.ForeColor = System.Drawing.Color.White
+        StateProperties13.IconLeftImage = Nothing
+        StateProperties13.IconRightImage = Nothing
+        Me.rfid_btn.onHoverState = StateProperties13
+        StateProperties14.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties14.BorderRadius = 25
+        StateProperties14.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties14.BorderThickness = 1
+        StateProperties14.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties14.ForeColor = System.Drawing.Color.White
+        StateProperties14.IconLeftImage = Nothing
+        StateProperties14.IconRightImage = Nothing
+        Me.rfid_btn.OnPressedState = StateProperties14
         Me.rfid_btn.Size = New System.Drawing.Size(214, 41)
         Me.rfid_btn.TabIndex = 24
         Me.rfid_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -635,11 +650,11 @@ Partial Class login_form
         Me.admin_loginbtn.ColorContrastOnClick = 45
         Me.admin_loginbtn.ColorContrastOnHover = 45
         Me.admin_loginbtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges8.BottomLeft = True
-        BorderEdges8.BottomRight = True
-        BorderEdges8.TopLeft = True
-        BorderEdges8.TopRight = True
-        Me.admin_loginbtn.CustomizableEdges = BorderEdges8
+        BorderEdges4.BottomLeft = True
+        BorderEdges4.BottomRight = True
+        BorderEdges4.TopLeft = True
+        BorderEdges4.TopRight = True
+        Me.admin_loginbtn.CustomizableEdges = BorderEdges4
         Me.admin_loginbtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.admin_loginbtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.admin_loginbtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -660,24 +675,24 @@ Partial Class login_form
         Me.admin_loginbtn.IndicateFocus = False
         Me.admin_loginbtn.Location = New System.Drawing.Point(73, 321)
         Me.admin_loginbtn.Name = "admin_loginbtn"
-        StateProperties39.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties39.BorderRadius = 25
-        StateProperties39.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties39.BorderThickness = 1
-        StateProperties39.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties39.ForeColor = System.Drawing.Color.White
-        StateProperties39.IconLeftImage = Nothing
-        StateProperties39.IconRightImage = Nothing
-        Me.admin_loginbtn.onHoverState = StateProperties39
-        StateProperties40.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
-        StateProperties40.BorderRadius = 25
-        StateProperties40.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties40.BorderThickness = 1
-        StateProperties40.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties40.ForeColor = System.Drawing.Color.White
-        StateProperties40.IconLeftImage = Nothing
-        StateProperties40.IconRightImage = Nothing
-        Me.admin_loginbtn.OnPressedState = StateProperties40
+        StateProperties15.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties15.BorderRadius = 25
+        StateProperties15.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties15.BorderThickness = 1
+        StateProperties15.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties15.ForeColor = System.Drawing.Color.White
+        StateProperties15.IconLeftImage = Nothing
+        StateProperties15.IconRightImage = Nothing
+        Me.admin_loginbtn.onHoverState = StateProperties15
+        StateProperties16.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        StateProperties16.BorderRadius = 25
+        StateProperties16.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties16.BorderThickness = 1
+        StateProperties16.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties16.ForeColor = System.Drawing.Color.White
+        StateProperties16.IconLeftImage = Nothing
+        StateProperties16.IconRightImage = Nothing
+        Me.admin_loginbtn.OnPressedState = StateProperties16
         Me.admin_loginbtn.Size = New System.Drawing.Size(214, 41)
         Me.admin_loginbtn.TabIndex = 20
         Me.admin_loginbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -702,7 +717,7 @@ Partial Class login_form
         Me.admin_password.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admin_password.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.admin_password.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
-        Me.admin_password.DefaultText = ""
+        Me.admin_password.DefaultText = "admin23"
         Me.admin_password.FillColor = System.Drawing.Color.White
         Me.admin_password.HideSelection = True
         Me.admin_password.IconLeft = Nothing
@@ -710,33 +725,33 @@ Partial Class login_form
         Me.admin_password.IconPadding = 10
         Me.admin_password.IconRight = Nothing
         Me.admin_password.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.admin_password.Lines = New String(-1) {}
+        Me.admin_password.Lines = New String() {"admin23"}
         Me.admin_password.Location = New System.Drawing.Point(73, 271)
         Me.admin_password.MaxLength = 32767
         Me.admin_password.MinimumSize = New System.Drawing.Size(100, 35)
         Me.admin_password.Modified = False
         Me.admin_password.Multiline = False
         Me.admin_password.Name = "admin_password"
-        StateProperties41.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties41.FillColor = System.Drawing.Color.Empty
-        StateProperties41.ForeColor = System.Drawing.Color.Empty
-        StateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_password.OnActiveState = StateProperties41
-        StateProperties42.BorderColor = System.Drawing.Color.Empty
-        StateProperties42.FillColor = System.Drawing.Color.White
-        StateProperties42.ForeColor = System.Drawing.Color.Empty
-        StateProperties42.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_password.OnDisabledState = StateProperties42
-        StateProperties43.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties43.FillColor = System.Drawing.Color.Empty
-        StateProperties43.ForeColor = System.Drawing.Color.Empty
-        StateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_password.OnHoverState = StateProperties43
-        StateProperties44.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties44.FillColor = System.Drawing.Color.White
-        StateProperties44.ForeColor = System.Drawing.Color.Empty
-        StateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_password.OnIdleState = StateProperties44
+        StateProperties17.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties17.FillColor = System.Drawing.Color.Empty
+        StateProperties17.ForeColor = System.Drawing.Color.Empty
+        StateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_password.OnActiveState = StateProperties17
+        StateProperties18.BorderColor = System.Drawing.Color.Empty
+        StateProperties18.FillColor = System.Drawing.Color.White
+        StateProperties18.ForeColor = System.Drawing.Color.Empty
+        StateProperties18.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_password.OnDisabledState = StateProperties18
+        StateProperties19.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties19.FillColor = System.Drawing.Color.Empty
+        StateProperties19.ForeColor = System.Drawing.Color.Empty
+        StateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_password.OnHoverState = StateProperties19
+        StateProperties20.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties20.FillColor = System.Drawing.Color.White
+        StateProperties20.ForeColor = System.Drawing.Color.Empty
+        StateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_password.OnIdleState = StateProperties20
         Me.admin_password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.admin_password.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_password.PlaceholderText = "PASSWORD"
@@ -744,7 +759,7 @@ Partial Class login_form
         Me.admin_password.ScrollBars = System.Windows.Forms.ScrollBars.None
         Me.admin_password.SelectedText = ""
         Me.admin_password.SelectionLength = 0
-        Me.admin_password.SelectionStart = 0
+        Me.admin_password.SelectionStart = 7
         Me.admin_password.ShortcutsEnabled = True
         Me.admin_password.Size = New System.Drawing.Size(214, 35)
         Me.admin_password.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
@@ -775,7 +790,7 @@ Partial Class login_form
         Me.admin_username.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
         Me.admin_username.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.admin_username.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
-        Me.admin_username.DefaultText = ""
+        Me.admin_username.DefaultText = "admin23"
         Me.admin_username.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.admin_username.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.admin_username.HideSelection = True
@@ -784,33 +799,33 @@ Partial Class login_form
         Me.admin_username.IconPadding = 10
         Me.admin_username.IconRight = Nothing
         Me.admin_username.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.admin_username.Lines = New String(-1) {}
+        Me.admin_username.Lines = New String() {"admin23"}
         Me.admin_username.Location = New System.Drawing.Point(73, 233)
         Me.admin_username.MaxLength = 32767
         Me.admin_username.MinimumSize = New System.Drawing.Size(100, 35)
         Me.admin_username.Modified = False
         Me.admin_username.Multiline = False
         Me.admin_username.Name = "admin_username"
-        StateProperties45.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties45.FillColor = System.Drawing.Color.Empty
-        StateProperties45.ForeColor = System.Drawing.Color.Empty
-        StateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_username.OnActiveState = StateProperties45
-        StateProperties46.BorderColor = System.Drawing.Color.Empty
-        StateProperties46.FillColor = System.Drawing.Color.White
-        StateProperties46.ForeColor = System.Drawing.Color.Empty
-        StateProperties46.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_username.OnDisabledState = StateProperties46
-        StateProperties47.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties47.FillColor = System.Drawing.Color.Empty
-        StateProperties47.ForeColor = System.Drawing.Color.Empty
-        StateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_username.OnHoverState = StateProperties47
-        StateProperties48.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(134, Byte), Integer), CType(CType(11, Byte), Integer))
-        StateProperties48.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties48.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        StateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_username.OnIdleState = StateProperties48
+        StateProperties21.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties21.FillColor = System.Drawing.Color.Empty
+        StateProperties21.ForeColor = System.Drawing.Color.Empty
+        StateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_username.OnActiveState = StateProperties21
+        StateProperties22.BorderColor = System.Drawing.Color.Empty
+        StateProperties22.FillColor = System.Drawing.Color.White
+        StateProperties22.ForeColor = System.Drawing.Color.Empty
+        StateProperties22.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_username.OnDisabledState = StateProperties22
+        StateProperties23.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties23.FillColor = System.Drawing.Color.Empty
+        StateProperties23.ForeColor = System.Drawing.Color.Empty
+        StateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_username.OnHoverState = StateProperties23
+        StateProperties24.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(134, Byte), Integer), CType(CType(11, Byte), Integer))
+        StateProperties24.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        StateProperties24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        StateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_username.OnIdleState = StateProperties24
         Me.admin_username.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admin_username.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.admin_username.PlaceholderText = "USERNAME"
@@ -818,7 +833,7 @@ Partial Class login_form
         Me.admin_username.ScrollBars = System.Windows.Forms.ScrollBars.None
         Me.admin_username.SelectedText = ""
         Me.admin_username.SelectionLength = 0
-        Me.admin_username.SelectionStart = 0
+        Me.admin_username.SelectionStart = 7
         Me.admin_username.ShortcutsEnabled = True
         Me.admin_username.Size = New System.Drawing.Size(214, 35)
         Me.admin_username.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
@@ -853,26 +868,11 @@ Partial Class login_form
         Me.adminpwd_show.TabIndex = 22
         Me.adminpwd_show.TabStop = False
         '
-        'BunifuPictureBox1
-        '
-        Me.BunifuPictureBox1.AllowFocused = False
-        Me.BunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.BunifuPictureBox1.BorderRadius = 50
-        Me.BunifuPictureBox1.Image = Global.ELYSIUM_FMS.My.Resources.Resources.fms_logo__3_
-        Me.BunifuPictureBox1.IsCircle = True
-        Me.BunifuPictureBox1.Location = New System.Drawing.Point(76, 60)
-        Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
-        Me.BunifuPictureBox1.Size = New System.Drawing.Size(394, 394)
-        Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuPictureBox1.TabIndex = 0
-        Me.BunifuPictureBox1.TabStop = False
-        Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
-        '
         'login_form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.BlanchedAlmond
+        Me.BackColor = System.Drawing.Color.AntiqueWhite
         Me.ClientSize = New System.Drawing.Size(932, 499)
         Me.Controls.Add(Me.Login_Pages)
         Me.Controls.Add(Me.GroupBox1)
@@ -883,18 +883,18 @@ Partial Class login_form
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ELYSIUM FMS | LOGIN"
         Me.GroupBox1.ResumeLayout(False)
+        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Login_Pages.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.staffpwd_hide, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.staffpwd_show, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         CType(Me.BunifuPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.adminpwd_hide, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.adminpwd_show, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
