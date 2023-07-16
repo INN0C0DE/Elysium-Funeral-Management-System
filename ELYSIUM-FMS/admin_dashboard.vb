@@ -1,6 +1,7 @@
 ﻿Imports MongoDB.Bson
 Imports MongoDB.Driver
 Public Class admin_dashboard
+    Dim connectionString As String = "mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority"
     Private Sub BunifuLabel4_Click(sender As Object, e As EventArgs) Handles date_label.Click
 
     End Sub
@@ -46,6 +47,7 @@ Public Class admin_dashboard
         Timer1.Start()
         AdminProfileLoad()
         SetProfilePhoto()
+        StaffDVGLoad()
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         time_label.Text = DateTime.Now.ToString("hh:mm:ss tt") ' Display current time
@@ -57,7 +59,28 @@ Public Class admin_dashboard
     End Sub
 
     Private Sub staff_updatebtn_Click(sender As Object, e As EventArgs) Handles staff_updatebtn.Click
-        update_staffaccount.Show()
+        'update_staffaccount.Show()
+        Try
+            If staff_dgv.SelectedRows.Count > 0 Then
+                With update_staffaccount
+                    .update_id.Text = staff_dgv.SelectedRows.Item(0).Cells(0).Value
+                    .update_name.Text = staff_dgv.SelectedRows.Item(0).Cells(1).Value
+                    .update_username.Text = staff_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .update_pwd.Text = staff_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .update_rfid.Text = staff_dgv.SelectedRows.Item(0).Cells(4).Value
+                    .update_gender.Text = staff_dgv.SelectedRows.Item(0).Cells(5).Value
+                    .update_age.Text = staff_dgv.SelectedRows.Item(0).Cells(6).Value
+                    .update_email.Text = staff_dgv.SelectedRows.Item(0).Cells(7).Value
+                    .update_number.Text = staff_dgv.SelectedRows.Item(0).Cells(8).Value
+                    .ShowDialog()
+
+                End With
+            Else
+                MsgBox("Please select account to edit.", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub BunifuButton9_Click(sender As Object, e As EventArgs) Handles BunifuButton9.Click
@@ -171,6 +194,7 @@ Public Class admin_dashboard
             collection.UpdateOne(Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", documentId), update)
 
             MessageBox.Show("Data updated successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            username_label.Text = admin_name1.Text + "!"
         End If
     End Sub
 
@@ -186,5 +210,150 @@ Public Class admin_dashboard
         Else
             admin_picture.Image = Nothing
         End If
+    End Sub
+    Public Sub StaffDVGLoad()
+        '' MongoDB connection string
+        'Dim connectionString As String = "mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority"
+
+        ' Create a MongoDB client
+        Dim client As MongoClient = New MongoClient(connectionString)
+
+        ' Access the MongoDB database
+        Dim database As IMongoDatabase = client.GetDatabase("elysium-fms-database")
+
+        ' Access the collection containing your data
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)("staff_account")
+
+        ' Fetch the data from the collection
+        Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
+
+        ' Create a DataTable to hold the data
+        Dim dataTable As DataTable = New DataTable()
+
+        ' Add columns to the DataTable (replace with your own field names)
+        dataTable.Columns.Add("ID")
+        dataTable.Columns.Add("Full Name")
+        dataTable.Columns.Add("Username")
+        dataTable.Columns.Add("Password")
+        dataTable.Columns.Add("RFID No.")
+        dataTable.Columns.Add("Gender")
+        dataTable.Columns.Add("Age")
+        dataTable.Columns.Add("Email")
+        dataTable.Columns.Add("Number")
+        ' ...
+
+        ' Add rows to the DataTable
+        For Each document As BsonDocument In documents
+            ' Create a new DataRow
+            Dim row As DataRow = dataTable.NewRow()
+
+            ' Convert ObjectId to string
+            Dim objectId As ObjectId = document("_id").AsObjectId
+            row("Id") = objectId.ToString()
+
+            ' Set the values for each field (replace with your own field names)
+            row("full name") = document("fullname").AsString
+            row("username") = document("username").AsString
+            row("password") = document("password").AsString
+            row("rfid no.") = document("rfid").AsString
+            row("gender") = document("gender").AsString
+            row("age") = document("age").AsString
+            row("email") = document("email").AsString
+            row("number") = document("number").AsString
+            ' ...
+
+            ' Add the DataRow to the DataTable
+            dataTable.Rows.Add(row)
+        Next
+
+        ' Bind the DataTable to the DataGridView
+        staff_dgv.DataSource = dataTable
+    End Sub
+
+    Private searchDelayTimer As Timer
+    Private Sub search_staff_TextChanged(sender As Object, e As EventArgs) Handles search_staff.TextChanged
+        ' Stop any previous timer
+        If searchDelayTimer IsNot Nothing Then
+            searchDelayTimer.Stop()
+            searchDelayTimer.Dispose()
+        End If
+
+        ' Create a new timer
+        searchDelayTimer = New Timer()
+        searchDelayTimer.Interval = 200 ' Adjust the delay as needed (in milliseconds)
+        AddHandler searchDelayTimer.Tick, AddressOf StartSearch2
+        searchDelayTimer.Start()
+    End Sub
+    Private Sub StartSearch2(sender As Object, e As EventArgs)
+        ' Stop the timer
+        searchDelayTimer.Stop()
+
+        ' Perform the search
+        PerformSearch2()
+    End Sub
+    Private Sub PerformSearch2()
+        ' Get the search keyword from the TextBox
+        Dim keyword As String = search_staff.Text
+        Dim client As MongoClient = New MongoClient("mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority")
+        ' Access the MongoDB database and collection
+        Dim databaseName As String = "elysium-fms-database"
+        Dim collectionName As String = "staff_account"
+        Dim database As IMongoDatabase = client.GetDatabase(databaseName)
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)(collectionName)
+
+        ' Create a filter to match the search keyword
+        Dim filter As FilterDefinition(Of BsonDocument) = Builders(Of BsonDocument).Filter.Regex("fullname", New BsonRegularExpression(keyword, "i"))
+
+        ' Retrieve the documents matching the filter
+        Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
+
+        ' Convert the searchResults to a DataTable
+        Dim dataTable As New DataTable()
+
+        ' Disable auto-generating columns
+        staff_dgv.AutoGenerateColumns = False
+
+        ' Create a dictionary to map field names to custom column names
+        Dim columnNames As New Dictionary(Of String, String)()
+        columnNames.Add("_id", "ID")
+        columnNames.Add("fullname", "Full Name")
+        columnNames.Add("username", "Username")
+        columnNames.Add("password", "Password")
+        columnNames.Add("rfid", "RFID No.")
+        columnNames.Add("gender", "Gender")
+        columnNames.Add("age", "Age")
+        columnNames.Add("email", "Email")
+        columnNames.Add("number", "Number")
+        ' Add more field name to custom column name mappings as needed
+
+        ' Add columns to the DataTable
+        For Each fieldName As String In columnNames.Keys
+            If Not dataTable.Columns.Contains(columnNames(fieldName)) Then
+                dataTable.Columns.Add(columnNames(fieldName), GetType(String))
+            End If
+        Next
+        ' Add rows to the DataTable
+        For Each document As BsonDocument In searchResults
+            ' Create a new DataRow
+            Dim row As DataRow = dataTable.NewRow()
+
+            ' Set the values for each field (using the custom column names)
+            For Each fieldName As String In columnNames.Keys
+                Dim columnName As String = columnNames(fieldName)
+                If dataTable.Columns.Contains(columnName) Then
+                    If fieldName = "_id" Then
+                        row(columnName) = document(fieldName).AsObjectId.ToString()
+                    Else
+                        row(columnName) = document(fieldName).AsString
+                    End If
+                End If
+            Next
+
+            ' Add the DataRow to the DataTable
+            dataTable.Rows.Add(row)
+        Next
+
+        ' Bind the DataTable to the DataGridView
+        staff_dgv.DataSource = dataTable
     End Sub
 End Class
