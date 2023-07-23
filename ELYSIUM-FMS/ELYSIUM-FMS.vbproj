@@ -15,6 +15,8 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>E:\ELYSIUM-FMS BACKUP\Published APP\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,13 +27,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -253,6 +253,12 @@
     <Compile Include="admin_dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="archived_form.Designer.vb">
+      <DependentUpon>archived_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="archived_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ds_packages.Designer.vb">
       <DependentUpon>ds_packages.vb</DependentUpon>
     </Compile>
@@ -294,6 +300,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="update_appointment.Designer.vb">
+      <DependentUpon>update_appointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_appointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="update_staffaccount.Designer.vb">
       <DependentUpon>update_staffaccount.vb</DependentUpon>
     </Compile>
@@ -307,6 +319,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="admin_dashboard.resx">
       <DependentUpon>admin_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="archived_form.resx">
+      <DependentUpon>archived_form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ds_packages.resx">
       <DependentUpon>ds_packages.vb</DependentUpon>
@@ -325,6 +340,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_appointment.resx">
+      <DependentUpon>update_appointment.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="update_staffaccount.resx">
       <DependentUpon>update_staffaccount.vb</DependentUpon>

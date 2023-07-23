@@ -48,6 +48,8 @@ Public Class admin_dashboard
         AdminProfileLoad()
         SetProfilePhoto()
         StaffDVGLoad()
+        ApptDVGLoad()
+        DisplayTotalAppointment()
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         time_label.Text = DateTime.Now.ToString("hh:mm:ss tt") ' Display current time
@@ -269,6 +271,62 @@ Public Class admin_dashboard
         ' Bind the DataTable to the DataGridView
         staff_dgv.DataSource = dataTable
     End Sub
+    Public Sub ApptDVGLoad()
+        '' Create a MongoDB client
+        'Dim client As MongoClient = New MongoClient(connectionString)
+
+        ' Create a MongoDB client
+        Dim client As MongoClient = New MongoClient(connectionString)
+
+        ' Access the MongoDB database
+        Dim database As IMongoDatabase = client.GetDatabase("elysium-fms-database")
+
+        ' Access the collection containing your data
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)("appointments")
+
+        ' Fetch the data from the collection
+        Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
+
+        ' Create a DataTable to hold the data
+        Dim dataTable As DataTable = New DataTable()
+
+        ' Add columns to the DataTable (replace with your own field names)
+        dataTable.Columns.Add("ID")
+        dataTable.Columns.Add("Full Name")
+        dataTable.Columns.Add("Email")
+        dataTable.Columns.Add("Number")
+        dataTable.Columns.Add("Address")
+        dataTable.Columns.Add("Appointment Date")
+        dataTable.Columns.Add("Appointment Time")
+        dataTable.Columns.Add("Appointment Status")
+        ' ...
+
+        ' Add rows to the DataTable
+        For Each document As BsonDocument In documents
+            ' Create a new DataRow
+            Dim row As DataRow = dataTable.NewRow()
+
+            ' Convert ObjectId to string
+            Dim objectId As ObjectId = document("_id").AsObjectId
+            row("Id") = objectId.ToString()
+
+            ' Set the values for each field (replace with your own field names)
+            row("full name") = document("fullname").AsString
+            row("email") = document("email").AsString
+            row("number") = document("number").AsString
+            row("address") = document("address").AsString
+            row("appointment date") = document("apptDate").AsString
+            row("appointment time") = document("apptTime").AsString
+            row("appointment status") = document("apptStatus").AsString
+            ' ...
+
+            ' Add the DataRow to the DataTable
+            dataTable.Rows.Add(row)
+        Next
+
+        ' Bind the DataTable to the DataGridView
+        appointment_dgv.DataSource = dataTable
+    End Sub
 
     Private searchDelayTimer As Timer
     Private Sub search_staff_TextChanged(sender As Object, e As EventArgs) Handles search_staff.TextChanged
@@ -355,5 +413,234 @@ Public Class admin_dashboard
 
         ' Bind the DataTable to the DataGridView
         staff_dgv.DataSource = dataTable
+    End Sub
+
+    Private Sub staff_archivebtn_Click(sender As Object, e As EventArgs) Handles staff_archivebtn.Click
+        ' Check if a row is selected in the DataGridView
+        If staff_dgv.SelectedRows.Count > 0 Then
+            ' Get the ObjectId value from the selected row
+            Dim selectedRow As DataGridViewRow = staff_dgv.SelectedRows(0)
+            Dim objectId As String = selectedRow.Cells("ID").Value.ToString()
+
+            ' Move the data from one collection to another based on the ObjectId value
+            MoveData(objectId)
+        End If
+        StaffDVGLoad()
+    End Sub
+    Private Sub MoveData(objectId As String)
+        Dim client As MongoClient = New MongoClient("mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority")
+        Dim database As IMongoDatabase = client.GetDatabase("elysium-fms-database")
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)("staff_account")
+        ' Access the MongoDB database and collections
+        Dim sourceDatabaseName As String = "elysium-fms-database"
+        Dim sourceCollectionName As String = "staff_account"
+        Dim targetDatabaseName As String = "elysium-fms-database"
+        Dim targetCollectionName As String = "staff_account_archive"
+        Dim sourceDatabase As IMongoDatabase = client.GetDatabase(sourceDatabaseName)
+        Dim targetDatabase As IMongoDatabase = client.GetDatabase(targetDatabaseName)
+        Dim sourceCollection As IMongoCollection(Of BsonDocument) = sourceDatabase.GetCollection(Of BsonDocument)(sourceCollectionName)
+        Dim targetCollection As IMongoCollection(Of BsonDocument) = targetDatabase.GetCollection(Of BsonDocument)(targetCollectionName)
+
+        ' Create a filter to match the ObjectId
+        Dim filter As FilterDefinition(Of BsonDocument) = Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", New ObjectId(objectId))
+
+        ' Find the document in the source collection
+        Dim document As BsonDocument = sourceCollection.Find(filter).FirstOrDefault()
+
+        ' If the document exists, insert it into the target collection and delete it from the source collection
+        If document IsNot Nothing Then
+            ' Insert the document into the target collection
+            targetCollection.InsertOne(document)
+
+            ' Delete the document from the source collection
+            sourceCollection.DeleteOne(filter)
+            MessageBox.Show("Data archived successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+    End Sub
+
+    Private Sub archived_data_Click(sender As Object, e As EventArgs) Handles archived_data.Click
+        archived_form.Show()
+        archived_form.archive_pages.SetPage("staff_account")
+    End Sub
+    Public Sub DisplayTotalAppointment()
+        ' Access the MongoDB database and collection
+        Dim client As MongoClient = New MongoClient("mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority")
+        Dim databaseName As String = "elysium-fms-database"
+        Dim collectionName As String = "appointments"
+        Dim database As IMongoDatabase = client.GetDatabase(databaseName)
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)(collectionName)
+
+        ' Get the total count of documents in the collection
+        Dim totalCount As Long = collection.CountDocuments(FilterDefinition(Of BsonDocument).Empty)
+
+        ' Display the count in the label
+        'data_label.Text = "Total Documents: " & totalCount.ToString()
+        appt_label.Text = totalCount.ToString()
+        If appt_label.Text > 1 Then
+            appt_label2.Text = "APPOINTMENTS"
+        Else
+            appt_label2.Text = "APPOINTMENT"
+        End If
+    End Sub
+
+    Private Sub appt_archivebtn_Click(sender As Object, e As EventArgs) Handles appt_archivebtn.Click
+        ' Check if a row is selected in the DataGridView
+        If appointment_dgv.SelectedRows.Count > 0 Then
+            ' Get the ObjectId value from the selected row
+            Dim selectedRow As DataGridViewRow = appointment_dgv.SelectedRows(0)
+            Dim objectId As String = selectedRow.Cells("ID").Value.ToString()
+
+            ' Move the data from one collection to another based on the ObjectId value
+            ArchiveAppointment(objectId)
+        End If
+        ApptDVGLoad()
+        DisplayTotalAppointment()
+    End Sub
+
+    Private Sub appt_updatebtn_Click(sender As Object, e As EventArgs) Handles appt_updatebtn.Click
+        'update_appointment.Show()
+        Try
+            If appointment_dgv.SelectedRows.Count > 0 Then
+                With update_appointment
+                    .update_id.Text = appointment_dgv.SelectedRows.Item(0).Cells(0).Value
+                    .update_name.Text = appointment_dgv.SelectedRows.Item(0).Cells(1).Value
+                    .update_email.Text = appointment_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .update_number.Text = appointment_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .update_address.Text = appointment_dgv.SelectedRows.Item(0).Cells(4).Value
+                    .update_date.Text = appointment_dgv.SelectedRows.Item(0).Cells(5).Value
+                    .update_time.Text = appointment_dgv.SelectedRows.Item(0).Cells(6).Value
+                    .update_status.Text = appointment_dgv.SelectedRows.Item(0).Cells(7).Value
+                    .ShowDialog()
+
+                End With
+            Else
+                MsgBox("Please select account to edit.", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        Catch ex As Exception
+            'Display the exception message in a MessageBox
+            MessageBox.Show("An error occurred: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            ' Write the exception to the console
+            Console.WriteLine("An error occurred: " & ex.Message)
+        End Try
+    End Sub
+    Private Sub ArchiveAppointment(objectId As String)
+        Dim client As MongoClient = New MongoClient("mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority")
+        Dim database As IMongoDatabase = client.GetDatabase("elysium-fms-database")
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)("appointments")
+        ' Access the MongoDB database and collections
+        Dim sourceDatabaseName As String = "elysium-fms-database"
+        Dim sourceCollectionName As String = "appointments"
+        Dim targetDatabaseName As String = "elysium-fms-database"
+        Dim targetCollectionName As String = "appointments_archive"
+        Dim sourceDatabase As IMongoDatabase = client.GetDatabase(sourceDatabaseName)
+        Dim targetDatabase As IMongoDatabase = client.GetDatabase(targetDatabaseName)
+        Dim sourceCollection As IMongoCollection(Of BsonDocument) = sourceDatabase.GetCollection(Of BsonDocument)(sourceCollectionName)
+        Dim targetCollection As IMongoCollection(Of BsonDocument) = targetDatabase.GetCollection(Of BsonDocument)(targetCollectionName)
+
+        ' Create a filter to match the ObjectId
+        Dim filter As FilterDefinition(Of BsonDocument) = Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", New ObjectId(objectId))
+
+        ' Find the document in the source collection
+        Dim document As BsonDocument = sourceCollection.Find(filter).FirstOrDefault()
+
+        ' If the document exists, insert it into the target collection and delete it from the source collection
+        If document IsNot Nothing Then
+            ' Insert the document into the target collection
+            targetCollection.InsertOne(document)
+
+            ' Delete the document from the source collection
+            sourceCollection.DeleteOne(filter)
+            MessageBox.Show("Data archived successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+    End Sub
+
+    Private Sub appt_archived_data_Click(sender As Object, e As EventArgs) Handles appt_archived_data.Click
+        archived_form.Show()
+        archived_form.archive_pages.SetPage("appointment")
+    End Sub
+
+    Private Sub search_appointment_TextChanged(sender As Object, e As EventArgs) Handles search_appointment.TextChanged
+        ' Stop any previous timer
+        If searchDelayTimer IsNot Nothing Then
+            searchDelayTimer.Stop()
+            searchDelayTimer.Dispose()
+        End If
+
+        ' Create a new timer
+        searchDelayTimer = New Timer()
+        searchDelayTimer.Interval = 200 ' Adjust the delay as needed (in milliseconds)
+        AddHandler searchDelayTimer.Tick, AddressOf StartSearchAppt
+        searchDelayTimer.Start()
+    End Sub
+    Private Sub StartSearchAppt(sender As Object, e As EventArgs)
+        ' Stop the timer
+        searchDelayTimer.Stop()
+
+        ' Perform the search
+        PerformSearchAppt()
+    End Sub
+    Private Sub PerformSearchAppt()
+        ' Get the search keyword from the TextBox
+        Dim keyword As String = search_appointment.Text
+        Dim client As MongoClient = New MongoClient("mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority")
+        ' Access the MongoDB database and collection
+        Dim databaseName As String = "elysium-fms-database"
+        Dim collectionName As String = "appointments"
+        Dim database As IMongoDatabase = client.GetDatabase(databaseName)
+        Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)(collectionName)
+
+        ' Create a filter to match the search keyword
+        Dim filter As FilterDefinition(Of BsonDocument) = Builders(Of BsonDocument).Filter.Regex("fullname", New BsonRegularExpression(keyword, "i"))
+
+        ' Retrieve the documents matching the filter
+        Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
+
+        ' Convert the searchResults to a DataTable
+        Dim dataTable As New DataTable()
+
+        ' Disable auto-generating columns
+        staff_dgv.AutoGenerateColumns = False
+
+        ' Create a dictionary to map field names to custom column names
+        Dim columnNames As New Dictionary(Of String, String)()
+        columnNames.Add("_id", "ID")
+        columnNames.Add("fullname", "Full Name")
+        columnNames.Add("email", "Email")
+        columnNames.Add("number", "Number")
+        columnNames.Add("address", "Address")
+        columnNames.Add("apptDate", "Appointment Date")
+        columnNames.Add("apptTime", "Appointment Time")
+        columnNames.Add("apptStatus", "Appointment Status")
+        ' Add more field name to custom column name mappings as needed
+
+        ' Add columns to the DataTable
+        For Each fieldName As String In columnNames.Keys
+            If Not dataTable.Columns.Contains(columnNames(fieldName)) Then
+                dataTable.Columns.Add(columnNames(fieldName), GetType(String))
+            End If
+        Next
+        ' Add rows to the DataTable
+        For Each document As BsonDocument In searchResults
+            ' Create a new DataRow
+            Dim row As DataRow = dataTable.NewRow()
+
+            ' Set the values for each field (using the custom column names)
+            For Each fieldName As String In columnNames.Keys
+                Dim columnName As String = columnNames(fieldName)
+                If dataTable.Columns.Contains(columnName) Then
+                    If fieldName = "_id" Then
+                        row(columnName) = document(fieldName).AsObjectId.ToString()
+                    Else
+                        row(columnName) = document(fieldName).AsString
+                    End If
+                End If
+            Next
+
+            ' Add the DataRow to the DataTable
+            dataTable.Rows.Add(row)
+        Next
+
+        ' Bind the DataTable to the DataGridView
+        appointment_dgv.DataSource = dataTable
     End Sub
 End Class

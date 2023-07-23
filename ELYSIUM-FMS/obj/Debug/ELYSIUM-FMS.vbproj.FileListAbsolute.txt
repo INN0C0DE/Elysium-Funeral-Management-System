@@ -108,3 +108,5 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELY
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.archived_form.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.update_appointment.resources
