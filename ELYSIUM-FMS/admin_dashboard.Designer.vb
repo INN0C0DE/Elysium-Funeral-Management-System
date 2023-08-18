@@ -51,36 +51,37 @@ Partial Class admin_dashboard
         Dim BorderEdges9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim Animation1 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
         Dim BorderEdges10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties19 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties20 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim Animation1 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
         Dim BorderEdges11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim BorderEdges12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties25 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties26 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges13 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties27 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties28 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges13 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties29 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties30 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties29 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties30 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges14 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties31 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties32 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim BorderEdges15 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties33 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties34 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties35 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties36 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges16 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties35 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties36 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties37 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties38 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties39 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
@@ -91,11 +92,11 @@ Partial Class admin_dashboard
         Dim StateProperties44 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties45 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties46 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges16 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties47 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties48 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties49 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties50 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties47 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties48 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties49 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties50 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties51 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties52 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties53 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
@@ -106,106 +107,127 @@ Partial Class admin_dashboard
         Dim StateProperties58 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties59 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties60 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties61 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties62 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim BorderEdges18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties63 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties64 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim BorderEdges17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties61 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties62 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties63 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties64 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties65 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties66 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties67 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties68 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges19 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties69 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties70 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties65 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties66 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim BorderEdges20 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties71 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties72 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties67 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties68 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties69 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties70 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties71 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties72 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties73 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties74 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim BorderEdges22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties75 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties76 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties77 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties78 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties79 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties80 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties81 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties82 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties77 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties78 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim BorderEdges24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties83 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties84 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties85 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties86 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties79 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties80 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim BorderEdges25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties81 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties82 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties83 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties84 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties85 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties86 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties87 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties88 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties89 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties90 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties91 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties92 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges27 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties89 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties90 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim BorderEdges28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties91 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties92 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim BorderEdges29 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties93 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties94 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges30 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties95 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties96 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges29 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges31 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties97 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties98 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim BorderEdges30 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges32 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties99 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties100 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties101 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties102 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties103 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties104 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim BorderEdges31 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim BorderEdges33 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties105 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties106 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges32 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges34 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties107 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties108 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim BorderEdges33 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges35 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties109 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties110 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim BorderEdges36 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim StateProperties111 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties112 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties113 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties114 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties115 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties116 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.BunifuButton8 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton7 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton6 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton5 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton4 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton3 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton2 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton1 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.BunifuButton3 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.role_label = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.username_label = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.BunifuButton9 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.date_label = New Bunifu.UI.WinForms.BunifuLabel()
         Me.time_label = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.username_label = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel1 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuButton10 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.admin_pages = New Bunifu.UI.WinForms.BunifuPages()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.appt_label2 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel7 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.lf_label2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.appt_label = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.lf_label = New Bunifu.UI.WinForms.BunifuLabel()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
@@ -227,6 +249,10 @@ Partial Class admin_dashboard
         Me.staff_updatebtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.addstaff_btn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.EC_pass = New System.Windows.Forms.PictureBox()
+        Me.EC_user = New System.Windows.Forms.PictureBox()
+        Me.EO_pass = New System.Windows.Forms.PictureBox()
+        Me.EO_user = New System.Windows.Forms.PictureBox()
         Me.admin_rfid1 = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.admin_gender = New Bunifu.UI.WinForms.BunifuDropdown()
         Me.BunifuLabel21 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -246,38 +272,41 @@ Partial Class admin_dashboard
         Me.admin_username1 = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.admin_picture = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.refresh_apptBTN = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.appointment_dgv = New Bunifu.UI.WinForms.BunifuDataGridView()
+        Me.BunifuLabel22 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.appt_messagebtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.appt_archived_data = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.search_appointment = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.appt_archivebtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.appt_updatebtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuLabel22 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
-        Me.BunifuButton17 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton18 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuTextBox3 = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
-        Me.BunifuButton19 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton20 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton30 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuCustomDataGrid3 = New Bunifu.Framework.UI.BunifuCustomDataGrid()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.msg_duedate = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.msg_welcome = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.lifeplan_dgv = New Bunifu.UI.WinForms.BunifuDataGridView()
         Me.BunifuLabel23 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.lf_archived_data = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.search_lifeplan = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
+        Me.lf_archivebtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.lf_updatebtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.lf_addbtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
-        Me.BunifuButton21 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuTextBox4 = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
-        Me.BunifuButton22 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton23 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton24 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuCustomDataGrid4 = New Bunifu.Framework.UI.BunifuCustomDataGrid()
+        Me.ds_dgv = New Bunifu.UI.WinForms.BunifuDataGridView()
         Me.BunifuLabel24 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.ds_archived_data = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.ds_archive = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.ds_update = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.ds_add = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.search_ds = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
-        Me.BunifuButton25 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuTextBox5 = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
-        Me.BunifuButton26 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton27 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuButton28 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuCustomDataGrid5 = New Bunifu.Framework.UI.BunifuCustomDataGrid()
+        Me.inventory_dgv = New Bunifu.UI.WinForms.BunifuDataGridView()
         Me.BunifuLabel25 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.inv_archived_data = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.inv_archive = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.inv_update = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.inv_add = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.search_inventory = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -300,6 +329,9 @@ Partial Class admin_dashboard
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.admin_pages.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -312,15 +344,20 @@ Partial Class admin_dashboard
         Me.TabPage3.SuspendLayout()
         CType(Me.staff_dgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
+        CType(Me.EC_pass, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EC_user, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EO_pass, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EO_user, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.admin_picture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage5.SuspendLayout()
         CType(Me.appointment_dgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage6.SuspendLayout()
-        CType(Me.BunifuCustomDataGrid3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.lifeplan_dgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage7.SuspendLayout()
-        CType(Me.BunifuCustomDataGrid4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ds_dgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage8.SuspendLayout()
-        CType(Me.BunifuCustomDataGrid5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.inventory_dgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -331,9 +368,9 @@ Partial Class admin_dashboard
         Me.Panel1.Controls.Add(Me.BunifuButton6)
         Me.Panel1.Controls.Add(Me.BunifuButton5)
         Me.Panel1.Controls.Add(Me.BunifuButton4)
-        Me.Panel1.Controls.Add(Me.BunifuButton3)
         Me.Panel1.Controls.Add(Me.BunifuButton2)
         Me.Panel1.Controls.Add(Me.BunifuButton1)
+        Me.Panel1.Controls.Add(Me.BunifuButton3)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(1, 0)
         Me.Panel1.Name = "Panel1"
@@ -377,22 +414,22 @@ Partial Class admin_dashboard
         Me.BunifuButton8.IdleIconLeftImage = CType(resources.GetObject("BunifuButton8.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton8.IdleIconRightImage = Nothing
         Me.BunifuButton8.IndicateFocus = False
-        Me.BunifuButton8.Location = New System.Drawing.Point(0, 530)
+        Me.BunifuButton8.Location = New System.Drawing.Point(0, 440)
         Me.BunifuButton8.Name = "BunifuButton8"
-        StateProperties1.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties1.BorderColor = System.Drawing.Color.Peru
         StateProperties1.BorderRadius = 3
         StateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties1.BorderThickness = 1
-        StateProperties1.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties1.FillColor = System.Drawing.Color.Peru
         StateProperties1.ForeColor = System.Drawing.Color.White
         StateProperties1.IconLeftImage = Nothing
         StateProperties1.IconRightImage = Nothing
         Me.BunifuButton8.onHoverState = StateProperties1
-        StateProperties2.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties2.BorderColor = System.Drawing.Color.Peru
         StateProperties2.BorderRadius = 3
         StateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties2.BorderThickness = 1
-        StateProperties2.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties2.FillColor = System.Drawing.Color.Peru
         StateProperties2.ForeColor = System.Drawing.Color.White
         StateProperties2.IconLeftImage = Nothing
         StateProperties2.IconRightImage = Nothing
@@ -440,22 +477,22 @@ Partial Class admin_dashboard
         Me.BunifuButton7.IdleIconLeftImage = CType(resources.GetObject("BunifuButton7.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton7.IdleIconRightImage = Nothing
         Me.BunifuButton7.IndicateFocus = False
-        Me.BunifuButton7.Location = New System.Drawing.Point(0, 485)
+        Me.BunifuButton7.Location = New System.Drawing.Point(0, 395)
         Me.BunifuButton7.Name = "BunifuButton7"
-        StateProperties3.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties3.BorderColor = System.Drawing.Color.Peru
         StateProperties3.BorderRadius = 3
         StateProperties3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties3.BorderThickness = 1
-        StateProperties3.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties3.FillColor = System.Drawing.Color.Peru
         StateProperties3.ForeColor = System.Drawing.Color.White
         StateProperties3.IconLeftImage = Nothing
         StateProperties3.IconRightImage = Nothing
         Me.BunifuButton7.onHoverState = StateProperties3
-        StateProperties4.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties4.BorderColor = System.Drawing.Color.Peru
         StateProperties4.BorderRadius = 3
         StateProperties4.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties4.BorderThickness = 1
-        StateProperties4.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties4.FillColor = System.Drawing.Color.Peru
         StateProperties4.ForeColor = System.Drawing.Color.White
         StateProperties4.IconLeftImage = Nothing
         StateProperties4.IconRightImage = Nothing
@@ -503,22 +540,22 @@ Partial Class admin_dashboard
         Me.BunifuButton6.IdleIconLeftImage = CType(resources.GetObject("BunifuButton6.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton6.IdleIconRightImage = Nothing
         Me.BunifuButton6.IndicateFocus = False
-        Me.BunifuButton6.Location = New System.Drawing.Point(0, 440)
+        Me.BunifuButton6.Location = New System.Drawing.Point(0, 350)
         Me.BunifuButton6.Name = "BunifuButton6"
-        StateProperties5.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties5.BorderColor = System.Drawing.Color.Peru
         StateProperties5.BorderRadius = 3
         StateProperties5.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties5.BorderThickness = 1
-        StateProperties5.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties5.FillColor = System.Drawing.Color.Peru
         StateProperties5.ForeColor = System.Drawing.Color.White
         StateProperties5.IconLeftImage = Nothing
         StateProperties5.IconRightImage = Nothing
         Me.BunifuButton6.onHoverState = StateProperties5
-        StateProperties6.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties6.BorderColor = System.Drawing.Color.Peru
         StateProperties6.BorderRadius = 3
         StateProperties6.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties6.BorderThickness = 1
-        StateProperties6.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties6.FillColor = System.Drawing.Color.Peru
         StateProperties6.ForeColor = System.Drawing.Color.White
         StateProperties6.IconLeftImage = Nothing
         StateProperties6.IconRightImage = Nothing
@@ -566,22 +603,22 @@ Partial Class admin_dashboard
         Me.BunifuButton5.IdleIconLeftImage = CType(resources.GetObject("BunifuButton5.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton5.IdleIconRightImage = Nothing
         Me.BunifuButton5.IndicateFocus = False
-        Me.BunifuButton5.Location = New System.Drawing.Point(0, 395)
+        Me.BunifuButton5.Location = New System.Drawing.Point(0, 305)
         Me.BunifuButton5.Name = "BunifuButton5"
-        StateProperties7.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties7.BorderColor = System.Drawing.Color.Peru
         StateProperties7.BorderRadius = 3
         StateProperties7.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties7.BorderThickness = 1
-        StateProperties7.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties7.FillColor = System.Drawing.Color.Peru
         StateProperties7.ForeColor = System.Drawing.Color.White
         StateProperties7.IconLeftImage = Nothing
         StateProperties7.IconRightImage = Nothing
         Me.BunifuButton5.onHoverState = StateProperties7
-        StateProperties8.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties8.BorderColor = System.Drawing.Color.Peru
         StateProperties8.BorderRadius = 3
         StateProperties8.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties8.BorderThickness = 1
-        StateProperties8.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties8.FillColor = System.Drawing.Color.Peru
         StateProperties8.ForeColor = System.Drawing.Color.White
         StateProperties8.IconLeftImage = Nothing
         StateProperties8.IconRightImage = Nothing
@@ -629,22 +666,22 @@ Partial Class admin_dashboard
         Me.BunifuButton4.IdleIconLeftImage = CType(resources.GetObject("BunifuButton4.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton4.IdleIconRightImage = Nothing
         Me.BunifuButton4.IndicateFocus = False
-        Me.BunifuButton4.Location = New System.Drawing.Point(0, 350)
+        Me.BunifuButton4.Location = New System.Drawing.Point(0, 530)
         Me.BunifuButton4.Name = "BunifuButton4"
-        StateProperties9.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties9.BorderColor = System.Drawing.Color.Peru
         StateProperties9.BorderRadius = 3
         StateProperties9.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties9.BorderThickness = 1
-        StateProperties9.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties9.FillColor = System.Drawing.Color.Peru
         StateProperties9.ForeColor = System.Drawing.Color.White
         StateProperties9.IconLeftImage = Nothing
         StateProperties9.IconRightImage = Nothing
         Me.BunifuButton4.onHoverState = StateProperties9
-        StateProperties10.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties10.BorderColor = System.Drawing.Color.Peru
         StateProperties10.BorderRadius = 3
         StateProperties10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties10.BorderThickness = 1
-        StateProperties10.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties10.FillColor = System.Drawing.Color.Peru
         StateProperties10.ForeColor = System.Drawing.Color.White
         StateProperties10.IconLeftImage = Nothing
         StateProperties10.IconRightImage = Nothing
@@ -654,69 +691,6 @@ Partial Class admin_dashboard
         Me.BunifuButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuButton4.TextMarginLeft = 0
         Me.BunifuButton4.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuButton3
-        '
-        Me.BunifuButton3.AllowToggling = False
-        Me.BunifuButton3.AnimationSpeed = 200
-        Me.BunifuButton3.AutoGenerateColors = False
-        Me.BunifuButton3.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton3.BackColor1 = System.Drawing.Color.Tan
-        Me.BunifuButton3.BackgroundImage = CType(resources.GetObject("BunifuButton3.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton3.ButtonText = "STAFF ACCOUNT"
-        Me.BunifuButton3.ButtonTextMarginLeft = 0
-        Me.BunifuButton3.ColorContrastOnClick = 45
-        Me.BunifuButton3.ColorContrastOnHover = 45
-        Me.BunifuButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges6.BottomLeft = True
-        BorderEdges6.BottomRight = True
-        BorderEdges6.TopLeft = True
-        BorderEdges6.TopRight = True
-        Me.BunifuButton3.CustomizableEdges = BorderEdges6
-        Me.BunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton3.DisabledBorderColor = System.Drawing.Color.Empty
-        Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton3.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton3.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton3.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton3.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton3.IconMarginLeft = 11
-        Me.BunifuButton3.IconPadding = 10
-        Me.BunifuButton3.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton3.IdleBorderColor = System.Drawing.Color.Tan
-        Me.BunifuButton3.IdleBorderRadius = 3
-        Me.BunifuButton3.IdleBorderThickness = 1
-        Me.BunifuButton3.IdleFillColor = System.Drawing.Color.Tan
-        Me.BunifuButton3.IdleIconLeftImage = CType(resources.GetObject("BunifuButton3.IdleIconLeftImage"), System.Drawing.Image)
-        Me.BunifuButton3.IdleIconRightImage = Nothing
-        Me.BunifuButton3.IndicateFocus = False
-        Me.BunifuButton3.Location = New System.Drawing.Point(0, 305)
-        Me.BunifuButton3.Name = "BunifuButton3"
-        StateProperties11.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties11.BorderRadius = 3
-        StateProperties11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties11.BorderThickness = 1
-        StateProperties11.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties11.ForeColor = System.Drawing.Color.White
-        StateProperties11.IconLeftImage = Nothing
-        StateProperties11.IconRightImage = Nothing
-        Me.BunifuButton3.onHoverState = StateProperties11
-        StateProperties12.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties12.BorderRadius = 3
-        StateProperties12.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties12.BorderThickness = 1
-        StateProperties12.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties12.ForeColor = System.Drawing.Color.White
-        StateProperties12.IconLeftImage = Nothing
-        StateProperties12.IconRightImage = Nothing
-        Me.BunifuButton3.OnPressedState = StateProperties12
-        Me.BunifuButton3.Size = New System.Drawing.Size(210, 45)
-        Me.BunifuButton3.TabIndex = 3
-        Me.BunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton3.TextMarginLeft = 0
-        Me.BunifuButton3.UseDefaultRadiusAndThickness = True
         '
         'BunifuButton2
         '
@@ -732,11 +706,11 @@ Partial Class admin_dashboard
         Me.BunifuButton2.ColorContrastOnClick = 45
         Me.BunifuButton2.ColorContrastOnHover = 45
         Me.BunifuButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges7.BottomLeft = True
-        BorderEdges7.BottomRight = True
-        BorderEdges7.TopLeft = True
-        BorderEdges7.TopRight = True
-        Me.BunifuButton2.CustomizableEdges = BorderEdges7
+        BorderEdges6.BottomLeft = True
+        BorderEdges6.BottomRight = True
+        BorderEdges6.TopLeft = True
+        BorderEdges6.TopRight = True
+        Me.BunifuButton2.CustomizableEdges = BorderEdges6
         Me.BunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton2.DisabledBorderColor = System.Drawing.Color.Empty
         Me.BunifuButton2.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -757,24 +731,24 @@ Partial Class admin_dashboard
         Me.BunifuButton2.IndicateFocus = False
         Me.BunifuButton2.Location = New System.Drawing.Point(0, 260)
         Me.BunifuButton2.Name = "BunifuButton2"
-        StateProperties13.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties13.BorderRadius = 3
-        StateProperties13.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties13.BorderThickness = 1
-        StateProperties13.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties13.ForeColor = System.Drawing.Color.White
-        StateProperties13.IconLeftImage = Nothing
-        StateProperties13.IconRightImage = Nothing
-        Me.BunifuButton2.onHoverState = StateProperties13
-        StateProperties14.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties14.BorderRadius = 3
-        StateProperties14.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties14.BorderThickness = 1
-        StateProperties14.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties14.ForeColor = System.Drawing.Color.White
-        StateProperties14.IconLeftImage = Nothing
-        StateProperties14.IconRightImage = Nothing
-        Me.BunifuButton2.OnPressedState = StateProperties14
+        StateProperties11.BorderColor = System.Drawing.Color.Peru
+        StateProperties11.BorderRadius = 3
+        StateProperties11.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties11.BorderThickness = 1
+        StateProperties11.FillColor = System.Drawing.Color.Peru
+        StateProperties11.ForeColor = System.Drawing.Color.White
+        StateProperties11.IconLeftImage = Nothing
+        StateProperties11.IconRightImage = Nothing
+        Me.BunifuButton2.onHoverState = StateProperties11
+        StateProperties12.BorderColor = System.Drawing.Color.Peru
+        StateProperties12.BorderRadius = 3
+        StateProperties12.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties12.BorderThickness = 1
+        StateProperties12.FillColor = System.Drawing.Color.Peru
+        StateProperties12.ForeColor = System.Drawing.Color.White
+        StateProperties12.IconLeftImage = Nothing
+        StateProperties12.IconRightImage = Nothing
+        Me.BunifuButton2.OnPressedState = StateProperties12
         Me.BunifuButton2.Size = New System.Drawing.Size(209, 45)
         Me.BunifuButton2.TabIndex = 2
         Me.BunifuButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -795,11 +769,11 @@ Partial Class admin_dashboard
         Me.BunifuButton1.ColorContrastOnClick = 45
         Me.BunifuButton1.ColorContrastOnHover = 45
         Me.BunifuButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges8.BottomLeft = True
-        BorderEdges8.BottomRight = True
-        BorderEdges8.TopLeft = True
-        BorderEdges8.TopRight = True
-        Me.BunifuButton1.CustomizableEdges = BorderEdges8
+        BorderEdges7.BottomLeft = True
+        BorderEdges7.BottomRight = True
+        BorderEdges7.TopLeft = True
+        BorderEdges7.TopRight = True
+        Me.BunifuButton1.CustomizableEdges = BorderEdges7
         Me.BunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton1.DisabledBorderColor = System.Drawing.Color.Empty
         Me.BunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -820,29 +794,92 @@ Partial Class admin_dashboard
         Me.BunifuButton1.IndicateFocus = False
         Me.BunifuButton1.Location = New System.Drawing.Point(0, 215)
         Me.BunifuButton1.Name = "BunifuButton1"
-        StateProperties15.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties15.BorderRadius = 3
-        StateProperties15.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties15.BorderThickness = 1
-        StateProperties15.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties15.ForeColor = System.Drawing.Color.White
-        StateProperties15.IconLeftImage = Nothing
-        StateProperties15.IconRightImage = Nothing
-        Me.BunifuButton1.onHoverState = StateProperties15
-        StateProperties16.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties16.BorderRadius = 3
-        StateProperties16.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties16.BorderThickness = 1
-        StateProperties16.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties16.ForeColor = System.Drawing.Color.White
-        StateProperties16.IconLeftImage = Nothing
-        StateProperties16.IconRightImage = Nothing
-        Me.BunifuButton1.OnPressedState = StateProperties16
+        StateProperties13.BorderColor = System.Drawing.Color.Peru
+        StateProperties13.BorderRadius = 3
+        StateProperties13.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties13.BorderThickness = 1
+        StateProperties13.FillColor = System.Drawing.Color.Peru
+        StateProperties13.ForeColor = System.Drawing.Color.White
+        StateProperties13.IconLeftImage = Nothing
+        StateProperties13.IconRightImage = Nothing
+        Me.BunifuButton1.onHoverState = StateProperties13
+        StateProperties14.BorderColor = System.Drawing.Color.Peru
+        StateProperties14.BorderRadius = 3
+        StateProperties14.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties14.BorderThickness = 1
+        StateProperties14.FillColor = System.Drawing.Color.Peru
+        StateProperties14.ForeColor = System.Drawing.Color.White
+        StateProperties14.IconLeftImage = Nothing
+        StateProperties14.IconRightImage = Nothing
+        Me.BunifuButton1.OnPressedState = StateProperties14
         Me.BunifuButton1.Size = New System.Drawing.Size(209, 45)
         Me.BunifuButton1.TabIndex = 1
         Me.BunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuButton1.TextMarginLeft = 0
         Me.BunifuButton1.UseDefaultRadiusAndThickness = True
+        '
+        'BunifuButton3
+        '
+        Me.BunifuButton3.AllowToggling = False
+        Me.BunifuButton3.AnimationSpeed = 200
+        Me.BunifuButton3.AutoGenerateColors = False
+        Me.BunifuButton3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton3.BackColor1 = System.Drawing.Color.Tan
+        Me.BunifuButton3.BackgroundImage = CType(resources.GetObject("BunifuButton3.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton3.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BunifuButton3.ButtonText = "STAFF ACCOUNT"
+        Me.BunifuButton3.ButtonTextMarginLeft = 0
+        Me.BunifuButton3.ColorContrastOnClick = 45
+        Me.BunifuButton3.ColorContrastOnHover = 45
+        Me.BunifuButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges8.BottomLeft = True
+        BorderEdges8.BottomRight = True
+        BorderEdges8.TopLeft = True
+        BorderEdges8.TopRight = True
+        Me.BunifuButton3.CustomizableEdges = BorderEdges8
+        Me.BunifuButton3.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BunifuButton3.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BunifuButton3.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.BunifuButton3.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.BunifuButton3.ForeColor = System.Drawing.Color.White
+        Me.BunifuButton3.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton3.IconMarginLeft = 11
+        Me.BunifuButton3.IconPadding = 10
+        Me.BunifuButton3.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuButton3.IdleBorderColor = System.Drawing.Color.Tan
+        Me.BunifuButton3.IdleBorderRadius = 3
+        Me.BunifuButton3.IdleBorderThickness = 1
+        Me.BunifuButton3.IdleFillColor = System.Drawing.Color.Tan
+        Me.BunifuButton3.IdleIconLeftImage = CType(resources.GetObject("BunifuButton3.IdleIconLeftImage"), System.Drawing.Image)
+        Me.BunifuButton3.IdleIconRightImage = Nothing
+        Me.BunifuButton3.IndicateFocus = False
+        Me.BunifuButton3.Location = New System.Drawing.Point(0, 485)
+        Me.BunifuButton3.Name = "BunifuButton3"
+        StateProperties15.BorderColor = System.Drawing.Color.Peru
+        StateProperties15.BorderRadius = 3
+        StateProperties15.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties15.BorderThickness = 1
+        StateProperties15.FillColor = System.Drawing.Color.Peru
+        StateProperties15.ForeColor = System.Drawing.Color.White
+        StateProperties15.IconLeftImage = Nothing
+        StateProperties15.IconRightImage = Nothing
+        Me.BunifuButton3.onHoverState = StateProperties15
+        StateProperties16.BorderColor = System.Drawing.Color.Peru
+        StateProperties16.BorderRadius = 3
+        StateProperties16.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties16.BorderThickness = 1
+        StateProperties16.FillColor = System.Drawing.Color.Peru
+        StateProperties16.ForeColor = System.Drawing.Color.White
+        StateProperties16.IconLeftImage = Nothing
+        StateProperties16.IconRightImage = Nothing
+        Me.BunifuButton3.OnPressedState = StateProperties16
+        Me.BunifuButton3.Size = New System.Drawing.Size(210, 45)
+        Me.BunifuButton3.TabIndex = 3
+        Me.BunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuButton3.TextMarginLeft = 0
+        Me.BunifuButton3.UseDefaultRadiusAndThickness = True
         '
         'PictureBox1
         '
@@ -857,15 +894,79 @@ Partial Class admin_dashboard
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Wheat
+        Me.Panel2.Controls.Add(Me.PictureBox8)
+        Me.Panel2.Controls.Add(Me.PictureBox7)
+        Me.Panel2.Controls.Add(Me.role_label)
+        Me.Panel2.Controls.Add(Me.username_label)
+        Me.Panel2.Controls.Add(Me.PictureBox6)
         Me.Panel2.Controls.Add(Me.BunifuButton9)
         Me.Panel2.Controls.Add(Me.date_label)
         Me.Panel2.Controls.Add(Me.time_label)
-        Me.Panel2.Controls.Add(Me.username_label)
-        Me.Panel2.Controls.Add(Me.BunifuLabel1)
+        Me.Panel2.Controls.Add(Me.BunifuButton10)
         Me.Panel2.Location = New System.Drawing.Point(209, 0)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(847, 78)
         Me.Panel2.TabIndex = 4
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.ELYSIUM_FMS.My.Resources.Resources.calendar
+        Me.PictureBox8.Location = New System.Drawing.Point(474, 38)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(42, 37)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox8.TabIndex = 58
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.ELYSIUM_FMS.My.Resources.Resources.clock
+        Me.PictureBox7.Location = New System.Drawing.Point(474, 2)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(42, 35)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox7.TabIndex = 57
+        Me.PictureBox7.TabStop = False
+        '
+        'role_label
+        '
+        Me.role_label.AutoEllipsis = False
+        Me.role_label.CursorType = Nothing
+        Me.role_label.Font = New System.Drawing.Font("Poppins SemiBold", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.role_label.ForeColor = System.Drawing.Color.DimGray
+        Me.role_label.Location = New System.Drawing.Point(76, 39)
+        Me.role_label.Name = "role_label"
+        Me.role_label.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.role_label.Size = New System.Drawing.Size(102, 30)
+        Me.role_label.TabIndex = 0
+        Me.role_label.Text = "Funeral Role"
+        Me.role_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.role_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'username_label
+        '
+        Me.username_label.AutoEllipsis = False
+        Me.username_label.CursorType = Nothing
+        Me.username_label.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.username_label.ForeColor = System.Drawing.Color.DimGray
+        Me.username_label.Location = New System.Drawing.Point(76, 11)
+        Me.username_label.Name = "username_label"
+        Me.username_label.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.username_label.Size = New System.Drawing.Size(215, 39)
+        Me.username_label.TabIndex = 1
+        Me.username_label.Text = "ADMIN/ STAFF NAME"
+        Me.username_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.username_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.ELYSIUM_FMS.My.Resources.Resources.verfified_user
+        Me.PictureBox6.Location = New System.Drawing.Point(19, 13)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(51, 54)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox6.TabIndex = 10
+        Me.PictureBox6.TabStop = False
         '
         'BunifuButton9
         '
@@ -904,27 +1005,27 @@ Partial Class admin_dashboard
         Me.BunifuButton9.IdleIconLeftImage = CType(resources.GetObject("BunifuButton9.IdleIconLeftImage"), System.Drawing.Image)
         Me.BunifuButton9.IdleIconRightImage = Nothing
         Me.BunifuButton9.IndicateFocus = False
-        Me.BunifuButton9.Location = New System.Drawing.Point(466, 22)
+        Me.BunifuButton9.Location = New System.Drawing.Point(376, 10)
         Me.BunifuButton9.Name = "BunifuButton9"
-        StateProperties17.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties17.BorderColor = System.Drawing.Color.Peru
         StateProperties17.BorderRadius = 3
         StateProperties17.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties17.BorderThickness = 1
-        StateProperties17.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties17.FillColor = System.Drawing.Color.Peru
         StateProperties17.ForeColor = System.Drawing.Color.White
         StateProperties17.IconLeftImage = Nothing
         StateProperties17.IconRightImage = Nothing
         Me.BunifuButton9.onHoverState = StateProperties17
-        StateProperties18.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties18.BorderColor = System.Drawing.Color.Peru
         StateProperties18.BorderRadius = 3
         StateProperties18.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties18.BorderThickness = 1
-        StateProperties18.FillColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties18.FillColor = System.Drawing.Color.Peru
         StateProperties18.ForeColor = System.Drawing.Color.White
         StateProperties18.IconLeftImage = Nothing
         StateProperties18.IconRightImage = Nothing
         Me.BunifuButton9.OnPressedState = StateProperties18
-        Me.BunifuButton9.Size = New System.Drawing.Size(50, 45)
+        Me.BunifuButton9.Size = New System.Drawing.Size(53, 55)
         Me.BunifuButton9.TabIndex = 9
         Me.BunifuButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuButton9.TextMarginLeft = 0
@@ -936,7 +1037,7 @@ Partial Class admin_dashboard
         Me.date_label.CursorType = Nothing
         Me.date_label.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.date_label.ForeColor = System.Drawing.Color.DimGray
-        Me.date_label.Location = New System.Drawing.Point(542, 37)
+        Me.date_label.Location = New System.Drawing.Point(521, 38)
         Me.date_label.Name = "date_label"
         Me.date_label.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.date_label.Size = New System.Drawing.Size(56, 39)
@@ -951,7 +1052,7 @@ Partial Class admin_dashboard
         Me.time_label.CursorType = Nothing
         Me.time_label.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.time_label.ForeColor = System.Drawing.Color.DimGray
-        Me.time_label.Location = New System.Drawing.Point(542, 11)
+        Me.time_label.Location = New System.Drawing.Point(521, 4)
         Me.time_label.Name = "time_label"
         Me.time_label.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.time_label.Size = New System.Drawing.Size(51, 39)
@@ -960,35 +1061,68 @@ Partial Class admin_dashboard
         Me.time_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.time_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'username_label
+        'BunifuButton10
         '
-        Me.username_label.AutoEllipsis = False
-        Me.username_label.CursorType = Nothing
-        Me.username_label.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.username_label.ForeColor = System.Drawing.Color.DimGray
-        Me.username_label.Location = New System.Drawing.Point(136, 25)
-        Me.username_label.Name = "username_label"
-        Me.username_label.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.username_label.Size = New System.Drawing.Size(82, 39)
-        Me.username_label.TabIndex = 1
-        Me.username_label.Text = "ADMIN!"
-        Me.username_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.username_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'BunifuLabel1
-        '
-        Me.BunifuLabel1.AutoEllipsis = False
-        Me.BunifuLabel1.CursorType = Nothing
-        Me.BunifuLabel1.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuLabel1.ForeColor = System.Drawing.Color.DimGray
-        Me.BunifuLabel1.Location = New System.Drawing.Point(19, 25)
-        Me.BunifuLabel1.Name = "BunifuLabel1"
-        Me.BunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel1.Size = New System.Drawing.Size(111, 39)
-        Me.BunifuLabel1.TabIndex = 0
-        Me.BunifuLabel1.Text = "Welcome,"
-        Me.BunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.BunifuButton10.AllowToggling = False
+        Me.BunifuButton10.AnimationSpeed = 200
+        Me.BunifuButton10.AutoGenerateColors = False
+        Me.BunifuButton10.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuButton10.BackColor1 = System.Drawing.Color.Transparent
+        Me.BunifuButton10.BackgroundImage = CType(resources.GetObject("BunifuButton10.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuButton10.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.BunifuButton10.ButtonText = ""
+        Me.BunifuButton10.ButtonTextMarginLeft = 0
+        Me.BunifuButton10.ColorContrastOnClick = 45
+        Me.BunifuButton10.ColorContrastOnHover = 45
+        Me.BunifuButton10.Cursor = System.Windows.Forms.Cursors.Arrow
+        BorderEdges10.BottomLeft = True
+        BorderEdges10.BottomRight = True
+        BorderEdges10.TopLeft = True
+        BorderEdges10.TopRight = True
+        Me.BunifuButton10.CustomizableEdges = BorderEdges10
+        Me.BunifuButton10.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.BunifuButton10.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.BunifuButton10.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.BunifuButton10.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.BunifuButton10.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.BunifuButton10.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!)
+        Me.BunifuButton10.ForeColor = System.Drawing.Color.Transparent
+        Me.BunifuButton10.IconLeftCursor = System.Windows.Forms.Cursors.Arrow
+        Me.BunifuButton10.IconMarginLeft = 11
+        Me.BunifuButton10.IconPadding = 10
+        Me.BunifuButton10.IconRightCursor = System.Windows.Forms.Cursors.Arrow
+        Me.BunifuButton10.IdleBorderColor = System.Drawing.Color.SaddleBrown
+        Me.BunifuButton10.IdleBorderRadius = 25
+        Me.BunifuButton10.IdleBorderThickness = 1
+        Me.BunifuButton10.IdleFillColor = System.Drawing.Color.Transparent
+        Me.BunifuButton10.IdleIconLeftImage = Nothing
+        Me.BunifuButton10.IdleIconRightImage = Nothing
+        Me.BunifuButton10.IndicateFocus = False
+        Me.BunifuButton10.Location = New System.Drawing.Point(7, 4)
+        Me.BunifuButton10.Name = "BunifuButton10"
+        StateProperties19.BorderColor = System.Drawing.Color.SaddleBrown
+        StateProperties19.BorderRadius = 25
+        StateProperties19.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties19.BorderThickness = 1
+        StateProperties19.FillColor = System.Drawing.Color.Transparent
+        StateProperties19.ForeColor = System.Drawing.Color.White
+        StateProperties19.IconLeftImage = Nothing
+        StateProperties19.IconRightImage = Nothing
+        Me.BunifuButton10.onHoverState = StateProperties19
+        StateProperties20.BorderColor = System.Drawing.Color.SaddleBrown
+        StateProperties20.BorderRadius = 25
+        StateProperties20.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties20.BorderThickness = 1
+        StateProperties20.FillColor = System.Drawing.Color.Transparent
+        StateProperties20.ForeColor = System.Drawing.Color.Transparent
+        StateProperties20.IconLeftImage = Nothing
+        StateProperties20.IconRightImage = Nothing
+        Me.BunifuButton10.OnPressedState = StateProperties20
+        Me.BunifuButton10.Size = New System.Drawing.Size(363, 71)
+        Me.BunifuButton10.TabIndex = 56
+        Me.BunifuButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuButton10.TextMarginLeft = 0
+        Me.BunifuButton10.UseDefaultRadiusAndThickness = True
         '
         'admin_pages
         '
@@ -1006,10 +1140,10 @@ Partial Class admin_dashboard
         Me.admin_pages.Location = New System.Drawing.Point(212, 84)
         Me.admin_pages.Multiline = True
         Me.admin_pages.Name = "admin_pages"
-        Me.admin_pages.Page = Me.TabPage5
-        Me.admin_pages.PageIndex = 4
-        Me.admin_pages.PageName = "TabPage5"
-        Me.admin_pages.PageTitle = "appointment"
+        Me.admin_pages.Page = Me.TabPage7
+        Me.admin_pages.PageIndex = 6
+        Me.admin_pages.PageName = "TabPage7"
+        Me.admin_pages.PageTitle = "direct_services"
         Me.admin_pages.SelectedIndex = 0
         Me.admin_pages.Size = New System.Drawing.Size(844, 534)
         Me.admin_pages.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
@@ -1036,9 +1170,9 @@ Partial Class admin_dashboard
         '
         Me.TabPage1.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.TabPage1.Controls.Add(Me.appt_label2)
-        Me.TabPage1.Controls.Add(Me.BunifuLabel7)
+        Me.TabPage1.Controls.Add(Me.lf_label2)
         Me.TabPage1.Controls.Add(Me.appt_label)
-        Me.TabPage1.Controls.Add(Me.BunifuLabel5)
+        Me.TabPage1.Controls.Add(Me.lf_label)
         Me.TabPage1.Controls.Add(Me.PictureBox3)
         Me.TabPage1.Controls.Add(Me.PictureBox2)
         Me.TabPage1.Location = New System.Drawing.Point(4, 4)
@@ -1063,20 +1197,20 @@ Partial Class admin_dashboard
         Me.appt_label2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.appt_label2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'BunifuLabel7
+        'lf_label2
         '
-        Me.BunifuLabel7.AutoEllipsis = False
-        Me.BunifuLabel7.CursorType = Nothing
-        Me.BunifuLabel7.Font = New System.Drawing.Font("Poppins ExtraBold", 20.25!, System.Drawing.FontStyle.Bold)
-        Me.BunifuLabel7.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.BunifuLabel7.Location = New System.Drawing.Point(102, 365)
-        Me.BunifuLabel7.Name = "BunifuLabel7"
-        Me.BunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel7.Size = New System.Drawing.Size(251, 50)
-        Me.BunifuLabel7.TabIndex = 10
-        Me.BunifuLabel7.Text = "ACTIVE LIFE PLANS"
-        Me.BunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.lf_label2.AutoEllipsis = False
+        Me.lf_label2.CursorType = Nothing
+        Me.lf_label2.Font = New System.Drawing.Font("Poppins ExtraBold", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.lf_label2.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.lf_label2.Location = New System.Drawing.Point(102, 365)
+        Me.lf_label2.Name = "lf_label2"
+        Me.lf_label2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.lf_label2.Size = New System.Drawing.Size(234, 50)
+        Me.lf_label2.TabIndex = 10
+        Me.lf_label2.Text = "ACTIVE LIFE PLAN"
+        Me.lf_label2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.lf_label2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'appt_label
         '
@@ -1093,20 +1227,20 @@ Partial Class admin_dashboard
         Me.appt_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.appt_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'BunifuLabel5
+        'lf_label
         '
-        Me.BunifuLabel5.AutoEllipsis = False
-        Me.BunifuLabel5.CursorType = Nothing
-        Me.BunifuLabel5.Font = New System.Drawing.Font("Poppins Black", 48.0!, System.Drawing.FontStyle.Bold)
-        Me.BunifuLabel5.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.BunifuLabel5.Location = New System.Drawing.Point(191, 288)
-        Me.BunifuLabel5.Name = "BunifuLabel5"
-        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel5.Size = New System.Drawing.Size(71, 115)
-        Me.BunifuLabel5.TabIndex = 10
-        Me.BunifuLabel5.Text = "10"
-        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.lf_label.AutoEllipsis = False
+        Me.lf_label.CursorType = Nothing
+        Me.lf_label.Font = New System.Drawing.Font("Poppins Black", 48.0!, System.Drawing.FontStyle.Bold)
+        Me.lf_label.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.lf_label.Location = New System.Drawing.Point(200, 288)
+        Me.lf_label.Name = "lf_label"
+        Me.lf_label.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.lf_label.Size = New System.Drawing.Size(45, 115)
+        Me.lf_label.TabIndex = 10
+        Me.lf_label.Text = "0"
+        Me.lf_label.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.lf_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'PictureBox3
         '
@@ -1212,11 +1346,11 @@ Partial Class admin_dashboard
         Me.ds_packagesBTN.ColorContrastOnClick = 45
         Me.ds_packagesBTN.ColorContrastOnHover = 45
         Me.ds_packagesBTN.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges10.BottomLeft = True
-        BorderEdges10.BottomRight = True
-        BorderEdges10.TopLeft = True
-        BorderEdges10.TopRight = True
-        Me.ds_packagesBTN.CustomizableEdges = BorderEdges10
+        BorderEdges11.BottomLeft = True
+        BorderEdges11.BottomRight = True
+        BorderEdges11.TopLeft = True
+        BorderEdges11.TopRight = True
+        Me.ds_packagesBTN.CustomizableEdges = BorderEdges11
         Me.ds_packagesBTN.DialogResult = System.Windows.Forms.DialogResult.None
         Me.ds_packagesBTN.DisabledBorderColor = System.Drawing.Color.Empty
         Me.ds_packagesBTN.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1237,24 +1371,24 @@ Partial Class admin_dashboard
         Me.ds_packagesBTN.IndicateFocus = False
         Me.ds_packagesBTN.Location = New System.Drawing.Point(95, 336)
         Me.ds_packagesBTN.Name = "ds_packagesBTN"
-        StateProperties19.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties19.BorderRadius = 40
-        StateProperties19.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties19.BorderThickness = 1
-        StateProperties19.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties19.ForeColor = System.Drawing.Color.White
-        StateProperties19.IconLeftImage = Nothing
-        StateProperties19.IconRightImage = Nothing
-        Me.ds_packagesBTN.onHoverState = StateProperties19
-        StateProperties20.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties20.BorderRadius = 40
-        StateProperties20.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties20.BorderThickness = 1
-        StateProperties20.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties20.ForeColor = System.Drawing.Color.White
-        StateProperties20.IconLeftImage = Nothing
-        StateProperties20.IconRightImage = Nothing
-        Me.ds_packagesBTN.OnPressedState = StateProperties20
+        StateProperties21.BorderColor = System.Drawing.Color.Peru
+        StateProperties21.BorderRadius = 40
+        StateProperties21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties21.BorderThickness = 1
+        StateProperties21.FillColor = System.Drawing.Color.Peru
+        StateProperties21.ForeColor = System.Drawing.Color.White
+        StateProperties21.IconLeftImage = Nothing
+        StateProperties21.IconRightImage = Nothing
+        Me.ds_packagesBTN.onHoverState = StateProperties21
+        StateProperties22.BorderColor = System.Drawing.Color.Peru
+        StateProperties22.BorderRadius = 40
+        StateProperties22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties22.BorderThickness = 1
+        StateProperties22.FillColor = System.Drawing.Color.Peru
+        StateProperties22.ForeColor = System.Drawing.Color.White
+        StateProperties22.IconLeftImage = Nothing
+        StateProperties22.IconRightImage = Nothing
+        Me.ds_packagesBTN.OnPressedState = StateProperties22
         Me.ds_packagesBTN.Size = New System.Drawing.Size(209, 45)
         Me.ds_packagesBTN.TabIndex = 12
         Me.ds_packagesBTN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1292,11 +1426,11 @@ Partial Class admin_dashboard
         Me.lp_packages.ColorContrastOnClick = 45
         Me.lp_packages.ColorContrastOnHover = 45
         Me.lp_packages.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges11.BottomLeft = True
-        BorderEdges11.BottomRight = True
-        BorderEdges11.TopLeft = True
-        BorderEdges11.TopRight = True
-        Me.lp_packages.CustomizableEdges = BorderEdges11
+        BorderEdges12.BottomLeft = True
+        BorderEdges12.BottomRight = True
+        BorderEdges12.TopLeft = True
+        BorderEdges12.TopRight = True
+        Me.lp_packages.CustomizableEdges = BorderEdges12
         Me.lp_packages.DialogResult = System.Windows.Forms.DialogResult.None
         Me.lp_packages.DisabledBorderColor = System.Drawing.Color.Empty
         Me.lp_packages.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1317,24 +1451,24 @@ Partial Class admin_dashboard
         Me.lp_packages.IndicateFocus = False
         Me.lp_packages.Location = New System.Drawing.Point(95, 336)
         Me.lp_packages.Name = "lp_packages"
-        StateProperties21.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties21.BorderRadius = 40
-        StateProperties21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties21.BorderThickness = 1
-        StateProperties21.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties21.ForeColor = System.Drawing.Color.White
-        StateProperties21.IconLeftImage = Nothing
-        StateProperties21.IconRightImage = Nothing
-        Me.lp_packages.onHoverState = StateProperties21
-        StateProperties22.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties22.BorderRadius = 40
-        StateProperties22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties22.BorderThickness = 1
-        StateProperties22.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties22.ForeColor = System.Drawing.Color.White
-        StateProperties22.IconLeftImage = Nothing
-        StateProperties22.IconRightImage = Nothing
-        Me.lp_packages.OnPressedState = StateProperties22
+        StateProperties23.BorderColor = System.Drawing.Color.Peru
+        StateProperties23.BorderRadius = 40
+        StateProperties23.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties23.BorderThickness = 1
+        StateProperties23.FillColor = System.Drawing.Color.Peru
+        StateProperties23.ForeColor = System.Drawing.Color.White
+        StateProperties23.IconLeftImage = Nothing
+        StateProperties23.IconRightImage = Nothing
+        Me.lp_packages.onHoverState = StateProperties23
+        StateProperties24.BorderColor = System.Drawing.Color.Peru
+        StateProperties24.BorderRadius = 40
+        StateProperties24.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties24.BorderThickness = 1
+        StateProperties24.FillColor = System.Drawing.Color.Peru
+        StateProperties24.ForeColor = System.Drawing.Color.White
+        StateProperties24.IconLeftImage = Nothing
+        StateProperties24.IconRightImage = Nothing
+        Me.lp_packages.OnPressedState = StateProperties24
         Me.lp_packages.Size = New System.Drawing.Size(209, 45)
         Me.lp_packages.TabIndex = 9
         Me.lp_packages.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1483,11 +1617,11 @@ Partial Class admin_dashboard
         Me.archived_data.ColorContrastOnClick = 45
         Me.archived_data.ColorContrastOnHover = 45
         Me.archived_data.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges12.BottomLeft = True
-        BorderEdges12.BottomRight = True
-        BorderEdges12.TopLeft = True
-        BorderEdges12.TopRight = True
-        Me.archived_data.CustomizableEdges = BorderEdges12
+        BorderEdges13.BottomLeft = True
+        BorderEdges13.BottomRight = True
+        BorderEdges13.TopLeft = True
+        BorderEdges13.TopRight = True
+        Me.archived_data.CustomizableEdges = BorderEdges13
         Me.archived_data.DialogResult = System.Windows.Forms.DialogResult.None
         Me.archived_data.DisabledBorderColor = System.Drawing.Color.Empty
         Me.archived_data.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1508,24 +1642,24 @@ Partial Class admin_dashboard
         Me.archived_data.IndicateFocus = False
         Me.archived_data.Location = New System.Drawing.Point(751, 403)
         Me.archived_data.Name = "archived_data"
-        StateProperties23.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties23.BorderRadius = 3
-        StateProperties23.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties23.BorderThickness = 1
-        StateProperties23.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties23.ForeColor = System.Drawing.Color.White
-        StateProperties23.IconLeftImage = Nothing
-        StateProperties23.IconRightImage = Nothing
-        Me.archived_data.onHoverState = StateProperties23
-        StateProperties24.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties24.BorderRadius = 3
-        StateProperties24.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties24.BorderThickness = 1
-        StateProperties24.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties24.ForeColor = System.Drawing.Color.White
-        StateProperties24.IconLeftImage = Nothing
-        StateProperties24.IconRightImage = Nothing
-        Me.archived_data.OnPressedState = StateProperties24
+        StateProperties25.BorderColor = System.Drawing.Color.Peru
+        StateProperties25.BorderRadius = 3
+        StateProperties25.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties25.BorderThickness = 1
+        StateProperties25.FillColor = System.Drawing.Color.Peru
+        StateProperties25.ForeColor = System.Drawing.Color.White
+        StateProperties25.IconLeftImage = Nothing
+        StateProperties25.IconRightImage = Nothing
+        Me.archived_data.onHoverState = StateProperties25
+        StateProperties26.BorderColor = System.Drawing.Color.Peru
+        StateProperties26.BorderRadius = 3
+        StateProperties26.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties26.BorderThickness = 1
+        StateProperties26.FillColor = System.Drawing.Color.Peru
+        StateProperties26.ForeColor = System.Drawing.Color.White
+        StateProperties26.IconLeftImage = Nothing
+        StateProperties26.IconRightImage = Nothing
+        Me.archived_data.OnPressedState = StateProperties26
         Me.archived_data.Size = New System.Drawing.Size(62, 62)
         Me.archived_data.TabIndex = 10
         Me.archived_data.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1565,26 +1699,26 @@ Partial Class admin_dashboard
         Me.search_staff.Modified = False
         Me.search_staff.Multiline = False
         Me.search_staff.Name = "search_staff"
-        StateProperties25.BorderColor = System.Drawing.Color.DodgerBlue
-        StateProperties25.FillColor = System.Drawing.Color.Empty
-        StateProperties25.ForeColor = System.Drawing.Color.Empty
-        StateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.search_staff.OnActiveState = StateProperties25
-        StateProperties26.BorderColor = System.Drawing.Color.Empty
-        StateProperties26.FillColor = System.Drawing.Color.White
-        StateProperties26.ForeColor = System.Drawing.Color.Empty
-        StateProperties26.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.search_staff.OnDisabledState = StateProperties26
-        StateProperties27.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        StateProperties27.BorderColor = System.Drawing.Color.Peru
         StateProperties27.FillColor = System.Drawing.Color.Empty
         StateProperties27.ForeColor = System.Drawing.Color.Empty
         StateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.search_staff.OnHoverState = StateProperties27
-        StateProperties28.BorderColor = System.Drawing.Color.Silver
+        Me.search_staff.OnActiveState = StateProperties27
+        StateProperties28.BorderColor = System.Drawing.Color.Empty
         StateProperties28.FillColor = System.Drawing.Color.White
         StateProperties28.ForeColor = System.Drawing.Color.Empty
-        StateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.search_staff.OnIdleState = StateProperties28
+        StateProperties28.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_staff.OnDisabledState = StateProperties28
+        StateProperties29.BorderColor = System.Drawing.Color.Peru
+        StateProperties29.FillColor = System.Drawing.Color.Empty
+        StateProperties29.ForeColor = System.Drawing.Color.Empty
+        StateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_staff.OnHoverState = StateProperties29
+        StateProperties30.BorderColor = System.Drawing.Color.Silver
+        StateProperties30.FillColor = System.Drawing.Color.White
+        StateProperties30.ForeColor = System.Drawing.Color.Empty
+        StateProperties30.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_staff.OnIdleState = StateProperties30
         Me.search_staff.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.search_staff.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.search_staff.PlaceholderText = "SEARCH"
@@ -1619,11 +1753,11 @@ Partial Class admin_dashboard
         Me.staff_archivebtn.ColorContrastOnClick = 45
         Me.staff_archivebtn.ColorContrastOnHover = 45
         Me.staff_archivebtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges13.BottomLeft = True
-        BorderEdges13.BottomRight = True
-        BorderEdges13.TopLeft = True
-        BorderEdges13.TopRight = True
-        Me.staff_archivebtn.CustomizableEdges = BorderEdges13
+        BorderEdges14.BottomLeft = True
+        BorderEdges14.BottomRight = True
+        BorderEdges14.TopLeft = True
+        BorderEdges14.TopRight = True
+        Me.staff_archivebtn.CustomizableEdges = BorderEdges14
         Me.staff_archivebtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.staff_archivebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.staff_archivebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1644,24 +1778,24 @@ Partial Class admin_dashboard
         Me.staff_archivebtn.IndicateFocus = False
         Me.staff_archivebtn.Location = New System.Drawing.Point(331, 420)
         Me.staff_archivebtn.Name = "staff_archivebtn"
-        StateProperties29.BorderColor = System.Drawing.Color.Peru
-        StateProperties29.BorderRadius = 25
-        StateProperties29.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties29.BorderThickness = 1
-        StateProperties29.FillColor = System.Drawing.Color.Peru
-        StateProperties29.ForeColor = System.Drawing.Color.White
-        StateProperties29.IconLeftImage = Nothing
-        StateProperties29.IconRightImage = Nothing
-        Me.staff_archivebtn.onHoverState = StateProperties29
-        StateProperties30.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties30.BorderRadius = 25
-        StateProperties30.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties30.BorderThickness = 1
-        StateProperties30.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties30.ForeColor = System.Drawing.Color.White
-        StateProperties30.IconLeftImage = Nothing
-        StateProperties30.IconRightImage = Nothing
-        Me.staff_archivebtn.OnPressedState = StateProperties30
+        StateProperties31.BorderColor = System.Drawing.Color.Peru
+        StateProperties31.BorderRadius = 25
+        StateProperties31.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties31.BorderThickness = 1
+        StateProperties31.FillColor = System.Drawing.Color.Peru
+        StateProperties31.ForeColor = System.Drawing.Color.White
+        StateProperties31.IconLeftImage = Nothing
+        StateProperties31.IconRightImage = Nothing
+        Me.staff_archivebtn.onHoverState = StateProperties31
+        StateProperties32.BorderColor = System.Drawing.Color.Peru
+        StateProperties32.BorderRadius = 25
+        StateProperties32.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties32.BorderThickness = 1
+        StateProperties32.FillColor = System.Drawing.Color.Peru
+        StateProperties32.ForeColor = System.Drawing.Color.White
+        StateProperties32.IconLeftImage = Nothing
+        StateProperties32.IconRightImage = Nothing
+        Me.staff_archivebtn.OnPressedState = StateProperties32
         Me.staff_archivebtn.Size = New System.Drawing.Size(149, 45)
         Me.staff_archivebtn.TabIndex = 12
         Me.staff_archivebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1682,11 +1816,11 @@ Partial Class admin_dashboard
         Me.staff_updatebtn.ColorContrastOnClick = 45
         Me.staff_updatebtn.ColorContrastOnHover = 45
         Me.staff_updatebtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges14.BottomLeft = True
-        BorderEdges14.BottomRight = True
-        BorderEdges14.TopLeft = True
-        BorderEdges14.TopRight = True
-        Me.staff_updatebtn.CustomizableEdges = BorderEdges14
+        BorderEdges15.BottomLeft = True
+        BorderEdges15.BottomRight = True
+        BorderEdges15.TopLeft = True
+        BorderEdges15.TopRight = True
+        Me.staff_updatebtn.CustomizableEdges = BorderEdges15
         Me.staff_updatebtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.staff_updatebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.staff_updatebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1707,24 +1841,24 @@ Partial Class admin_dashboard
         Me.staff_updatebtn.IndicateFocus = False
         Me.staff_updatebtn.Location = New System.Drawing.Point(176, 420)
         Me.staff_updatebtn.Name = "staff_updatebtn"
-        StateProperties31.BorderColor = System.Drawing.Color.Peru
-        StateProperties31.BorderRadius = 25
-        StateProperties31.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties31.BorderThickness = 1
-        StateProperties31.FillColor = System.Drawing.Color.Peru
-        StateProperties31.ForeColor = System.Drawing.Color.White
-        StateProperties31.IconLeftImage = Nothing
-        StateProperties31.IconRightImage = Nothing
-        Me.staff_updatebtn.onHoverState = StateProperties31
-        StateProperties32.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties32.BorderRadius = 25
-        StateProperties32.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties32.BorderThickness = 1
-        StateProperties32.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties32.ForeColor = System.Drawing.Color.White
-        StateProperties32.IconLeftImage = Nothing
-        StateProperties32.IconRightImage = Nothing
-        Me.staff_updatebtn.OnPressedState = StateProperties32
+        StateProperties33.BorderColor = System.Drawing.Color.Peru
+        StateProperties33.BorderRadius = 25
+        StateProperties33.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties33.BorderThickness = 1
+        StateProperties33.FillColor = System.Drawing.Color.Peru
+        StateProperties33.ForeColor = System.Drawing.Color.White
+        StateProperties33.IconLeftImage = Nothing
+        StateProperties33.IconRightImage = Nothing
+        Me.staff_updatebtn.onHoverState = StateProperties33
+        StateProperties34.BorderColor = System.Drawing.Color.Peru
+        StateProperties34.BorderRadius = 25
+        StateProperties34.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties34.BorderThickness = 1
+        StateProperties34.FillColor = System.Drawing.Color.Peru
+        StateProperties34.ForeColor = System.Drawing.Color.White
+        StateProperties34.IconLeftImage = Nothing
+        StateProperties34.IconRightImage = Nothing
+        Me.staff_updatebtn.OnPressedState = StateProperties34
         Me.staff_updatebtn.Size = New System.Drawing.Size(149, 45)
         Me.staff_updatebtn.TabIndex = 11
         Me.staff_updatebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1745,11 +1879,11 @@ Partial Class admin_dashboard
         Me.addstaff_btn.ColorContrastOnClick = 45
         Me.addstaff_btn.ColorContrastOnHover = 45
         Me.addstaff_btn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges15.BottomLeft = True
-        BorderEdges15.BottomRight = True
-        BorderEdges15.TopLeft = True
-        BorderEdges15.TopRight = True
-        Me.addstaff_btn.CustomizableEdges = BorderEdges15
+        BorderEdges16.BottomLeft = True
+        BorderEdges16.BottomRight = True
+        BorderEdges16.TopLeft = True
+        BorderEdges16.TopRight = True
+        Me.addstaff_btn.CustomizableEdges = BorderEdges16
         Me.addstaff_btn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.addstaff_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.addstaff_btn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1770,24 +1904,24 @@ Partial Class admin_dashboard
         Me.addstaff_btn.IndicateFocus = False
         Me.addstaff_btn.Location = New System.Drawing.Point(21, 420)
         Me.addstaff_btn.Name = "addstaff_btn"
-        StateProperties33.BorderColor = System.Drawing.Color.Peru
-        StateProperties33.BorderRadius = 25
-        StateProperties33.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties33.BorderThickness = 1
-        StateProperties33.FillColor = System.Drawing.Color.Peru
-        StateProperties33.ForeColor = System.Drawing.Color.White
-        StateProperties33.IconLeftImage = Nothing
-        StateProperties33.IconRightImage = Nothing
-        Me.addstaff_btn.onHoverState = StateProperties33
-        StateProperties34.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties34.BorderRadius = 25
-        StateProperties34.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties34.BorderThickness = 1
-        StateProperties34.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties34.ForeColor = System.Drawing.Color.White
-        StateProperties34.IconLeftImage = Nothing
-        StateProperties34.IconRightImage = Nothing
-        Me.addstaff_btn.OnPressedState = StateProperties34
+        StateProperties35.BorderColor = System.Drawing.Color.Peru
+        StateProperties35.BorderRadius = 25
+        StateProperties35.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties35.BorderThickness = 1
+        StateProperties35.FillColor = System.Drawing.Color.Peru
+        StateProperties35.ForeColor = System.Drawing.Color.White
+        StateProperties35.IconLeftImage = Nothing
+        StateProperties35.IconRightImage = Nothing
+        Me.addstaff_btn.onHoverState = StateProperties35
+        StateProperties36.BorderColor = System.Drawing.Color.Peru
+        StateProperties36.BorderRadius = 25
+        StateProperties36.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties36.BorderThickness = 1
+        StateProperties36.FillColor = System.Drawing.Color.Peru
+        StateProperties36.ForeColor = System.Drawing.Color.White
+        StateProperties36.IconLeftImage = Nothing
+        StateProperties36.IconRightImage = Nothing
+        Me.addstaff_btn.OnPressedState = StateProperties36
         Me.addstaff_btn.Size = New System.Drawing.Size(149, 45)
         Me.addstaff_btn.TabIndex = 10
         Me.addstaff_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1797,6 +1931,10 @@ Partial Class admin_dashboard
         'TabPage4
         '
         Me.TabPage4.BackColor = System.Drawing.Color.BlanchedAlmond
+        Me.TabPage4.Controls.Add(Me.EC_pass)
+        Me.TabPage4.Controls.Add(Me.EC_user)
+        Me.TabPage4.Controls.Add(Me.EO_pass)
+        Me.TabPage4.Controls.Add(Me.EO_user)
         Me.TabPage4.Controls.Add(Me.admin_rfid1)
         Me.TabPage4.Controls.Add(Me.admin_gender)
         Me.TabPage4.Controls.Add(Me.BunifuLabel21)
@@ -1821,6 +1959,52 @@ Partial Class admin_dashboard
         Me.TabPage4.Size = New System.Drawing.Size(836, 493)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "admin_profile"
+        '
+        'EC_pass
+        '
+        Me.EC_pass.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.EC_pass.Image = Global.ELYSIUM_FMS.My.Resources.Resources.eye_closed
+        Me.EC_pass.Location = New System.Drawing.Point(480, 216)
+        Me.EC_pass.Name = "EC_pass"
+        Me.EC_pass.Size = New System.Drawing.Size(37, 35)
+        Me.EC_pass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.EC_pass.TabIndex = 62
+        Me.EC_pass.TabStop = False
+        '
+        'EC_user
+        '
+        Me.EC_user.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.EC_user.Image = Global.ELYSIUM_FMS.My.Resources.Resources.eye_closed
+        Me.EC_user.Location = New System.Drawing.Point(480, 170)
+        Me.EC_user.Name = "EC_user"
+        Me.EC_user.Size = New System.Drawing.Size(37, 35)
+        Me.EC_user.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.EC_user.TabIndex = 61
+        Me.EC_user.TabStop = False
+        '
+        'EO_pass
+        '
+        Me.EO_pass.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.EO_pass.Image = Global.ELYSIUM_FMS.My.Resources.Resources.eye
+        Me.EO_pass.Location = New System.Drawing.Point(480, 216)
+        Me.EO_pass.Name = "EO_pass"
+        Me.EO_pass.Size = New System.Drawing.Size(37, 35)
+        Me.EO_pass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.EO_pass.TabIndex = 60
+        Me.EO_pass.TabStop = False
+        Me.EO_pass.Visible = False
+        '
+        'EO_user
+        '
+        Me.EO_user.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.EO_user.Image = Global.ELYSIUM_FMS.My.Resources.Resources.eye
+        Me.EO_user.Location = New System.Drawing.Point(480, 170)
+        Me.EO_user.Name = "EO_user"
+        Me.EO_user.Size = New System.Drawing.Size(37, 35)
+        Me.EO_user.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.EO_user.TabIndex = 59
+        Me.EO_user.TabStop = False
+        Me.EO_user.Visible = False
         '
         'admin_rfid1
         '
@@ -1855,26 +2039,26 @@ Partial Class admin_dashboard
         Me.admin_rfid1.Modified = False
         Me.admin_rfid1.Multiline = False
         Me.admin_rfid1.Name = "admin_rfid1"
-        StateProperties35.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties35.FillColor = System.Drawing.Color.Empty
-        StateProperties35.ForeColor = System.Drawing.Color.Empty
-        StateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_rfid1.OnActiveState = StateProperties35
-        StateProperties36.BorderColor = System.Drawing.Color.Empty
-        StateProperties36.FillColor = System.Drawing.Color.White
-        StateProperties36.ForeColor = System.Drawing.Color.Empty
-        StateProperties36.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_rfid1.OnDisabledState = StateProperties36
-        StateProperties37.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties37.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties37.FillColor = System.Drawing.Color.Empty
         StateProperties37.ForeColor = System.Drawing.Color.Empty
         StateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_rfid1.OnHoverState = StateProperties37
-        StateProperties38.BorderColor = System.Drawing.Color.Silver
+        Me.admin_rfid1.OnActiveState = StateProperties37
+        StateProperties38.BorderColor = System.Drawing.Color.Empty
         StateProperties38.FillColor = System.Drawing.Color.White
         StateProperties38.ForeColor = System.Drawing.Color.Empty
-        StateProperties38.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_rfid1.OnIdleState = StateProperties38
+        StateProperties38.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_rfid1.OnDisabledState = StateProperties38
+        StateProperties39.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties39.FillColor = System.Drawing.Color.Empty
+        StateProperties39.ForeColor = System.Drawing.Color.Empty
+        StateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_rfid1.OnHoverState = StateProperties39
+        StateProperties40.BorderColor = System.Drawing.Color.Silver
+        StateProperties40.FillColor = System.Drawing.Color.White
+        StateProperties40.ForeColor = System.Drawing.Color.Empty
+        StateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_rfid1.OnIdleState = StateProperties40
         Me.admin_rfid1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admin_rfid1.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_rfid1.PlaceholderText = ""
@@ -2094,26 +2278,26 @@ Partial Class admin_dashboard
         Me.admin_age.Modified = False
         Me.admin_age.Multiline = False
         Me.admin_age.Name = "admin_age"
-        StateProperties39.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties39.FillColor = System.Drawing.Color.Empty
-        StateProperties39.ForeColor = System.Drawing.Color.Empty
-        StateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_age.OnActiveState = StateProperties39
-        StateProperties40.BorderColor = System.Drawing.Color.Empty
-        StateProperties40.FillColor = System.Drawing.Color.White
-        StateProperties40.ForeColor = System.Drawing.Color.Empty
-        StateProperties40.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_age.OnDisabledState = StateProperties40
-        StateProperties41.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties41.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties41.FillColor = System.Drawing.Color.Empty
         StateProperties41.ForeColor = System.Drawing.Color.Empty
         StateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_age.OnHoverState = StateProperties41
-        StateProperties42.BorderColor = System.Drawing.Color.Silver
+        Me.admin_age.OnActiveState = StateProperties41
+        StateProperties42.BorderColor = System.Drawing.Color.Empty
         StateProperties42.FillColor = System.Drawing.Color.White
         StateProperties42.ForeColor = System.Drawing.Color.Empty
-        StateProperties42.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_age.OnIdleState = StateProperties42
+        StateProperties42.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_age.OnDisabledState = StateProperties42
+        StateProperties43.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties43.FillColor = System.Drawing.Color.Empty
+        StateProperties43.ForeColor = System.Drawing.Color.Empty
+        StateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_age.OnHoverState = StateProperties43
+        StateProperties44.BorderColor = System.Drawing.Color.Silver
+        StateProperties44.FillColor = System.Drawing.Color.White
+        StateProperties44.ForeColor = System.Drawing.Color.Empty
+        StateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_age.OnIdleState = StateProperties44
         Me.admin_age.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admin_age.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_age.PlaceholderText = ""
@@ -2167,26 +2351,26 @@ Partial Class admin_dashboard
         Me.admin_email.Modified = False
         Me.admin_email.Multiline = False
         Me.admin_email.Name = "admin_email"
-        StateProperties43.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties43.FillColor = System.Drawing.Color.Empty
-        StateProperties43.ForeColor = System.Drawing.Color.Empty
-        StateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_email.OnActiveState = StateProperties43
-        StateProperties44.BorderColor = System.Drawing.Color.Empty
-        StateProperties44.FillColor = System.Drawing.Color.White
-        StateProperties44.ForeColor = System.Drawing.Color.Empty
-        StateProperties44.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_email.OnDisabledState = StateProperties44
-        StateProperties45.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties45.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties45.FillColor = System.Drawing.Color.Empty
         StateProperties45.ForeColor = System.Drawing.Color.Empty
         StateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_email.OnHoverState = StateProperties45
-        StateProperties46.BorderColor = System.Drawing.Color.Silver
+        Me.admin_email.OnActiveState = StateProperties45
+        StateProperties46.BorderColor = System.Drawing.Color.Empty
         StateProperties46.FillColor = System.Drawing.Color.White
         StateProperties46.ForeColor = System.Drawing.Color.Empty
-        StateProperties46.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_email.OnIdleState = StateProperties46
+        StateProperties46.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_email.OnDisabledState = StateProperties46
+        StateProperties47.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties47.FillColor = System.Drawing.Color.Empty
+        StateProperties47.ForeColor = System.Drawing.Color.Empty
+        StateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_email.OnHoverState = StateProperties47
+        StateProperties48.BorderColor = System.Drawing.Color.Silver
+        StateProperties48.FillColor = System.Drawing.Color.White
+        StateProperties48.ForeColor = System.Drawing.Color.Empty
+        StateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_email.OnIdleState = StateProperties48
         Me.admin_email.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admin_email.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_email.PlaceholderText = ""
@@ -2221,11 +2405,11 @@ Partial Class admin_dashboard
         Me.admin_updatebtn.ColorContrastOnClick = 45
         Me.admin_updatebtn.ColorContrastOnHover = 45
         Me.admin_updatebtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges16.BottomLeft = True
-        BorderEdges16.BottomRight = True
-        BorderEdges16.TopLeft = True
-        BorderEdges16.TopRight = True
-        Me.admin_updatebtn.CustomizableEdges = BorderEdges16
+        BorderEdges17.BottomLeft = True
+        BorderEdges17.BottomRight = True
+        BorderEdges17.TopLeft = True
+        BorderEdges17.TopRight = True
+        Me.admin_updatebtn.CustomizableEdges = BorderEdges17
         Me.admin_updatebtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.admin_updatebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.admin_updatebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -2246,24 +2430,24 @@ Partial Class admin_dashboard
         Me.admin_updatebtn.IndicateFocus = False
         Me.admin_updatebtn.Location = New System.Drawing.Point(182, 403)
         Me.admin_updatebtn.Name = "admin_updatebtn"
-        StateProperties47.BorderColor = System.Drawing.Color.Peru
-        StateProperties47.BorderRadius = 25
-        StateProperties47.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties47.BorderThickness = 1
-        StateProperties47.FillColor = System.Drawing.Color.Peru
-        StateProperties47.ForeColor = System.Drawing.Color.White
-        StateProperties47.IconLeftImage = Nothing
-        StateProperties47.IconRightImage = Nothing
-        Me.admin_updatebtn.onHoverState = StateProperties47
-        StateProperties48.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties48.BorderRadius = 25
-        StateProperties48.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties48.BorderThickness = 1
-        StateProperties48.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties48.ForeColor = System.Drawing.Color.White
-        StateProperties48.IconLeftImage = Nothing
-        StateProperties48.IconRightImage = Nothing
-        Me.admin_updatebtn.OnPressedState = StateProperties48
+        StateProperties49.BorderColor = System.Drawing.Color.Peru
+        StateProperties49.BorderRadius = 25
+        StateProperties49.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties49.BorderThickness = 1
+        StateProperties49.FillColor = System.Drawing.Color.Peru
+        StateProperties49.ForeColor = System.Drawing.Color.White
+        StateProperties49.IconLeftImage = Nothing
+        StateProperties49.IconRightImage = Nothing
+        Me.admin_updatebtn.onHoverState = StateProperties49
+        StateProperties50.BorderColor = System.Drawing.Color.Peru
+        StateProperties50.BorderRadius = 25
+        StateProperties50.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties50.BorderThickness = 1
+        StateProperties50.FillColor = System.Drawing.Color.Peru
+        StateProperties50.ForeColor = System.Drawing.Color.White
+        StateProperties50.IconLeftImage = Nothing
+        StateProperties50.IconRightImage = Nothing
+        Me.admin_updatebtn.OnPressedState = StateProperties50
         Me.admin_updatebtn.Size = New System.Drawing.Size(181, 45)
         Me.admin_updatebtn.TabIndex = 38
         Me.admin_updatebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2303,26 +2487,26 @@ Partial Class admin_dashboard
         Me.admin_name1.Modified = False
         Me.admin_name1.Multiline = False
         Me.admin_name1.Name = "admin_name1"
-        StateProperties49.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties49.FillColor = System.Drawing.Color.Empty
-        StateProperties49.ForeColor = System.Drawing.Color.Empty
-        StateProperties49.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_name1.OnActiveState = StateProperties49
-        StateProperties50.BorderColor = System.Drawing.Color.Empty
-        StateProperties50.FillColor = System.Drawing.Color.White
-        StateProperties50.ForeColor = System.Drawing.Color.Empty
-        StateProperties50.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_name1.OnDisabledState = StateProperties50
-        StateProperties51.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties51.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties51.FillColor = System.Drawing.Color.Empty
         StateProperties51.ForeColor = System.Drawing.Color.Empty
         StateProperties51.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_name1.OnHoverState = StateProperties51
-        StateProperties52.BorderColor = System.Drawing.Color.Silver
+        Me.admin_name1.OnActiveState = StateProperties51
+        StateProperties52.BorderColor = System.Drawing.Color.Empty
         StateProperties52.FillColor = System.Drawing.Color.White
         StateProperties52.ForeColor = System.Drawing.Color.Empty
-        StateProperties52.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_name1.OnIdleState = StateProperties52
+        StateProperties52.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_name1.OnDisabledState = StateProperties52
+        StateProperties53.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties53.FillColor = System.Drawing.Color.Empty
+        StateProperties53.ForeColor = System.Drawing.Color.Empty
+        StateProperties53.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_name1.OnHoverState = StateProperties53
+        StateProperties54.BorderColor = System.Drawing.Color.Silver
+        StateProperties54.FillColor = System.Drawing.Color.White
+        StateProperties54.ForeColor = System.Drawing.Color.Empty
+        StateProperties54.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_name1.OnIdleState = StateProperties54
         Me.admin_name1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.admin_name1.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_name1.PlaceholderText = ""
@@ -2376,27 +2560,27 @@ Partial Class admin_dashboard
         Me.admin_pwd1.Modified = False
         Me.admin_pwd1.Multiline = False
         Me.admin_pwd1.Name = "admin_pwd1"
-        StateProperties53.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties53.FillColor = System.Drawing.Color.Empty
-        StateProperties53.ForeColor = System.Drawing.Color.Empty
-        StateProperties53.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_pwd1.OnActiveState = StateProperties53
-        StateProperties54.BorderColor = System.Drawing.Color.Empty
-        StateProperties54.FillColor = System.Drawing.Color.White
-        StateProperties54.ForeColor = System.Drawing.Color.Empty
-        StateProperties54.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_pwd1.OnDisabledState = StateProperties54
-        StateProperties55.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties55.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties55.FillColor = System.Drawing.Color.Empty
         StateProperties55.ForeColor = System.Drawing.Color.Empty
         StateProperties55.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_pwd1.OnHoverState = StateProperties55
-        StateProperties56.BorderColor = System.Drawing.Color.Silver
+        Me.admin_pwd1.OnActiveState = StateProperties55
+        StateProperties56.BorderColor = System.Drawing.Color.Empty
         StateProperties56.FillColor = System.Drawing.Color.White
         StateProperties56.ForeColor = System.Drawing.Color.Empty
-        StateProperties56.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_pwd1.OnIdleState = StateProperties56
-        Me.admin_pwd1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        StateProperties56.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_pwd1.OnDisabledState = StateProperties56
+        StateProperties57.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties57.FillColor = System.Drawing.Color.Empty
+        StateProperties57.ForeColor = System.Drawing.Color.Empty
+        StateProperties57.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_pwd1.OnHoverState = StateProperties57
+        StateProperties58.BorderColor = System.Drawing.Color.Silver
+        StateProperties58.FillColor = System.Drawing.Color.White
+        StateProperties58.ForeColor = System.Drawing.Color.Empty
+        StateProperties58.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_pwd1.OnIdleState = StateProperties58
+        Me.admin_pwd1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.admin_pwd1.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_pwd1.PlaceholderText = ""
         Me.admin_pwd1.ReadOnly = False
@@ -2449,27 +2633,27 @@ Partial Class admin_dashboard
         Me.admin_username1.Modified = False
         Me.admin_username1.Multiline = False
         Me.admin_username1.Name = "admin_username1"
-        StateProperties57.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties57.FillColor = System.Drawing.Color.Empty
-        StateProperties57.ForeColor = System.Drawing.Color.Empty
-        StateProperties57.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_username1.OnActiveState = StateProperties57
-        StateProperties58.BorderColor = System.Drawing.Color.Empty
-        StateProperties58.FillColor = System.Drawing.Color.White
-        StateProperties58.ForeColor = System.Drawing.Color.Empty
-        StateProperties58.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_username1.OnDisabledState = StateProperties58
-        StateProperties59.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties59.BorderColor = System.Drawing.Color.DarkGoldenrod
         StateProperties59.FillColor = System.Drawing.Color.Empty
         StateProperties59.ForeColor = System.Drawing.Color.Empty
         StateProperties59.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_username1.OnHoverState = StateProperties59
-        StateProperties60.BorderColor = System.Drawing.Color.Silver
+        Me.admin_username1.OnActiveState = StateProperties59
+        StateProperties60.BorderColor = System.Drawing.Color.Empty
         StateProperties60.FillColor = System.Drawing.Color.White
         StateProperties60.ForeColor = System.Drawing.Color.Empty
-        StateProperties60.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_username1.OnIdleState = StateProperties60
-        Me.admin_username1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        StateProperties60.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.admin_username1.OnDisabledState = StateProperties60
+        StateProperties61.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties61.FillColor = System.Drawing.Color.Empty
+        StateProperties61.ForeColor = System.Drawing.Color.Empty
+        StateProperties61.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_username1.OnHoverState = StateProperties61
+        StateProperties62.BorderColor = System.Drawing.Color.Silver
+        StateProperties62.FillColor = System.Drawing.Color.White
+        StateProperties62.ForeColor = System.Drawing.Color.Empty
+        StateProperties62.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.admin_username1.OnIdleState = StateProperties62
+        Me.admin_username1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.admin_username1.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.admin_username1.PlaceholderText = ""
         Me.admin_username1.ReadOnly = False
@@ -2507,19 +2691,83 @@ Partial Class admin_dashboard
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.BlanchedAlmond
+        Me.TabPage5.Controls.Add(Me.refresh_apptBTN)
         Me.TabPage5.Controls.Add(Me.appointment_dgv)
+        Me.TabPage5.Controls.Add(Me.BunifuLabel22)
         Me.TabPage5.Controls.Add(Me.appt_messagebtn)
         Me.TabPage5.Controls.Add(Me.appt_archived_data)
         Me.TabPage5.Controls.Add(Me.search_appointment)
         Me.TabPage5.Controls.Add(Me.appt_archivebtn)
         Me.TabPage5.Controls.Add(Me.appt_updatebtn)
-        Me.TabPage5.Controls.Add(Me.BunifuLabel22)
         Me.TabPage5.Location = New System.Drawing.Point(4, 4)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage5.Size = New System.Drawing.Size(836, 493)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "appointment"
+        '
+        'refresh_apptBTN
+        '
+        Me.refresh_apptBTN.AllowToggling = False
+        Me.refresh_apptBTN.AnimationSpeed = 200
+        Me.refresh_apptBTN.AutoGenerateColors = False
+        Me.refresh_apptBTN.BackColor = System.Drawing.Color.Transparent
+        Me.refresh_apptBTN.BackColor1 = System.Drawing.Color.BlanchedAlmond
+        Me.refresh_apptBTN.BackgroundImage = CType(resources.GetObject("refresh_apptBTN.BackgroundImage"), System.Drawing.Image)
+        Me.refresh_apptBTN.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.refresh_apptBTN.ButtonText = " "
+        Me.refresh_apptBTN.ButtonTextMarginLeft = 0
+        Me.refresh_apptBTN.ColorContrastOnClick = 45
+        Me.refresh_apptBTN.ColorContrastOnHover = 45
+        Me.refresh_apptBTN.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges18.BottomLeft = True
+        BorderEdges18.BottomRight = True
+        BorderEdges18.TopLeft = True
+        BorderEdges18.TopRight = True
+        Me.refresh_apptBTN.CustomizableEdges = BorderEdges18
+        Me.refresh_apptBTN.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.refresh_apptBTN.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.refresh_apptBTN.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.refresh_apptBTN.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.refresh_apptBTN.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.refresh_apptBTN.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.refresh_apptBTN.ForeColor = System.Drawing.Color.White
+        Me.refresh_apptBTN.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.refresh_apptBTN.IconMarginLeft = 11
+        Me.refresh_apptBTN.IconPadding = 10
+        Me.refresh_apptBTN.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.refresh_apptBTN.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
+        Me.refresh_apptBTN.IdleBorderRadius = 3
+        Me.refresh_apptBTN.IdleBorderThickness = 1
+        Me.refresh_apptBTN.IdleFillColor = System.Drawing.Color.BlanchedAlmond
+        Me.refresh_apptBTN.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.refresh
+        Me.refresh_apptBTN.IdleIconRightImage = Nothing
+        Me.refresh_apptBTN.IndicateFocus = False
+        Me.refresh_apptBTN.Location = New System.Drawing.Point(213, 14)
+        Me.refresh_apptBTN.Name = "refresh_apptBTN"
+        StateProperties63.BorderColor = System.Drawing.Color.Peru
+        StateProperties63.BorderRadius = 3
+        StateProperties63.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties63.BorderThickness = 1
+        StateProperties63.FillColor = System.Drawing.Color.Peru
+        StateProperties63.ForeColor = System.Drawing.Color.White
+        StateProperties63.IconLeftImage = Nothing
+        StateProperties63.IconRightImage = Nothing
+        Me.refresh_apptBTN.onHoverState = StateProperties63
+        StateProperties64.BorderColor = System.Drawing.Color.Peru
+        StateProperties64.BorderRadius = 3
+        StateProperties64.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties64.BorderThickness = 1
+        StateProperties64.FillColor = System.Drawing.Color.Peru
+        StateProperties64.ForeColor = System.Drawing.Color.White
+        StateProperties64.IconLeftImage = Nothing
+        StateProperties64.IconRightImage = Nothing
+        Me.refresh_apptBTN.OnPressedState = StateProperties64
+        Me.refresh_apptBTN.Size = New System.Drawing.Size(45, 44)
+        Me.refresh_apptBTN.TabIndex = 23
+        Me.refresh_apptBTN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.refresh_apptBTN.TextMarginLeft = 0
+        Me.refresh_apptBTN.UseDefaultRadiusAndThickness = True
         '
         'appointment_dgv
         '
@@ -2592,6 +2840,21 @@ Partial Class admin_dashboard
         Me.appointment_dgv.TabIndex = 22
         Me.appointment_dgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Chocolate
         '
+        'BunifuLabel22
+        '
+        Me.BunifuLabel22.AutoEllipsis = False
+        Me.BunifuLabel22.CursorType = Nothing
+        Me.BunifuLabel22.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel22.ForeColor = System.Drawing.Color.DimGray
+        Me.BunifuLabel22.Location = New System.Drawing.Point(22, 14)
+        Me.BunifuLabel22.Name = "BunifuLabel22"
+        Me.BunifuLabel22.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel22.Size = New System.Drawing.Size(176, 44)
+        Me.BunifuLabel22.TabIndex = 14
+        Me.BunifuLabel22.Text = "APPOINTMENT"
+        Me.BunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
         'appt_messagebtn
         '
         Me.appt_messagebtn.AllowToggling = False
@@ -2606,11 +2869,11 @@ Partial Class admin_dashboard
         Me.appt_messagebtn.ColorContrastOnClick = 45
         Me.appt_messagebtn.ColorContrastOnHover = 45
         Me.appt_messagebtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges17.BottomLeft = True
-        BorderEdges17.BottomRight = True
-        BorderEdges17.TopLeft = True
-        BorderEdges17.TopRight = True
-        Me.appt_messagebtn.CustomizableEdges = BorderEdges17
+        BorderEdges19.BottomLeft = True
+        BorderEdges19.BottomRight = True
+        BorderEdges19.TopLeft = True
+        BorderEdges19.TopRight = True
+        Me.appt_messagebtn.CustomizableEdges = BorderEdges19
         Me.appt_messagebtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.appt_messagebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.appt_messagebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -2631,24 +2894,24 @@ Partial Class admin_dashboard
         Me.appt_messagebtn.IndicateFocus = False
         Me.appt_messagebtn.Location = New System.Drawing.Point(580, 418)
         Me.appt_messagebtn.Name = "appt_messagebtn"
-        StateProperties61.BorderColor = System.Drawing.Color.Peru
-        StateProperties61.BorderRadius = 25
-        StateProperties61.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties61.BorderThickness = 1
-        StateProperties61.FillColor = System.Drawing.Color.Peru
-        StateProperties61.ForeColor = System.Drawing.Color.White
-        StateProperties61.IconLeftImage = Nothing
-        StateProperties61.IconRightImage = Nothing
-        Me.appt_messagebtn.onHoverState = StateProperties61
-        StateProperties62.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties62.BorderRadius = 25
-        StateProperties62.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties62.BorderThickness = 1
-        StateProperties62.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties62.ForeColor = System.Drawing.Color.White
-        StateProperties62.IconLeftImage = Nothing
-        StateProperties62.IconRightImage = Nothing
-        Me.appt_messagebtn.OnPressedState = StateProperties62
+        StateProperties65.BorderColor = System.Drawing.Color.Peru
+        StateProperties65.BorderRadius = 25
+        StateProperties65.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties65.BorderThickness = 1
+        StateProperties65.FillColor = System.Drawing.Color.Peru
+        StateProperties65.ForeColor = System.Drawing.Color.White
+        StateProperties65.IconLeftImage = Nothing
+        StateProperties65.IconRightImage = Nothing
+        Me.appt_messagebtn.onHoverState = StateProperties65
+        StateProperties66.BorderColor = System.Drawing.Color.Peru
+        StateProperties66.BorderRadius = 25
+        StateProperties66.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties66.BorderThickness = 1
+        StateProperties66.FillColor = System.Drawing.Color.Peru
+        StateProperties66.ForeColor = System.Drawing.Color.White
+        StateProperties66.IconLeftImage = Nothing
+        StateProperties66.IconRightImage = Nothing
+        Me.appt_messagebtn.OnPressedState = StateProperties66
         Me.appt_messagebtn.Size = New System.Drawing.Size(166, 45)
         Me.appt_messagebtn.TabIndex = 21
         Me.appt_messagebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2669,11 +2932,11 @@ Partial Class admin_dashboard
         Me.appt_archived_data.ColorContrastOnClick = 45
         Me.appt_archived_data.ColorContrastOnHover = 45
         Me.appt_archived_data.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges18.BottomLeft = True
-        BorderEdges18.BottomRight = True
-        BorderEdges18.TopLeft = True
-        BorderEdges18.TopRight = True
-        Me.appt_archived_data.CustomizableEdges = BorderEdges18
+        BorderEdges20.BottomLeft = True
+        BorderEdges20.BottomRight = True
+        BorderEdges20.TopLeft = True
+        BorderEdges20.TopRight = True
+        Me.appt_archived_data.CustomizableEdges = BorderEdges20
         Me.appt_archived_data.DialogResult = System.Windows.Forms.DialogResult.None
         Me.appt_archived_data.DisabledBorderColor = System.Drawing.Color.Empty
         Me.appt_archived_data.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -2692,26 +2955,26 @@ Partial Class admin_dashboard
         Me.appt_archived_data.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
         Me.appt_archived_data.IdleIconRightImage = Nothing
         Me.appt_archived_data.IndicateFocus = False
-        Me.appt_archived_data.Location = New System.Drawing.Point(752, 410)
+        Me.appt_archived_data.Location = New System.Drawing.Point(751, 408)
         Me.appt_archived_data.Name = "appt_archived_data"
-        StateProperties63.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties63.BorderRadius = 3
-        StateProperties63.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties63.BorderThickness = 1
-        StateProperties63.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties63.ForeColor = System.Drawing.Color.White
-        StateProperties63.IconLeftImage = Nothing
-        StateProperties63.IconRightImage = Nothing
-        Me.appt_archived_data.onHoverState = StateProperties63
-        StateProperties64.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties64.BorderRadius = 3
-        StateProperties64.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties64.BorderThickness = 1
-        StateProperties64.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties64.ForeColor = System.Drawing.Color.White
-        StateProperties64.IconLeftImage = Nothing
-        StateProperties64.IconRightImage = Nothing
-        Me.appt_archived_data.OnPressedState = StateProperties64
+        StateProperties67.BorderColor = System.Drawing.Color.Peru
+        StateProperties67.BorderRadius = 3
+        StateProperties67.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties67.BorderThickness = 1
+        StateProperties67.FillColor = System.Drawing.Color.Peru
+        StateProperties67.ForeColor = System.Drawing.Color.White
+        StateProperties67.IconLeftImage = Nothing
+        StateProperties67.IconRightImage = Nothing
+        Me.appt_archived_data.onHoverState = StateProperties67
+        StateProperties68.BorderColor = System.Drawing.Color.Peru
+        StateProperties68.BorderRadius = 3
+        StateProperties68.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties68.BorderThickness = 1
+        StateProperties68.FillColor = System.Drawing.Color.Peru
+        StateProperties68.ForeColor = System.Drawing.Color.White
+        StateProperties68.IconLeftImage = Nothing
+        StateProperties68.IconRightImage = Nothing
+        Me.appt_archived_data.OnPressedState = StateProperties68
         Me.appt_archived_data.Size = New System.Drawing.Size(62, 62)
         Me.appt_archived_data.TabIndex = 16
         Me.appt_archived_data.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2727,9 +2990,9 @@ Partial Class admin_dashboard
         Me.search_appointment.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
         Me.search_appointment.BackColor = System.Drawing.Color.Transparent
         Me.search_appointment.BackgroundImage = CType(resources.GetObject("search_appointment.BackgroundImage"), System.Drawing.Image)
-        Me.search_appointment.BorderColorActive = System.Drawing.Color.DodgerBlue
+        Me.search_appointment.BorderColorActive = System.Drawing.Color.Wheat
         Me.search_appointment.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.search_appointment.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.search_appointment.BorderColorHover = System.Drawing.Color.Wheat
         Me.search_appointment.BorderColorIdle = System.Drawing.Color.Silver
         Me.search_appointment.BorderRadius = 30
         Me.search_appointment.BorderThickness = 1
@@ -2751,26 +3014,26 @@ Partial Class admin_dashboard
         Me.search_appointment.Modified = False
         Me.search_appointment.Multiline = False
         Me.search_appointment.Name = "search_appointment"
-        StateProperties65.BorderColor = System.Drawing.Color.DodgerBlue
-        StateProperties65.FillColor = System.Drawing.Color.Empty
-        StateProperties65.ForeColor = System.Drawing.Color.Empty
-        StateProperties65.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.search_appointment.OnActiveState = StateProperties65
-        StateProperties66.BorderColor = System.Drawing.Color.Empty
-        StateProperties66.FillColor = System.Drawing.Color.White
-        StateProperties66.ForeColor = System.Drawing.Color.Empty
-        StateProperties66.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.search_appointment.OnDisabledState = StateProperties66
-        StateProperties67.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties67.FillColor = System.Drawing.Color.Empty
-        StateProperties67.ForeColor = System.Drawing.Color.Empty
-        StateProperties67.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.search_appointment.OnHoverState = StateProperties67
-        StateProperties68.BorderColor = System.Drawing.Color.Silver
-        StateProperties68.FillColor = System.Drawing.Color.White
-        StateProperties68.ForeColor = System.Drawing.Color.Empty
-        StateProperties68.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.search_appointment.OnIdleState = StateProperties68
+        StateProperties69.BorderColor = System.Drawing.Color.Peru
+        StateProperties69.FillColor = System.Drawing.Color.Empty
+        StateProperties69.ForeColor = System.Drawing.Color.Empty
+        StateProperties69.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_appointment.OnActiveState = StateProperties69
+        StateProperties70.BorderColor = System.Drawing.Color.Empty
+        StateProperties70.FillColor = System.Drawing.Color.White
+        StateProperties70.ForeColor = System.Drawing.Color.Empty
+        StateProperties70.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_appointment.OnDisabledState = StateProperties70
+        StateProperties71.BorderColor = System.Drawing.Color.Peru
+        StateProperties71.FillColor = System.Drawing.Color.Empty
+        StateProperties71.ForeColor = System.Drawing.Color.Empty
+        StateProperties71.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_appointment.OnHoverState = StateProperties71
+        StateProperties72.BorderColor = System.Drawing.Color.Silver
+        StateProperties72.FillColor = System.Drawing.Color.White
+        StateProperties72.ForeColor = System.Drawing.Color.Empty
+        StateProperties72.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_appointment.OnIdleState = StateProperties72
         Me.search_appointment.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.search_appointment.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.search_appointment.PlaceholderText = "SEARCH"
@@ -2805,11 +3068,11 @@ Partial Class admin_dashboard
         Me.appt_archivebtn.ColorContrastOnClick = 45
         Me.appt_archivebtn.ColorContrastOnHover = 45
         Me.appt_archivebtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges19.BottomLeft = True
-        BorderEdges19.BottomRight = True
-        BorderEdges19.TopLeft = True
-        BorderEdges19.TopRight = True
-        Me.appt_archivebtn.CustomizableEdges = BorderEdges19
+        BorderEdges21.BottomLeft = True
+        BorderEdges21.BottomRight = True
+        BorderEdges21.TopLeft = True
+        BorderEdges21.TopRight = True
+        Me.appt_archivebtn.CustomizableEdges = BorderEdges21
         Me.appt_archivebtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.appt_archivebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.appt_archivebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -2830,24 +3093,24 @@ Partial Class admin_dashboard
         Me.appt_archivebtn.IndicateFocus = False
         Me.appt_archivebtn.Location = New System.Drawing.Point(152, 418)
         Me.appt_archivebtn.Name = "appt_archivebtn"
-        StateProperties69.BorderColor = System.Drawing.Color.Peru
-        StateProperties69.BorderRadius = 25
-        StateProperties69.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties69.BorderThickness = 1
-        StateProperties69.FillColor = System.Drawing.Color.Peru
-        StateProperties69.ForeColor = System.Drawing.Color.White
-        StateProperties69.IconLeftImage = Nothing
-        StateProperties69.IconRightImage = Nothing
-        Me.appt_archivebtn.onHoverState = StateProperties69
-        StateProperties70.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties70.BorderRadius = 25
-        StateProperties70.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties70.BorderThickness = 1
-        StateProperties70.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties70.ForeColor = System.Drawing.Color.White
-        StateProperties70.IconLeftImage = Nothing
-        StateProperties70.IconRightImage = Nothing
-        Me.appt_archivebtn.OnPressedState = StateProperties70
+        StateProperties73.BorderColor = System.Drawing.Color.Peru
+        StateProperties73.BorderRadius = 25
+        StateProperties73.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties73.BorderThickness = 1
+        StateProperties73.FillColor = System.Drawing.Color.Peru
+        StateProperties73.ForeColor = System.Drawing.Color.White
+        StateProperties73.IconLeftImage = Nothing
+        StateProperties73.IconRightImage = Nothing
+        Me.appt_archivebtn.onHoverState = StateProperties73
+        StateProperties74.BorderColor = System.Drawing.Color.Peru
+        StateProperties74.BorderRadius = 25
+        StateProperties74.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties74.BorderThickness = 1
+        StateProperties74.FillColor = System.Drawing.Color.Peru
+        StateProperties74.ForeColor = System.Drawing.Color.White
+        StateProperties74.IconLeftImage = Nothing
+        StateProperties74.IconRightImage = Nothing
+        Me.appt_archivebtn.OnPressedState = StateProperties74
         Me.appt_archivebtn.Size = New System.Drawing.Size(125, 45)
         Me.appt_archivebtn.TabIndex = 19
         Me.appt_archivebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -2868,11 +3131,11 @@ Partial Class admin_dashboard
         Me.appt_updatebtn.ColorContrastOnClick = 45
         Me.appt_updatebtn.ColorContrastOnHover = 45
         Me.appt_updatebtn.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges20.BottomLeft = True
-        BorderEdges20.BottomRight = True
-        BorderEdges20.TopLeft = True
-        BorderEdges20.TopRight = True
-        Me.appt_updatebtn.CustomizableEdges = BorderEdges20
+        BorderEdges22.BottomLeft = True
+        BorderEdges22.BottomRight = True
+        BorderEdges22.TopLeft = True
+        BorderEdges22.TopRight = True
+        Me.appt_updatebtn.CustomizableEdges = BorderEdges22
         Me.appt_updatebtn.DialogResult = System.Windows.Forms.DialogResult.None
         Me.appt_updatebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.appt_updatebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -2893,56 +3156,41 @@ Partial Class admin_dashboard
         Me.appt_updatebtn.IndicateFocus = False
         Me.appt_updatebtn.Location = New System.Drawing.Point(21, 418)
         Me.appt_updatebtn.Name = "appt_updatebtn"
-        StateProperties71.BorderColor = System.Drawing.Color.Peru
-        StateProperties71.BorderRadius = 25
-        StateProperties71.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties71.BorderThickness = 1
-        StateProperties71.FillColor = System.Drawing.Color.Peru
-        StateProperties71.ForeColor = System.Drawing.Color.White
-        StateProperties71.IconLeftImage = Nothing
-        StateProperties71.IconRightImage = Nothing
-        Me.appt_updatebtn.onHoverState = StateProperties71
-        StateProperties72.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties72.BorderRadius = 25
-        StateProperties72.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties72.BorderThickness = 1
-        StateProperties72.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties72.ForeColor = System.Drawing.Color.White
-        StateProperties72.IconLeftImage = Nothing
-        StateProperties72.IconRightImage = Nothing
-        Me.appt_updatebtn.OnPressedState = StateProperties72
+        StateProperties75.BorderColor = System.Drawing.Color.Peru
+        StateProperties75.BorderRadius = 25
+        StateProperties75.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties75.BorderThickness = 1
+        StateProperties75.FillColor = System.Drawing.Color.Peru
+        StateProperties75.ForeColor = System.Drawing.Color.White
+        StateProperties75.IconLeftImage = Nothing
+        StateProperties75.IconRightImage = Nothing
+        Me.appt_updatebtn.onHoverState = StateProperties75
+        StateProperties76.BorderColor = System.Drawing.Color.Peru
+        StateProperties76.BorderRadius = 25
+        StateProperties76.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties76.BorderThickness = 1
+        StateProperties76.FillColor = System.Drawing.Color.Peru
+        StateProperties76.ForeColor = System.Drawing.Color.White
+        StateProperties76.IconLeftImage = Nothing
+        StateProperties76.IconRightImage = Nothing
+        Me.appt_updatebtn.OnPressedState = StateProperties76
         Me.appt_updatebtn.Size = New System.Drawing.Size(125, 45)
         Me.appt_updatebtn.TabIndex = 18
         Me.appt_updatebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.appt_updatebtn.TextMarginLeft = 0
         Me.appt_updatebtn.UseDefaultRadiusAndThickness = True
         '
-        'BunifuLabel22
-        '
-        Me.BunifuLabel22.AutoEllipsis = False
-        Me.BunifuLabel22.CursorType = Nothing
-        Me.BunifuLabel22.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.BunifuLabel22.ForeColor = System.Drawing.Color.DimGray
-        Me.BunifuLabel22.Location = New System.Drawing.Point(22, 14)
-        Me.BunifuLabel22.Name = "BunifuLabel22"
-        Me.BunifuLabel22.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel22.Size = New System.Drawing.Size(176, 44)
-        Me.BunifuLabel22.TabIndex = 14
-        Me.BunifuLabel22.Text = "APPOINTMENT"
-        Me.BunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
         'TabPage6
         '
         Me.TabPage6.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.TabPage6.Controls.Add(Me.BunifuButton17)
-        Me.TabPage6.Controls.Add(Me.BunifuButton18)
-        Me.TabPage6.Controls.Add(Me.BunifuTextBox3)
-        Me.TabPage6.Controls.Add(Me.BunifuButton19)
-        Me.TabPage6.Controls.Add(Me.BunifuButton20)
-        Me.TabPage6.Controls.Add(Me.BunifuButton30)
-        Me.TabPage6.Controls.Add(Me.BunifuCustomDataGrid3)
+        Me.TabPage6.Controls.Add(Me.GroupBox1)
+        Me.TabPage6.Controls.Add(Me.lifeplan_dgv)
         Me.TabPage6.Controls.Add(Me.BunifuLabel23)
+        Me.TabPage6.Controls.Add(Me.lf_archived_data)
+        Me.TabPage6.Controls.Add(Me.search_lifeplan)
+        Me.TabPage6.Controls.Add(Me.lf_archivebtn)
+        Me.TabPage6.Controls.Add(Me.lf_updatebtn)
+        Me.TabPage6.Controls.Add(Me.lf_addbtn)
         Me.TabPage6.Location = New System.Drawing.Point(4, 4)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
@@ -2950,419 +3198,215 @@ Partial Class admin_dashboard
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "lifeplan"
         '
-        'BunifuButton17
+        'GroupBox1
         '
-        Me.BunifuButton17.AllowToggling = False
-        Me.BunifuButton17.AnimationSpeed = 200
-        Me.BunifuButton17.AutoGenerateColors = False
-        Me.BunifuButton17.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton17.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton17.BackgroundImage = CType(resources.GetObject("BunifuButton17.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton17.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton17.ButtonText = "MESSAGE NOTIFIER"
-        Me.BunifuButton17.ButtonTextMarginLeft = 0
-        Me.BunifuButton17.ColorContrastOnClick = 45
-        Me.BunifuButton17.ColorContrastOnHover = 45
-        Me.BunifuButton17.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges21.BottomLeft = True
-        BorderEdges21.BottomRight = True
-        BorderEdges21.TopLeft = True
-        BorderEdges21.TopRight = True
-        Me.BunifuButton17.CustomizableEdges = BorderEdges21
-        Me.BunifuButton17.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton17.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton17.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton17.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton17.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton17.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton17.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton17.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton17.IconMarginLeft = 11
-        Me.BunifuButton17.IconPadding = 10
-        Me.BunifuButton17.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton17.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton17.IdleBorderRadius = 25
-        Me.BunifuButton17.IdleBorderThickness = 1
-        Me.BunifuButton17.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton17.IdleIconLeftImage = Nothing
-        Me.BunifuButton17.IdleIconRightImage = Nothing
-        Me.BunifuButton17.IndicateFocus = False
-        Me.BunifuButton17.Location = New System.Drawing.Point(580, 418)
-        Me.BunifuButton17.Name = "BunifuButton17"
-        StateProperties73.BorderColor = System.Drawing.Color.Peru
-        StateProperties73.BorderRadius = 25
-        StateProperties73.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties73.BorderThickness = 1
-        StateProperties73.FillColor = System.Drawing.Color.Peru
-        StateProperties73.ForeColor = System.Drawing.Color.White
-        StateProperties73.IconLeftImage = Nothing
-        StateProperties73.IconRightImage = Nothing
-        Me.BunifuButton17.onHoverState = StateProperties73
-        StateProperties74.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties74.BorderRadius = 25
-        StateProperties74.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties74.BorderThickness = 1
-        StateProperties74.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties74.ForeColor = System.Drawing.Color.White
-        StateProperties74.IconLeftImage = Nothing
-        StateProperties74.IconRightImage = Nothing
-        Me.BunifuButton17.OnPressedState = StateProperties74
-        Me.BunifuButton17.Size = New System.Drawing.Size(166, 45)
-        Me.BunifuButton17.TabIndex = 29
-        Me.BunifuButton17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton17.TextMarginLeft = 0
-        Me.BunifuButton17.UseDefaultRadiusAndThickness = True
+        Me.GroupBox1.Controls.Add(Me.msg_duedate)
+        Me.GroupBox1.Controls.Add(Me.msg_welcome)
+        Me.GroupBox1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.GroupBox1.Location = New System.Drawing.Point(420, 397)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(331, 73)
+        Me.GroupBox1.TabIndex = 32
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "MESSAGE NOTIFIER:"
         '
-        'BunifuButton18
+        'msg_duedate
         '
-        Me.BunifuButton18.AllowToggling = False
-        Me.BunifuButton18.AnimationSpeed = 200
-        Me.BunifuButton18.AutoGenerateColors = False
-        Me.BunifuButton18.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton18.BackColor1 = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton18.BackgroundImage = CType(resources.GetObject("BunifuButton18.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton18.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton18.ButtonText = " "
-        Me.BunifuButton18.ButtonTextMarginLeft = 0
-        Me.BunifuButton18.ColorContrastOnClick = 45
-        Me.BunifuButton18.ColorContrastOnHover = 45
-        Me.BunifuButton18.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges22.BottomLeft = True
-        BorderEdges22.BottomRight = True
-        BorderEdges22.TopLeft = True
-        BorderEdges22.TopRight = True
-        Me.BunifuButton18.CustomizableEdges = BorderEdges22
-        Me.BunifuButton18.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton18.DisabledBorderColor = System.Drawing.Color.Empty
-        Me.BunifuButton18.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton18.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton18.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton18.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton18.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton18.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton18.IconMarginLeft = 11
-        Me.BunifuButton18.IconPadding = 10
-        Me.BunifuButton18.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton18.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton18.IdleBorderRadius = 3
-        Me.BunifuButton18.IdleBorderThickness = 1
-        Me.BunifuButton18.IdleFillColor = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton18.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
-        Me.BunifuButton18.IdleIconRightImage = Nothing
-        Me.BunifuButton18.IndicateFocus = False
-        Me.BunifuButton18.Location = New System.Drawing.Point(752, 410)
-        Me.BunifuButton18.Name = "BunifuButton18"
-        StateProperties75.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties75.BorderRadius = 3
-        StateProperties75.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties75.BorderThickness = 1
-        StateProperties75.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties75.ForeColor = System.Drawing.Color.White
-        StateProperties75.IconLeftImage = Nothing
-        StateProperties75.IconRightImage = Nothing
-        Me.BunifuButton18.onHoverState = StateProperties75
-        StateProperties76.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties76.BorderRadius = 3
-        StateProperties76.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties76.BorderThickness = 1
-        StateProperties76.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties76.ForeColor = System.Drawing.Color.White
-        StateProperties76.IconLeftImage = Nothing
-        StateProperties76.IconRightImage = Nothing
-        Me.BunifuButton18.OnPressedState = StateProperties76
-        Me.BunifuButton18.Size = New System.Drawing.Size(62, 62)
-        Me.BunifuButton18.TabIndex = 24
-        Me.BunifuButton18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton18.TextMarginLeft = 0
-        Me.BunifuButton18.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuTextBox3
-        '
-        Me.BunifuTextBox3.AcceptsReturn = False
-        Me.BunifuTextBox3.AcceptsTab = False
-        Me.BunifuTextBox3.AnimationSpeed = 200
-        Me.BunifuTextBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.BunifuTextBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.BunifuTextBox3.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTextBox3.BackgroundImage = CType(resources.GetObject("BunifuTextBox3.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuTextBox3.BorderColorActive = System.Drawing.Color.DodgerBlue
-        Me.BunifuTextBox3.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.BunifuTextBox3.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuTextBox3.BorderColorIdle = System.Drawing.Color.Silver
-        Me.BunifuTextBox3.BorderRadius = 30
-        Me.BunifuTextBox3.BorderThickness = 1
-        Me.BunifuTextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.BunifuTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox3.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuTextBox3.DefaultText = ""
-        Me.BunifuTextBox3.FillColor = System.Drawing.Color.White
-        Me.BunifuTextBox3.HideSelection = True
-        Me.BunifuTextBox3.IconLeft = Nothing
-        Me.BunifuTextBox3.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox3.IconPadding = 10
-        Me.BunifuTextBox3.IconRight = Global.ELYSIUM_FMS.My.Resources.Resources.SEARCH
-        Me.BunifuTextBox3.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox3.Lines = New String(-1) {}
-        Me.BunifuTextBox3.Location = New System.Drawing.Point(552, 14)
-        Me.BunifuTextBox3.MaxLength = 32767
-        Me.BunifuTextBox3.MinimumSize = New System.Drawing.Size(100, 35)
-        Me.BunifuTextBox3.Modified = False
-        Me.BunifuTextBox3.Multiline = False
-        Me.BunifuTextBox3.Name = "BunifuTextBox3"
-        StateProperties77.BorderColor = System.Drawing.Color.DodgerBlue
-        StateProperties77.FillColor = System.Drawing.Color.Empty
-        StateProperties77.ForeColor = System.Drawing.Color.Empty
-        StateProperties77.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox3.OnActiveState = StateProperties77
-        StateProperties78.BorderColor = System.Drawing.Color.Empty
-        StateProperties78.FillColor = System.Drawing.Color.White
-        StateProperties78.ForeColor = System.Drawing.Color.Empty
-        StateProperties78.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.BunifuTextBox3.OnDisabledState = StateProperties78
-        StateProperties79.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties79.FillColor = System.Drawing.Color.Empty
-        StateProperties79.ForeColor = System.Drawing.Color.Empty
-        StateProperties79.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox3.OnHoverState = StateProperties79
-        StateProperties80.BorderColor = System.Drawing.Color.Silver
-        StateProperties80.FillColor = System.Drawing.Color.White
-        StateProperties80.ForeColor = System.Drawing.Color.Empty
-        StateProperties80.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox3.OnIdleState = StateProperties80
-        Me.BunifuTextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BunifuTextBox3.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.BunifuTextBox3.PlaceholderText = "SEARCH"
-        Me.BunifuTextBox3.ReadOnly = False
-        Me.BunifuTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.BunifuTextBox3.SelectedText = ""
-        Me.BunifuTextBox3.SelectionLength = 0
-        Me.BunifuTextBox3.SelectionStart = 0
-        Me.BunifuTextBox3.ShortcutsEnabled = True
-        Me.BunifuTextBox3.Size = New System.Drawing.Size(262, 35)
-        Me.BunifuTextBox3.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
-        Me.BunifuTextBox3.TabIndex = 28
-        Me.BunifuTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.BunifuTextBox3.TextMarginBottom = 0
-        Me.BunifuTextBox3.TextMarginLeft = 5
-        Me.BunifuTextBox3.TextMarginTop = 0
-        Me.BunifuTextBox3.TextPlaceholder = "SEARCH"
-        Me.BunifuTextBox3.UseSystemPasswordChar = False
-        Me.BunifuTextBox3.WordWrap = True
-        '
-        'BunifuButton19
-        '
-        Me.BunifuButton19.AllowToggling = False
-        Me.BunifuButton19.AnimationSpeed = 200
-        Me.BunifuButton19.AutoGenerateColors = False
-        Me.BunifuButton19.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton19.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton19.BackgroundImage = CType(resources.GetObject("BunifuButton19.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton19.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton19.ButtonText = "ARCHIVE"
-        Me.BunifuButton19.ButtonTextMarginLeft = 0
-        Me.BunifuButton19.ColorContrastOnClick = 45
-        Me.BunifuButton19.ColorContrastOnHover = 45
-        Me.BunifuButton19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.msg_duedate.AllowToggling = False
+        Me.msg_duedate.AnimationSpeed = 200
+        Me.msg_duedate.AutoGenerateColors = False
+        Me.msg_duedate.BackColor = System.Drawing.Color.Transparent
+        Me.msg_duedate.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.msg_duedate.BackgroundImage = CType(resources.GetObject("msg_duedate.BackgroundImage"), System.Drawing.Image)
+        Me.msg_duedate.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.msg_duedate.ButtonText = "DUE DATE NOTIFIER"
+        Me.msg_duedate.ButtonTextMarginLeft = 0
+        Me.msg_duedate.ColorContrastOnClick = 45
+        Me.msg_duedate.ColorContrastOnHover = 45
+        Me.msg_duedate.Cursor = System.Windows.Forms.Cursors.Hand
         BorderEdges23.BottomLeft = True
         BorderEdges23.BottomRight = True
         BorderEdges23.TopLeft = True
         BorderEdges23.TopRight = True
-        Me.BunifuButton19.CustomizableEdges = BorderEdges23
-        Me.BunifuButton19.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton19.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton19.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton19.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton19.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton19.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton19.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton19.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton19.IconMarginLeft = 11
-        Me.BunifuButton19.IconPadding = 10
-        Me.BunifuButton19.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton19.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton19.IdleBorderRadius = 25
-        Me.BunifuButton19.IdleBorderThickness = 1
-        Me.BunifuButton19.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton19.IdleIconLeftImage = Nothing
-        Me.BunifuButton19.IdleIconRightImage = Nothing
-        Me.BunifuButton19.IndicateFocus = False
-        Me.BunifuButton19.Location = New System.Drawing.Point(284, 418)
-        Me.BunifuButton19.Name = "BunifuButton19"
-        StateProperties81.BorderColor = System.Drawing.Color.Peru
-        StateProperties81.BorderRadius = 25
-        StateProperties81.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties81.BorderThickness = 1
-        StateProperties81.FillColor = System.Drawing.Color.Peru
-        StateProperties81.ForeColor = System.Drawing.Color.White
-        StateProperties81.IconLeftImage = Nothing
-        StateProperties81.IconRightImage = Nothing
-        Me.BunifuButton19.onHoverState = StateProperties81
-        StateProperties82.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties82.BorderRadius = 25
-        StateProperties82.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties82.BorderThickness = 1
-        StateProperties82.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties82.ForeColor = System.Drawing.Color.White
-        StateProperties82.IconLeftImage = Nothing
-        StateProperties82.IconRightImage = Nothing
-        Me.BunifuButton19.OnPressedState = StateProperties82
-        Me.BunifuButton19.Size = New System.Drawing.Size(125, 45)
-        Me.BunifuButton19.TabIndex = 27
-        Me.BunifuButton19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton19.TextMarginLeft = 0
-        Me.BunifuButton19.UseDefaultRadiusAndThickness = True
+        Me.msg_duedate.CustomizableEdges = BorderEdges23
+        Me.msg_duedate.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.msg_duedate.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.msg_duedate.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.msg_duedate.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.msg_duedate.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.msg_duedate.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.msg_duedate.ForeColor = System.Drawing.Color.White
+        Me.msg_duedate.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.msg_duedate.IconMarginLeft = 11
+        Me.msg_duedate.IconPadding = 10
+        Me.msg_duedate.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.msg_duedate.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.msg_duedate.IdleBorderRadius = 25
+        Me.msg_duedate.IdleBorderThickness = 1
+        Me.msg_duedate.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.msg_duedate.IdleIconLeftImage = Nothing
+        Me.msg_duedate.IdleIconRightImage = Nothing
+        Me.msg_duedate.IndicateFocus = False
+        Me.msg_duedate.Location = New System.Drawing.Point(13, 21)
+        Me.msg_duedate.Name = "msg_duedate"
+        StateProperties77.BorderColor = System.Drawing.Color.Peru
+        StateProperties77.BorderRadius = 25
+        StateProperties77.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties77.BorderThickness = 1
+        StateProperties77.FillColor = System.Drawing.Color.Peru
+        StateProperties77.ForeColor = System.Drawing.Color.White
+        StateProperties77.IconLeftImage = Nothing
+        StateProperties77.IconRightImage = Nothing
+        Me.msg_duedate.onHoverState = StateProperties77
+        StateProperties78.BorderColor = System.Drawing.Color.Peru
+        StateProperties78.BorderRadius = 25
+        StateProperties78.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties78.BorderThickness = 1
+        StateProperties78.FillColor = System.Drawing.Color.Peru
+        StateProperties78.ForeColor = System.Drawing.Color.White
+        StateProperties78.IconLeftImage = Nothing
+        StateProperties78.IconRightImage = Nothing
+        Me.msg_duedate.OnPressedState = StateProperties78
+        Me.msg_duedate.Size = New System.Drawing.Size(162, 45)
+        Me.msg_duedate.TabIndex = 33
+        Me.msg_duedate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.msg_duedate.TextMarginLeft = 0
+        Me.msg_duedate.UseDefaultRadiusAndThickness = True
         '
-        'BunifuButton20
+        'msg_welcome
         '
-        Me.BunifuButton20.AllowToggling = False
-        Me.BunifuButton20.AnimationSpeed = 200
-        Me.BunifuButton20.AutoGenerateColors = False
-        Me.BunifuButton20.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton20.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton20.BackgroundImage = CType(resources.GetObject("BunifuButton20.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton20.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton20.ButtonText = "UPDATE"
-        Me.BunifuButton20.ButtonTextMarginLeft = 0
-        Me.BunifuButton20.ColorContrastOnClick = 45
-        Me.BunifuButton20.ColorContrastOnHover = 45
-        Me.BunifuButton20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.msg_welcome.AllowToggling = False
+        Me.msg_welcome.AnimationSpeed = 200
+        Me.msg_welcome.AutoGenerateColors = False
+        Me.msg_welcome.BackColor = System.Drawing.Color.Transparent
+        Me.msg_welcome.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.msg_welcome.BackgroundImage = CType(resources.GetObject("msg_welcome.BackgroundImage"), System.Drawing.Image)
+        Me.msg_welcome.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.msg_welcome.ButtonText = "WELCOME SMS"
+        Me.msg_welcome.ButtonTextMarginLeft = 0
+        Me.msg_welcome.ColorContrastOnClick = 45
+        Me.msg_welcome.ColorContrastOnHover = 45
+        Me.msg_welcome.Cursor = System.Windows.Forms.Cursors.Hand
         BorderEdges24.BottomLeft = True
         BorderEdges24.BottomRight = True
         BorderEdges24.TopLeft = True
         BorderEdges24.TopRight = True
-        Me.BunifuButton20.CustomizableEdges = BorderEdges24
-        Me.BunifuButton20.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton20.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton20.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton20.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton20.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton20.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton20.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton20.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton20.IconMarginLeft = 11
-        Me.BunifuButton20.IconPadding = 10
-        Me.BunifuButton20.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton20.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton20.IdleBorderRadius = 25
-        Me.BunifuButton20.IdleBorderThickness = 1
-        Me.BunifuButton20.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton20.IdleIconLeftImage = Nothing
-        Me.BunifuButton20.IdleIconRightImage = Nothing
-        Me.BunifuButton20.IndicateFocus = False
-        Me.BunifuButton20.Location = New System.Drawing.Point(153, 418)
-        Me.BunifuButton20.Name = "BunifuButton20"
-        StateProperties83.BorderColor = System.Drawing.Color.Peru
-        StateProperties83.BorderRadius = 25
-        StateProperties83.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties83.BorderThickness = 1
-        StateProperties83.FillColor = System.Drawing.Color.Peru
-        StateProperties83.ForeColor = System.Drawing.Color.White
-        StateProperties83.IconLeftImage = Nothing
-        StateProperties83.IconRightImage = Nothing
-        Me.BunifuButton20.onHoverState = StateProperties83
-        StateProperties84.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties84.BorderRadius = 25
-        StateProperties84.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties84.BorderThickness = 1
-        StateProperties84.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties84.ForeColor = System.Drawing.Color.White
-        StateProperties84.IconLeftImage = Nothing
-        StateProperties84.IconRightImage = Nothing
-        Me.BunifuButton20.OnPressedState = StateProperties84
-        Me.BunifuButton20.Size = New System.Drawing.Size(125, 45)
-        Me.BunifuButton20.TabIndex = 26
-        Me.BunifuButton20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton20.TextMarginLeft = 0
-        Me.BunifuButton20.UseDefaultRadiusAndThickness = True
+        Me.msg_welcome.CustomizableEdges = BorderEdges24
+        Me.msg_welcome.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.msg_welcome.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.msg_welcome.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.msg_welcome.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.msg_welcome.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.msg_welcome.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.msg_welcome.ForeColor = System.Drawing.Color.White
+        Me.msg_welcome.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.msg_welcome.IconMarginLeft = 11
+        Me.msg_welcome.IconPadding = 10
+        Me.msg_welcome.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.msg_welcome.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.msg_welcome.IdleBorderRadius = 25
+        Me.msg_welcome.IdleBorderThickness = 1
+        Me.msg_welcome.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.msg_welcome.IdleIconLeftImage = Nothing
+        Me.msg_welcome.IdleIconRightImage = Nothing
+        Me.msg_welcome.IndicateFocus = False
+        Me.msg_welcome.Location = New System.Drawing.Point(181, 21)
+        Me.msg_welcome.Name = "msg_welcome"
+        StateProperties79.BorderColor = System.Drawing.Color.Peru
+        StateProperties79.BorderRadius = 25
+        StateProperties79.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties79.BorderThickness = 1
+        StateProperties79.FillColor = System.Drawing.Color.Peru
+        StateProperties79.ForeColor = System.Drawing.Color.White
+        StateProperties79.IconLeftImage = Nothing
+        StateProperties79.IconRightImage = Nothing
+        Me.msg_welcome.onHoverState = StateProperties79
+        StateProperties80.BorderColor = System.Drawing.Color.Peru
+        StateProperties80.BorderRadius = 25
+        StateProperties80.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties80.BorderThickness = 1
+        StateProperties80.FillColor = System.Drawing.Color.Peru
+        StateProperties80.ForeColor = System.Drawing.Color.White
+        StateProperties80.IconLeftImage = Nothing
+        StateProperties80.IconRightImage = Nothing
+        Me.msg_welcome.OnPressedState = StateProperties80
+        Me.msg_welcome.Size = New System.Drawing.Size(139, 45)
+        Me.msg_welcome.TabIndex = 32
+        Me.msg_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.msg_welcome.TextMarginLeft = 0
+        Me.msg_welcome.UseDefaultRadiusAndThickness = True
         '
-        'BunifuButton30
+        'lifeplan_dgv
         '
-        Me.BunifuButton30.AllowToggling = False
-        Me.BunifuButton30.AnimationSpeed = 200
-        Me.BunifuButton30.AutoGenerateColors = False
-        Me.BunifuButton30.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton30.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton30.BackgroundImage = CType(resources.GetObject("BunifuButton30.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton30.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton30.ButtonText = "ADD"
-        Me.BunifuButton30.ButtonTextMarginLeft = 0
-        Me.BunifuButton30.ColorContrastOnClick = 45
-        Me.BunifuButton30.ColorContrastOnHover = 45
-        Me.BunifuButton30.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges25.BottomLeft = True
-        BorderEdges25.BottomRight = True
-        BorderEdges25.TopLeft = True
-        BorderEdges25.TopRight = True
-        Me.BunifuButton30.CustomizableEdges = BorderEdges25
-        Me.BunifuButton30.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton30.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton30.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton30.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton30.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton30.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton30.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton30.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton30.IconMarginLeft = 11
-        Me.BunifuButton30.IconPadding = 10
-        Me.BunifuButton30.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton30.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton30.IdleBorderRadius = 25
-        Me.BunifuButton30.IdleBorderThickness = 1
-        Me.BunifuButton30.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton30.IdleIconLeftImage = Nothing
-        Me.BunifuButton30.IdleIconRightImage = Nothing
-        Me.BunifuButton30.IndicateFocus = False
-        Me.BunifuButton30.Location = New System.Drawing.Point(22, 418)
-        Me.BunifuButton30.Name = "BunifuButton30"
-        StateProperties85.BorderColor = System.Drawing.Color.Peru
-        StateProperties85.BorderRadius = 25
-        StateProperties85.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties85.BorderThickness = 1
-        StateProperties85.FillColor = System.Drawing.Color.Peru
-        StateProperties85.ForeColor = System.Drawing.Color.White
-        StateProperties85.IconLeftImage = Nothing
-        StateProperties85.IconRightImage = Nothing
-        Me.BunifuButton30.onHoverState = StateProperties85
-        StateProperties86.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties86.BorderRadius = 25
-        StateProperties86.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties86.BorderThickness = 1
-        StateProperties86.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties86.ForeColor = System.Drawing.Color.White
-        StateProperties86.IconLeftImage = Nothing
-        StateProperties86.IconRightImage = Nothing
-        Me.BunifuButton30.OnPressedState = StateProperties86
-        Me.BunifuButton30.Size = New System.Drawing.Size(125, 45)
-        Me.BunifuButton30.TabIndex = 25
-        Me.BunifuButton30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton30.TextMarginLeft = 0
-        Me.BunifuButton30.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuCustomDataGrid3
-        '
-        DataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.BunifuCustomDataGrid3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
-        Me.BunifuCustomDataGrid3.BackgroundColor = System.Drawing.Color.Gainsboro
-        Me.BunifuCustomDataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.BunifuCustomDataGrid3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.lifeplan_dgv.AllowCustomTheming = True
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.NavajoWhite
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
+        Me.lifeplan_dgv.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
+        Me.lifeplan_dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.lifeplan_dgv.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.lifeplan_dgv.BackgroundColor = System.Drawing.Color.Tan
+        Me.lifeplan_dgv.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.lifeplan_dgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.lifeplan_dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle12.BackColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.SeaGreen
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.Sienna
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.BunifuCustomDataGrid3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle12
-        Me.BunifuCustomDataGrid3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.BunifuCustomDataGrid3.DoubleBuffered = True
-        Me.BunifuCustomDataGrid3.EnableHeadersVisualStyles = False
-        Me.BunifuCustomDataGrid3.HeaderBgColor = System.Drawing.Color.SeaGreen
-        Me.BunifuCustomDataGrid3.HeaderForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuCustomDataGrid3.Location = New System.Drawing.Point(22, 64)
-        Me.BunifuCustomDataGrid3.Name = "BunifuCustomDataGrid3"
-        Me.BunifuCustomDataGrid3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.BunifuCustomDataGrid3.Size = New System.Drawing.Size(792, 331)
-        Me.BunifuCustomDataGrid3.TabIndex = 23
+        Me.lifeplan_dgv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle12
+        Me.lifeplan_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.lifeplan_dgv.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.NavajoWhite
+        Me.lifeplan_dgv.CurrentTheme.AlternatingRowsStyle.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lifeplan_dgv.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.lifeplan_dgv.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.AntiqueWhite
+        Me.lifeplan_dgv.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black
+        Me.lifeplan_dgv.CurrentTheme.BackColor = System.Drawing.Color.Tan
+        Me.lifeplan_dgv.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lifeplan_dgv.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.Sienna
+        Me.lifeplan_dgv.CurrentTheme.HeaderStyle.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lifeplan_dgv.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.lifeplan_dgv.CurrentTheme.Name = Nothing
+        Me.lifeplan_dgv.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.NavajoWhite
+        Me.lifeplan_dgv.CurrentTheme.RowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.lifeplan_dgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.lifeplan_dgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.Chocolate
+        Me.lifeplan_dgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.NavajoWhite
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Chocolate
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.lifeplan_dgv.DefaultCellStyle = DataGridViewCellStyle13
+        Me.lifeplan_dgv.EnableHeadersVisualStyles = False
+        Me.lifeplan_dgv.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lifeplan_dgv.HeaderBackColor = System.Drawing.Color.Sienna
+        Me.lifeplan_dgv.HeaderBgColor = System.Drawing.Color.Empty
+        Me.lifeplan_dgv.HeaderForeColor = System.Drawing.Color.White
+        Me.lifeplan_dgv.Location = New System.Drawing.Point(21, 67)
+        Me.lifeplan_dgv.Name = "lifeplan_dgv"
+        Me.lifeplan_dgv.ReadOnly = True
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle14.BackColor = System.Drawing.Color.Tan
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Sienna
+        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.lifeplan_dgv.RowHeadersDefaultCellStyle = DataGridViewCellStyle14
+        Me.lifeplan_dgv.RowHeadersVisible = False
+        Me.lifeplan_dgv.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lifeplan_dgv.RowsDefaultCellStyle = DataGridViewCellStyle15
+        Me.lifeplan_dgv.RowTemplate.Height = 40
+        Me.lifeplan_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.lifeplan_dgv.Size = New System.Drawing.Size(792, 330)
+        Me.lifeplan_dgv.TabIndex = 30
+        Me.lifeplan_dgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Chocolate
         '
         'BunifuLabel23
         '
@@ -3379,16 +3423,341 @@ Partial Class admin_dashboard
         Me.BunifuLabel23.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel23.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
+        'lf_archived_data
+        '
+        Me.lf_archived_data.AllowToggling = False
+        Me.lf_archived_data.AnimationSpeed = 200
+        Me.lf_archived_data.AutoGenerateColors = False
+        Me.lf_archived_data.BackColor = System.Drawing.Color.Transparent
+        Me.lf_archived_data.BackColor1 = System.Drawing.Color.BlanchedAlmond
+        Me.lf_archived_data.BackgroundImage = CType(resources.GetObject("lf_archived_data.BackgroundImage"), System.Drawing.Image)
+        Me.lf_archived_data.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.lf_archived_data.ButtonText = " "
+        Me.lf_archived_data.ButtonTextMarginLeft = 0
+        Me.lf_archived_data.ColorContrastOnClick = 45
+        Me.lf_archived_data.ColorContrastOnHover = 45
+        Me.lf_archived_data.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges25.BottomLeft = True
+        BorderEdges25.BottomRight = True
+        BorderEdges25.TopLeft = True
+        BorderEdges25.TopRight = True
+        Me.lf_archived_data.CustomizableEdges = BorderEdges25
+        Me.lf_archived_data.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.lf_archived_data.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.lf_archived_data.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.lf_archived_data.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.lf_archived_data.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.lf_archived_data.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.lf_archived_data.ForeColor = System.Drawing.Color.White
+        Me.lf_archived_data.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_archived_data.IconMarginLeft = 11
+        Me.lf_archived_data.IconPadding = 10
+        Me.lf_archived_data.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_archived_data.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
+        Me.lf_archived_data.IdleBorderRadius = 3
+        Me.lf_archived_data.IdleBorderThickness = 1
+        Me.lf_archived_data.IdleFillColor = System.Drawing.Color.BlanchedAlmond
+        Me.lf_archived_data.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
+        Me.lf_archived_data.IdleIconRightImage = Nothing
+        Me.lf_archived_data.IndicateFocus = False
+        Me.lf_archived_data.Location = New System.Drawing.Point(751, 408)
+        Me.lf_archived_data.Name = "lf_archived_data"
+        StateProperties81.BorderColor = System.Drawing.Color.Peru
+        StateProperties81.BorderRadius = 3
+        StateProperties81.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties81.BorderThickness = 1
+        StateProperties81.FillColor = System.Drawing.Color.Peru
+        StateProperties81.ForeColor = System.Drawing.Color.White
+        StateProperties81.IconLeftImage = Nothing
+        StateProperties81.IconRightImage = Nothing
+        Me.lf_archived_data.onHoverState = StateProperties81
+        StateProperties82.BorderColor = System.Drawing.Color.Peru
+        StateProperties82.BorderRadius = 3
+        StateProperties82.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties82.BorderThickness = 1
+        StateProperties82.FillColor = System.Drawing.Color.Peru
+        StateProperties82.ForeColor = System.Drawing.Color.White
+        StateProperties82.IconLeftImage = Nothing
+        StateProperties82.IconRightImage = Nothing
+        Me.lf_archived_data.OnPressedState = StateProperties82
+        Me.lf_archived_data.Size = New System.Drawing.Size(62, 62)
+        Me.lf_archived_data.TabIndex = 24
+        Me.lf_archived_data.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lf_archived_data.TextMarginLeft = 0
+        Me.lf_archived_data.UseDefaultRadiusAndThickness = True
+        '
+        'search_lifeplan
+        '
+        Me.search_lifeplan.AcceptsReturn = False
+        Me.search_lifeplan.AcceptsTab = False
+        Me.search_lifeplan.AnimationSpeed = 200
+        Me.search_lifeplan.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
+        Me.search_lifeplan.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
+        Me.search_lifeplan.BackColor = System.Drawing.Color.Transparent
+        Me.search_lifeplan.BackgroundImage = CType(resources.GetObject("search_lifeplan.BackgroundImage"), System.Drawing.Image)
+        Me.search_lifeplan.BorderColorActive = System.Drawing.Color.DodgerBlue
+        Me.search_lifeplan.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
+        Me.search_lifeplan.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.search_lifeplan.BorderColorIdle = System.Drawing.Color.Silver
+        Me.search_lifeplan.BorderRadius = 30
+        Me.search_lifeplan.BorderThickness = 1
+        Me.search_lifeplan.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
+        Me.search_lifeplan.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_lifeplan.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
+        Me.search_lifeplan.DefaultText = ""
+        Me.search_lifeplan.FillColor = System.Drawing.Color.White
+        Me.search_lifeplan.HideSelection = True
+        Me.search_lifeplan.IconLeft = Nothing
+        Me.search_lifeplan.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_lifeplan.IconPadding = 10
+        Me.search_lifeplan.IconRight = Global.ELYSIUM_FMS.My.Resources.Resources.SEARCH
+        Me.search_lifeplan.IconRightCursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_lifeplan.Lines = New String(-1) {}
+        Me.search_lifeplan.Location = New System.Drawing.Point(552, 14)
+        Me.search_lifeplan.MaxLength = 32767
+        Me.search_lifeplan.MinimumSize = New System.Drawing.Size(100, 35)
+        Me.search_lifeplan.Modified = False
+        Me.search_lifeplan.Multiline = False
+        Me.search_lifeplan.Name = "search_lifeplan"
+        StateProperties83.BorderColor = System.Drawing.Color.Peru
+        StateProperties83.FillColor = System.Drawing.Color.Empty
+        StateProperties83.ForeColor = System.Drawing.Color.Empty
+        StateProperties83.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_lifeplan.OnActiveState = StateProperties83
+        StateProperties84.BorderColor = System.Drawing.Color.Empty
+        StateProperties84.FillColor = System.Drawing.Color.White
+        StateProperties84.ForeColor = System.Drawing.Color.Empty
+        StateProperties84.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_lifeplan.OnDisabledState = StateProperties84
+        StateProperties85.BorderColor = System.Drawing.Color.Peru
+        StateProperties85.FillColor = System.Drawing.Color.Empty
+        StateProperties85.ForeColor = System.Drawing.Color.Empty
+        StateProperties85.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_lifeplan.OnHoverState = StateProperties85
+        StateProperties86.BorderColor = System.Drawing.Color.Silver
+        StateProperties86.FillColor = System.Drawing.Color.White
+        StateProperties86.ForeColor = System.Drawing.Color.Empty
+        StateProperties86.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_lifeplan.OnIdleState = StateProperties86
+        Me.search_lifeplan.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.search_lifeplan.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_lifeplan.PlaceholderText = "SEARCH"
+        Me.search_lifeplan.ReadOnly = False
+        Me.search_lifeplan.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.search_lifeplan.SelectedText = ""
+        Me.search_lifeplan.SelectionLength = 0
+        Me.search_lifeplan.SelectionStart = 0
+        Me.search_lifeplan.ShortcutsEnabled = True
+        Me.search_lifeplan.Size = New System.Drawing.Size(262, 35)
+        Me.search_lifeplan.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
+        Me.search_lifeplan.TabIndex = 28
+        Me.search_lifeplan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.search_lifeplan.TextMarginBottom = 0
+        Me.search_lifeplan.TextMarginLeft = 5
+        Me.search_lifeplan.TextMarginTop = 0
+        Me.search_lifeplan.TextPlaceholder = "SEARCH"
+        Me.search_lifeplan.UseSystemPasswordChar = False
+        Me.search_lifeplan.WordWrap = True
+        '
+        'lf_archivebtn
+        '
+        Me.lf_archivebtn.AllowToggling = False
+        Me.lf_archivebtn.AnimationSpeed = 200
+        Me.lf_archivebtn.AutoGenerateColors = False
+        Me.lf_archivebtn.BackColor = System.Drawing.Color.Transparent
+        Me.lf_archivebtn.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.lf_archivebtn.BackgroundImage = CType(resources.GetObject("lf_archivebtn.BackgroundImage"), System.Drawing.Image)
+        Me.lf_archivebtn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.lf_archivebtn.ButtonText = "ARCHIVE"
+        Me.lf_archivebtn.ButtonTextMarginLeft = 0
+        Me.lf_archivebtn.ColorContrastOnClick = 45
+        Me.lf_archivebtn.ColorContrastOnHover = 45
+        Me.lf_archivebtn.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges26.BottomLeft = True
+        BorderEdges26.BottomRight = True
+        BorderEdges26.TopLeft = True
+        BorderEdges26.TopRight = True
+        Me.lf_archivebtn.CustomizableEdges = BorderEdges26
+        Me.lf_archivebtn.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.lf_archivebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.lf_archivebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.lf_archivebtn.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.lf_archivebtn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.lf_archivebtn.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.lf_archivebtn.ForeColor = System.Drawing.Color.White
+        Me.lf_archivebtn.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_archivebtn.IconMarginLeft = 11
+        Me.lf_archivebtn.IconPadding = 10
+        Me.lf_archivebtn.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_archivebtn.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.lf_archivebtn.IdleBorderRadius = 25
+        Me.lf_archivebtn.IdleBorderThickness = 1
+        Me.lf_archivebtn.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.lf_archivebtn.IdleIconLeftImage = Nothing
+        Me.lf_archivebtn.IdleIconRightImage = Nothing
+        Me.lf_archivebtn.IndicateFocus = False
+        Me.lf_archivebtn.Location = New System.Drawing.Point(284, 418)
+        Me.lf_archivebtn.Name = "lf_archivebtn"
+        StateProperties87.BorderColor = System.Drawing.Color.Peru
+        StateProperties87.BorderRadius = 25
+        StateProperties87.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties87.BorderThickness = 1
+        StateProperties87.FillColor = System.Drawing.Color.Peru
+        StateProperties87.ForeColor = System.Drawing.Color.White
+        StateProperties87.IconLeftImage = Nothing
+        StateProperties87.IconRightImage = Nothing
+        Me.lf_archivebtn.onHoverState = StateProperties87
+        StateProperties88.BorderColor = System.Drawing.Color.Peru
+        StateProperties88.BorderRadius = 25
+        StateProperties88.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties88.BorderThickness = 1
+        StateProperties88.FillColor = System.Drawing.Color.Peru
+        StateProperties88.ForeColor = System.Drawing.Color.White
+        StateProperties88.IconLeftImage = Nothing
+        StateProperties88.IconRightImage = Nothing
+        Me.lf_archivebtn.OnPressedState = StateProperties88
+        Me.lf_archivebtn.Size = New System.Drawing.Size(125, 45)
+        Me.lf_archivebtn.TabIndex = 27
+        Me.lf_archivebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lf_archivebtn.TextMarginLeft = 0
+        Me.lf_archivebtn.UseDefaultRadiusAndThickness = True
+        '
+        'lf_updatebtn
+        '
+        Me.lf_updatebtn.AllowToggling = False
+        Me.lf_updatebtn.AnimationSpeed = 200
+        Me.lf_updatebtn.AutoGenerateColors = False
+        Me.lf_updatebtn.BackColor = System.Drawing.Color.Transparent
+        Me.lf_updatebtn.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.lf_updatebtn.BackgroundImage = CType(resources.GetObject("lf_updatebtn.BackgroundImage"), System.Drawing.Image)
+        Me.lf_updatebtn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.lf_updatebtn.ButtonText = "UPDATE"
+        Me.lf_updatebtn.ButtonTextMarginLeft = 0
+        Me.lf_updatebtn.ColorContrastOnClick = 45
+        Me.lf_updatebtn.ColorContrastOnHover = 45
+        Me.lf_updatebtn.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges27.BottomLeft = True
+        BorderEdges27.BottomRight = True
+        BorderEdges27.TopLeft = True
+        BorderEdges27.TopRight = True
+        Me.lf_updatebtn.CustomizableEdges = BorderEdges27
+        Me.lf_updatebtn.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.lf_updatebtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.lf_updatebtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.lf_updatebtn.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.lf_updatebtn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.lf_updatebtn.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.lf_updatebtn.ForeColor = System.Drawing.Color.White
+        Me.lf_updatebtn.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_updatebtn.IconMarginLeft = 11
+        Me.lf_updatebtn.IconPadding = 10
+        Me.lf_updatebtn.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_updatebtn.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.lf_updatebtn.IdleBorderRadius = 25
+        Me.lf_updatebtn.IdleBorderThickness = 1
+        Me.lf_updatebtn.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.lf_updatebtn.IdleIconLeftImage = Nothing
+        Me.lf_updatebtn.IdleIconRightImage = Nothing
+        Me.lf_updatebtn.IndicateFocus = False
+        Me.lf_updatebtn.Location = New System.Drawing.Point(153, 418)
+        Me.lf_updatebtn.Name = "lf_updatebtn"
+        StateProperties89.BorderColor = System.Drawing.Color.Peru
+        StateProperties89.BorderRadius = 25
+        StateProperties89.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties89.BorderThickness = 1
+        StateProperties89.FillColor = System.Drawing.Color.Peru
+        StateProperties89.ForeColor = System.Drawing.Color.White
+        StateProperties89.IconLeftImage = Nothing
+        StateProperties89.IconRightImage = Nothing
+        Me.lf_updatebtn.onHoverState = StateProperties89
+        StateProperties90.BorderColor = System.Drawing.Color.Peru
+        StateProperties90.BorderRadius = 25
+        StateProperties90.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties90.BorderThickness = 1
+        StateProperties90.FillColor = System.Drawing.Color.Peru
+        StateProperties90.ForeColor = System.Drawing.Color.White
+        StateProperties90.IconLeftImage = Nothing
+        StateProperties90.IconRightImage = Nothing
+        Me.lf_updatebtn.OnPressedState = StateProperties90
+        Me.lf_updatebtn.Size = New System.Drawing.Size(125, 45)
+        Me.lf_updatebtn.TabIndex = 26
+        Me.lf_updatebtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lf_updatebtn.TextMarginLeft = 0
+        Me.lf_updatebtn.UseDefaultRadiusAndThickness = True
+        '
+        'lf_addbtn
+        '
+        Me.lf_addbtn.AllowToggling = False
+        Me.lf_addbtn.AnimationSpeed = 200
+        Me.lf_addbtn.AutoGenerateColors = False
+        Me.lf_addbtn.BackColor = System.Drawing.Color.Transparent
+        Me.lf_addbtn.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.lf_addbtn.BackgroundImage = CType(resources.GetObject("lf_addbtn.BackgroundImage"), System.Drawing.Image)
+        Me.lf_addbtn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.lf_addbtn.ButtonText = "ADD"
+        Me.lf_addbtn.ButtonTextMarginLeft = 0
+        Me.lf_addbtn.ColorContrastOnClick = 45
+        Me.lf_addbtn.ColorContrastOnHover = 45
+        Me.lf_addbtn.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges28.BottomLeft = True
+        BorderEdges28.BottomRight = True
+        BorderEdges28.TopLeft = True
+        BorderEdges28.TopRight = True
+        Me.lf_addbtn.CustomizableEdges = BorderEdges28
+        Me.lf_addbtn.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.lf_addbtn.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.lf_addbtn.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.lf_addbtn.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.lf_addbtn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.lf_addbtn.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.lf_addbtn.ForeColor = System.Drawing.Color.White
+        Me.lf_addbtn.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_addbtn.IconMarginLeft = 11
+        Me.lf_addbtn.IconPadding = 10
+        Me.lf_addbtn.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.lf_addbtn.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.lf_addbtn.IdleBorderRadius = 25
+        Me.lf_addbtn.IdleBorderThickness = 1
+        Me.lf_addbtn.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.lf_addbtn.IdleIconLeftImage = Nothing
+        Me.lf_addbtn.IdleIconRightImage = Nothing
+        Me.lf_addbtn.IndicateFocus = False
+        Me.lf_addbtn.Location = New System.Drawing.Point(22, 418)
+        Me.lf_addbtn.Name = "lf_addbtn"
+        StateProperties91.BorderColor = System.Drawing.Color.Peru
+        StateProperties91.BorderRadius = 25
+        StateProperties91.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties91.BorderThickness = 1
+        StateProperties91.FillColor = System.Drawing.Color.Peru
+        StateProperties91.ForeColor = System.Drawing.Color.White
+        StateProperties91.IconLeftImage = Nothing
+        StateProperties91.IconRightImage = Nothing
+        Me.lf_addbtn.onHoverState = StateProperties91
+        StateProperties92.BorderColor = System.Drawing.Color.Peru
+        StateProperties92.BorderRadius = 25
+        StateProperties92.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties92.BorderThickness = 1
+        StateProperties92.FillColor = System.Drawing.Color.Peru
+        StateProperties92.ForeColor = System.Drawing.Color.White
+        StateProperties92.IconLeftImage = Nothing
+        StateProperties92.IconRightImage = Nothing
+        Me.lf_addbtn.OnPressedState = StateProperties92
+        Me.lf_addbtn.Size = New System.Drawing.Size(125, 45)
+        Me.lf_addbtn.TabIndex = 25
+        Me.lf_addbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lf_addbtn.TextMarginLeft = 0
+        Me.lf_addbtn.UseDefaultRadiusAndThickness = True
+        '
         'TabPage7
         '
         Me.TabPage7.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.TabPage7.Controls.Add(Me.BunifuButton21)
-        Me.TabPage7.Controls.Add(Me.BunifuTextBox4)
-        Me.TabPage7.Controls.Add(Me.BunifuButton22)
-        Me.TabPage7.Controls.Add(Me.BunifuButton23)
-        Me.TabPage7.Controls.Add(Me.BunifuButton24)
-        Me.TabPage7.Controls.Add(Me.BunifuCustomDataGrid4)
+        Me.TabPage7.Controls.Add(Me.ds_dgv)
         Me.TabPage7.Controls.Add(Me.BunifuLabel24)
+        Me.TabPage7.Controls.Add(Me.ds_archived_data)
+        Me.TabPage7.Controls.Add(Me.ds_archive)
+        Me.TabPage7.Controls.Add(Me.ds_update)
+        Me.TabPage7.Controls.Add(Me.ds_add)
+        Me.TabPage7.Controls.Add(Me.search_ds)
         Me.TabPage7.Location = New System.Drawing.Point(4, 4)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
@@ -3396,356 +3765,76 @@ Partial Class admin_dashboard
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "direct_services"
         '
-        'BunifuButton21
+        'ds_dgv
         '
-        Me.BunifuButton21.AllowToggling = False
-        Me.BunifuButton21.AnimationSpeed = 200
-        Me.BunifuButton21.AutoGenerateColors = False
-        Me.BunifuButton21.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton21.BackColor1 = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton21.BackgroundImage = CType(resources.GetObject("BunifuButton21.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton21.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton21.ButtonText = " "
-        Me.BunifuButton21.ButtonTextMarginLeft = 0
-        Me.BunifuButton21.ColorContrastOnClick = 45
-        Me.BunifuButton21.ColorContrastOnHover = 45
-        Me.BunifuButton21.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges26.BottomLeft = True
-        BorderEdges26.BottomRight = True
-        BorderEdges26.TopLeft = True
-        BorderEdges26.TopRight = True
-        Me.BunifuButton21.CustomizableEdges = BorderEdges26
-        Me.BunifuButton21.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton21.DisabledBorderColor = System.Drawing.Color.Empty
-        Me.BunifuButton21.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton21.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton21.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton21.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton21.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton21.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton21.IconMarginLeft = 11
-        Me.BunifuButton21.IconPadding = 10
-        Me.BunifuButton21.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton21.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton21.IdleBorderRadius = 3
-        Me.BunifuButton21.IdleBorderThickness = 1
-        Me.BunifuButton21.IdleFillColor = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton21.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
-        Me.BunifuButton21.IdleIconRightImage = Nothing
-        Me.BunifuButton21.IndicateFocus = False
-        Me.BunifuButton21.Location = New System.Drawing.Point(752, 406)
-        Me.BunifuButton21.Name = "BunifuButton21"
-        StateProperties87.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties87.BorderRadius = 3
-        StateProperties87.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties87.BorderThickness = 1
-        StateProperties87.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties87.ForeColor = System.Drawing.Color.White
-        StateProperties87.IconLeftImage = Nothing
-        StateProperties87.IconRightImage = Nothing
-        Me.BunifuButton21.onHoverState = StateProperties87
-        StateProperties88.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties88.BorderRadius = 3
-        StateProperties88.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties88.BorderThickness = 1
-        StateProperties88.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties88.ForeColor = System.Drawing.Color.White
-        StateProperties88.IconLeftImage = Nothing
-        StateProperties88.IconRightImage = Nothing
-        Me.BunifuButton21.OnPressedState = StateProperties88
-        Me.BunifuButton21.Size = New System.Drawing.Size(62, 62)
-        Me.BunifuButton21.TabIndex = 23
-        Me.BunifuButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton21.TextMarginLeft = 0
-        Me.BunifuButton21.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuTextBox4
-        '
-        Me.BunifuTextBox4.AcceptsReturn = False
-        Me.BunifuTextBox4.AcceptsTab = False
-        Me.BunifuTextBox4.AnimationSpeed = 200
-        Me.BunifuTextBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.BunifuTextBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.BunifuTextBox4.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTextBox4.BackgroundImage = CType(resources.GetObject("BunifuTextBox4.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuTextBox4.BorderColorActive = System.Drawing.Color.DodgerBlue
-        Me.BunifuTextBox4.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.BunifuTextBox4.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuTextBox4.BorderColorIdle = System.Drawing.Color.Silver
-        Me.BunifuTextBox4.BorderRadius = 30
-        Me.BunifuTextBox4.BorderThickness = 1
-        Me.BunifuTextBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.BunifuTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox4.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuTextBox4.DefaultText = ""
-        Me.BunifuTextBox4.FillColor = System.Drawing.Color.White
-        Me.BunifuTextBox4.HideSelection = True
-        Me.BunifuTextBox4.IconLeft = Nothing
-        Me.BunifuTextBox4.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox4.IconPadding = 10
-        Me.BunifuTextBox4.IconRight = Global.ELYSIUM_FMS.My.Resources.Resources.SEARCH
-        Me.BunifuTextBox4.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox4.Lines = New String(-1) {}
-        Me.BunifuTextBox4.Location = New System.Drawing.Point(552, 19)
-        Me.BunifuTextBox4.MaxLength = 32767
-        Me.BunifuTextBox4.MinimumSize = New System.Drawing.Size(100, 35)
-        Me.BunifuTextBox4.Modified = False
-        Me.BunifuTextBox4.Multiline = False
-        Me.BunifuTextBox4.Name = "BunifuTextBox4"
-        StateProperties89.BorderColor = System.Drawing.Color.DodgerBlue
-        StateProperties89.FillColor = System.Drawing.Color.Empty
-        StateProperties89.ForeColor = System.Drawing.Color.Empty
-        StateProperties89.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox4.OnActiveState = StateProperties89
-        StateProperties90.BorderColor = System.Drawing.Color.Empty
-        StateProperties90.FillColor = System.Drawing.Color.White
-        StateProperties90.ForeColor = System.Drawing.Color.Empty
-        StateProperties90.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.BunifuTextBox4.OnDisabledState = StateProperties90
-        StateProperties91.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties91.FillColor = System.Drawing.Color.Empty
-        StateProperties91.ForeColor = System.Drawing.Color.Empty
-        StateProperties91.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox4.OnHoverState = StateProperties91
-        StateProperties92.BorderColor = System.Drawing.Color.Silver
-        StateProperties92.FillColor = System.Drawing.Color.White
-        StateProperties92.ForeColor = System.Drawing.Color.Empty
-        StateProperties92.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox4.OnIdleState = StateProperties92
-        Me.BunifuTextBox4.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BunifuTextBox4.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.BunifuTextBox4.PlaceholderText = "SEARCH"
-        Me.BunifuTextBox4.ReadOnly = False
-        Me.BunifuTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.BunifuTextBox4.SelectedText = ""
-        Me.BunifuTextBox4.SelectionLength = 0
-        Me.BunifuTextBox4.SelectionStart = 0
-        Me.BunifuTextBox4.ShortcutsEnabled = True
-        Me.BunifuTextBox4.Size = New System.Drawing.Size(262, 35)
-        Me.BunifuTextBox4.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
-        Me.BunifuTextBox4.TabIndex = 27
-        Me.BunifuTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.BunifuTextBox4.TextMarginBottom = 0
-        Me.BunifuTextBox4.TextMarginLeft = 5
-        Me.BunifuTextBox4.TextMarginTop = 0
-        Me.BunifuTextBox4.TextPlaceholder = "SEARCH"
-        Me.BunifuTextBox4.UseSystemPasswordChar = False
-        Me.BunifuTextBox4.WordWrap = True
-        '
-        'BunifuButton22
-        '
-        Me.BunifuButton22.AllowToggling = False
-        Me.BunifuButton22.AnimationSpeed = 200
-        Me.BunifuButton22.AutoGenerateColors = False
-        Me.BunifuButton22.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton22.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton22.BackgroundImage = CType(resources.GetObject("BunifuButton22.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton22.ButtonText = "ARCHIVE"
-        Me.BunifuButton22.ButtonTextMarginLeft = 0
-        Me.BunifuButton22.ColorContrastOnClick = 45
-        Me.BunifuButton22.ColorContrastOnHover = 45
-        Me.BunifuButton22.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges27.BottomLeft = True
-        BorderEdges27.BottomRight = True
-        BorderEdges27.TopLeft = True
-        BorderEdges27.TopRight = True
-        Me.BunifuButton22.CustomizableEdges = BorderEdges27
-        Me.BunifuButton22.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton22.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton22.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton22.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton22.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton22.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton22.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton22.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton22.IconMarginLeft = 11
-        Me.BunifuButton22.IconPadding = 10
-        Me.BunifuButton22.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton22.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton22.IdleBorderRadius = 25
-        Me.BunifuButton22.IdleBorderThickness = 1
-        Me.BunifuButton22.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton22.IdleIconLeftImage = Nothing
-        Me.BunifuButton22.IdleIconRightImage = Nothing
-        Me.BunifuButton22.IndicateFocus = False
-        Me.BunifuButton22.Location = New System.Drawing.Point(332, 423)
-        Me.BunifuButton22.Name = "BunifuButton22"
-        StateProperties93.BorderColor = System.Drawing.Color.Peru
-        StateProperties93.BorderRadius = 25
-        StateProperties93.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties93.BorderThickness = 1
-        StateProperties93.FillColor = System.Drawing.Color.Peru
-        StateProperties93.ForeColor = System.Drawing.Color.White
-        StateProperties93.IconLeftImage = Nothing
-        StateProperties93.IconRightImage = Nothing
-        Me.BunifuButton22.onHoverState = StateProperties93
-        StateProperties94.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties94.BorderRadius = 25
-        StateProperties94.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties94.BorderThickness = 1
-        StateProperties94.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties94.ForeColor = System.Drawing.Color.White
-        StateProperties94.IconLeftImage = Nothing
-        StateProperties94.IconRightImage = Nothing
-        Me.BunifuButton22.OnPressedState = StateProperties94
-        Me.BunifuButton22.Size = New System.Drawing.Size(149, 45)
-        Me.BunifuButton22.TabIndex = 26
-        Me.BunifuButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton22.TextMarginLeft = 0
-        Me.BunifuButton22.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuButton23
-        '
-        Me.BunifuButton23.AllowToggling = False
-        Me.BunifuButton23.AnimationSpeed = 200
-        Me.BunifuButton23.AutoGenerateColors = False
-        Me.BunifuButton23.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton23.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton23.BackgroundImage = CType(resources.GetObject("BunifuButton23.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton23.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton23.ButtonText = "UPDATE"
-        Me.BunifuButton23.ButtonTextMarginLeft = 0
-        Me.BunifuButton23.ColorContrastOnClick = 45
-        Me.BunifuButton23.ColorContrastOnHover = 45
-        Me.BunifuButton23.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges28.BottomLeft = True
-        BorderEdges28.BottomRight = True
-        BorderEdges28.TopLeft = True
-        BorderEdges28.TopRight = True
-        Me.BunifuButton23.CustomizableEdges = BorderEdges28
-        Me.BunifuButton23.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton23.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton23.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton23.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton23.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton23.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton23.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton23.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton23.IconMarginLeft = 11
-        Me.BunifuButton23.IconPadding = 10
-        Me.BunifuButton23.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton23.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton23.IdleBorderRadius = 25
-        Me.BunifuButton23.IdleBorderThickness = 1
-        Me.BunifuButton23.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton23.IdleIconLeftImage = Nothing
-        Me.BunifuButton23.IdleIconRightImage = Nothing
-        Me.BunifuButton23.IndicateFocus = False
-        Me.BunifuButton23.Location = New System.Drawing.Point(177, 423)
-        Me.BunifuButton23.Name = "BunifuButton23"
-        StateProperties95.BorderColor = System.Drawing.Color.Peru
-        StateProperties95.BorderRadius = 25
-        StateProperties95.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties95.BorderThickness = 1
-        StateProperties95.FillColor = System.Drawing.Color.Peru
-        StateProperties95.ForeColor = System.Drawing.Color.White
-        StateProperties95.IconLeftImage = Nothing
-        StateProperties95.IconRightImage = Nothing
-        Me.BunifuButton23.onHoverState = StateProperties95
-        StateProperties96.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties96.BorderRadius = 25
-        StateProperties96.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties96.BorderThickness = 1
-        StateProperties96.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties96.ForeColor = System.Drawing.Color.White
-        StateProperties96.IconLeftImage = Nothing
-        StateProperties96.IconRightImage = Nothing
-        Me.BunifuButton23.OnPressedState = StateProperties96
-        Me.BunifuButton23.Size = New System.Drawing.Size(149, 45)
-        Me.BunifuButton23.TabIndex = 25
-        Me.BunifuButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton23.TextMarginLeft = 0
-        Me.BunifuButton23.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuButton24
-        '
-        Me.BunifuButton24.AllowToggling = False
-        Me.BunifuButton24.AnimationSpeed = 200
-        Me.BunifuButton24.AutoGenerateColors = False
-        Me.BunifuButton24.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton24.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton24.BackgroundImage = CType(resources.GetObject("BunifuButton24.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton24.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton24.ButtonText = "ADD"
-        Me.BunifuButton24.ButtonTextMarginLeft = 0
-        Me.BunifuButton24.ColorContrastOnClick = 45
-        Me.BunifuButton24.ColorContrastOnHover = 45
-        Me.BunifuButton24.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges29.BottomLeft = True
-        BorderEdges29.BottomRight = True
-        BorderEdges29.TopLeft = True
-        BorderEdges29.TopRight = True
-        Me.BunifuButton24.CustomizableEdges = BorderEdges29
-        Me.BunifuButton24.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton24.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton24.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton24.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton24.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton24.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton24.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton24.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton24.IconMarginLeft = 11
-        Me.BunifuButton24.IconPadding = 10
-        Me.BunifuButton24.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton24.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton24.IdleBorderRadius = 25
-        Me.BunifuButton24.IdleBorderThickness = 1
-        Me.BunifuButton24.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton24.IdleIconLeftImage = Nothing
-        Me.BunifuButton24.IdleIconRightImage = Nothing
-        Me.BunifuButton24.IndicateFocus = False
-        Me.BunifuButton24.Location = New System.Drawing.Point(22, 423)
-        Me.BunifuButton24.Name = "BunifuButton24"
-        StateProperties97.BorderColor = System.Drawing.Color.Peru
-        StateProperties97.BorderRadius = 25
-        StateProperties97.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties97.BorderThickness = 1
-        StateProperties97.FillColor = System.Drawing.Color.Peru
-        StateProperties97.ForeColor = System.Drawing.Color.White
-        StateProperties97.IconLeftImage = Nothing
-        StateProperties97.IconRightImage = Nothing
-        Me.BunifuButton24.onHoverState = StateProperties97
-        StateProperties98.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties98.BorderRadius = 25
-        StateProperties98.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties98.BorderThickness = 1
-        StateProperties98.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties98.ForeColor = System.Drawing.Color.White
-        StateProperties98.IconLeftImage = Nothing
-        StateProperties98.IconRightImage = Nothing
-        Me.BunifuButton24.OnPressedState = StateProperties98
-        Me.BunifuButton24.Size = New System.Drawing.Size(149, 45)
-        Me.BunifuButton24.TabIndex = 24
-        Me.BunifuButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton24.TextMarginLeft = 0
-        Me.BunifuButton24.UseDefaultRadiusAndThickness = True
-        '
-        'BunifuCustomDataGrid4
-        '
-        DataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.BunifuCustomDataGrid4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
-        Me.BunifuCustomDataGrid4.BackgroundColor = System.Drawing.Color.Gainsboro
-        Me.BunifuCustomDataGrid4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.BunifuCustomDataGrid4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle14.BackColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.BunifuCustomDataGrid4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
-        Me.BunifuCustomDataGrid4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.BunifuCustomDataGrid4.DoubleBuffered = True
-        Me.BunifuCustomDataGrid4.EnableHeadersVisualStyles = False
-        Me.BunifuCustomDataGrid4.HeaderBgColor = System.Drawing.Color.SeaGreen
-        Me.BunifuCustomDataGrid4.HeaderForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuCustomDataGrid4.Location = New System.Drawing.Point(22, 69)
-        Me.BunifuCustomDataGrid4.Name = "BunifuCustomDataGrid4"
-        Me.BunifuCustomDataGrid4.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.BunifuCustomDataGrid4.Size = New System.Drawing.Size(792, 331)
-        Me.BunifuCustomDataGrid4.TabIndex = 22
+        Me.ds_dgv.AllowCustomTheming = True
+        DataGridViewCellStyle16.BackColor = System.Drawing.Color.NavajoWhite
+        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
+        Me.ds_dgv.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
+        Me.ds_dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.ds_dgv.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.ds_dgv.BackgroundColor = System.Drawing.Color.Tan
+        Me.ds_dgv.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ds_dgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.ds_dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle17.BackColor = System.Drawing.Color.Sienna
+        DataGridViewCellStyle17.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.ds_dgv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
+        Me.ds_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.ds_dgv.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.NavajoWhite
+        Me.ds_dgv.CurrentTheme.AlternatingRowsStyle.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dgv.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.ds_dgv.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.AntiqueWhite
+        Me.ds_dgv.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black
+        Me.ds_dgv.CurrentTheme.BackColor = System.Drawing.Color.Tan
+        Me.ds_dgv.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ds_dgv.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.Sienna
+        Me.ds_dgv.CurrentTheme.HeaderStyle.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dgv.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.ds_dgv.CurrentTheme.Name = Nothing
+        Me.ds_dgv.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.NavajoWhite
+        Me.ds_dgv.CurrentTheme.RowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.ds_dgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.ds_dgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.Chocolate
+        Me.ds_dgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.BackColor = System.Drawing.Color.NavajoWhite
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Chocolate
+        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.ds_dgv.DefaultCellStyle = DataGridViewCellStyle18
+        Me.ds_dgv.EnableHeadersVisualStyles = False
+        Me.ds_dgv.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ds_dgv.HeaderBackColor = System.Drawing.Color.Sienna
+        Me.ds_dgv.HeaderBgColor = System.Drawing.Color.Empty
+        Me.ds_dgv.HeaderForeColor = System.Drawing.Color.White
+        Me.ds_dgv.Location = New System.Drawing.Point(21, 67)
+        Me.ds_dgv.Name = "ds_dgv"
+        Me.ds_dgv.ReadOnly = True
+        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle19.BackColor = System.Drawing.Color.Tan
+        DataGridViewCellStyle19.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Sienna
+        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.ds_dgv.RowHeadersDefaultCellStyle = DataGridViewCellStyle19
+        Me.ds_dgv.RowHeadersVisible = False
+        Me.ds_dgv.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders
+        DataGridViewCellStyle20.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dgv.RowsDefaultCellStyle = DataGridViewCellStyle20
+        Me.ds_dgv.RowTemplate.Height = 40
+        Me.ds_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.ds_dgv.Size = New System.Drawing.Size(792, 330)
+        Me.ds_dgv.TabIndex = 36
+        Me.ds_dgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Chocolate
         '
         'BunifuLabel24
         '
@@ -3753,7 +3842,7 @@ Partial Class admin_dashboard
         Me.BunifuLabel24.CursorType = Nothing
         Me.BunifuLabel24.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold)
         Me.BunifuLabel24.ForeColor = System.Drawing.Color.DimGray
-        Me.BunifuLabel24.Location = New System.Drawing.Point(22, 19)
+        Me.BunifuLabel24.Location = New System.Drawing.Point(22, 14)
         Me.BunifuLabel24.Name = "BunifuLabel24"
         Me.BunifuLabel24.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.BunifuLabel24.Size = New System.Drawing.Size(208, 44)
@@ -3762,16 +3851,341 @@ Partial Class admin_dashboard
         Me.BunifuLabel24.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel24.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
+        'ds_archived_data
+        '
+        Me.ds_archived_data.AllowToggling = False
+        Me.ds_archived_data.AnimationSpeed = 200
+        Me.ds_archived_data.AutoGenerateColors = False
+        Me.ds_archived_data.BackColor = System.Drawing.Color.Transparent
+        Me.ds_archived_data.BackColor1 = System.Drawing.Color.BlanchedAlmond
+        Me.ds_archived_data.BackgroundImage = CType(resources.GetObject("ds_archived_data.BackgroundImage"), System.Drawing.Image)
+        Me.ds_archived_data.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.ds_archived_data.ButtonText = " "
+        Me.ds_archived_data.ButtonTextMarginLeft = 0
+        Me.ds_archived_data.ColorContrastOnClick = 45
+        Me.ds_archived_data.ColorContrastOnHover = 45
+        Me.ds_archived_data.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges29.BottomLeft = True
+        BorderEdges29.BottomRight = True
+        BorderEdges29.TopLeft = True
+        BorderEdges29.TopRight = True
+        Me.ds_archived_data.CustomizableEdges = BorderEdges29
+        Me.ds_archived_data.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.ds_archived_data.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.ds_archived_data.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.ds_archived_data.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.ds_archived_data.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.ds_archived_data.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.ds_archived_data.ForeColor = System.Drawing.Color.White
+        Me.ds_archived_data.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_archived_data.IconMarginLeft = 11
+        Me.ds_archived_data.IconPadding = 10
+        Me.ds_archived_data.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_archived_data.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
+        Me.ds_archived_data.IdleBorderRadius = 3
+        Me.ds_archived_data.IdleBorderThickness = 1
+        Me.ds_archived_data.IdleFillColor = System.Drawing.Color.BlanchedAlmond
+        Me.ds_archived_data.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
+        Me.ds_archived_data.IdleIconRightImage = Nothing
+        Me.ds_archived_data.IndicateFocus = False
+        Me.ds_archived_data.Location = New System.Drawing.Point(751, 408)
+        Me.ds_archived_data.Name = "ds_archived_data"
+        StateProperties93.BorderColor = System.Drawing.Color.Peru
+        StateProperties93.BorderRadius = 3
+        StateProperties93.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties93.BorderThickness = 1
+        StateProperties93.FillColor = System.Drawing.Color.Peru
+        StateProperties93.ForeColor = System.Drawing.Color.White
+        StateProperties93.IconLeftImage = Nothing
+        StateProperties93.IconRightImage = Nothing
+        Me.ds_archived_data.onHoverState = StateProperties93
+        StateProperties94.BorderColor = System.Drawing.Color.Peru
+        StateProperties94.BorderRadius = 3
+        StateProperties94.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties94.BorderThickness = 1
+        StateProperties94.FillColor = System.Drawing.Color.Peru
+        StateProperties94.ForeColor = System.Drawing.Color.White
+        StateProperties94.IconLeftImage = Nothing
+        StateProperties94.IconRightImage = Nothing
+        Me.ds_archived_data.OnPressedState = StateProperties94
+        Me.ds_archived_data.Size = New System.Drawing.Size(62, 62)
+        Me.ds_archived_data.TabIndex = 31
+        Me.ds_archived_data.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ds_archived_data.TextMarginLeft = 0
+        Me.ds_archived_data.UseDefaultRadiusAndThickness = True
+        '
+        'ds_archive
+        '
+        Me.ds_archive.AllowToggling = False
+        Me.ds_archive.AnimationSpeed = 200
+        Me.ds_archive.AutoGenerateColors = False
+        Me.ds_archive.BackColor = System.Drawing.Color.Transparent
+        Me.ds_archive.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.ds_archive.BackgroundImage = CType(resources.GetObject("ds_archive.BackgroundImage"), System.Drawing.Image)
+        Me.ds_archive.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.ds_archive.ButtonText = "ARCHIVE"
+        Me.ds_archive.ButtonTextMarginLeft = 0
+        Me.ds_archive.ColorContrastOnClick = 45
+        Me.ds_archive.ColorContrastOnHover = 45
+        Me.ds_archive.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges30.BottomLeft = True
+        BorderEdges30.BottomRight = True
+        BorderEdges30.TopLeft = True
+        BorderEdges30.TopRight = True
+        Me.ds_archive.CustomizableEdges = BorderEdges30
+        Me.ds_archive.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.ds_archive.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.ds_archive.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.ds_archive.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.ds_archive.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.ds_archive.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.ds_archive.ForeColor = System.Drawing.Color.White
+        Me.ds_archive.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_archive.IconMarginLeft = 11
+        Me.ds_archive.IconPadding = 10
+        Me.ds_archive.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_archive.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.ds_archive.IdleBorderRadius = 25
+        Me.ds_archive.IdleBorderThickness = 1
+        Me.ds_archive.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.ds_archive.IdleIconLeftImage = Nothing
+        Me.ds_archive.IdleIconRightImage = Nothing
+        Me.ds_archive.IndicateFocus = False
+        Me.ds_archive.Location = New System.Drawing.Point(284, 418)
+        Me.ds_archive.Name = "ds_archive"
+        StateProperties95.BorderColor = System.Drawing.Color.Peru
+        StateProperties95.BorderRadius = 25
+        StateProperties95.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties95.BorderThickness = 1
+        StateProperties95.FillColor = System.Drawing.Color.Peru
+        StateProperties95.ForeColor = System.Drawing.Color.White
+        StateProperties95.IconLeftImage = Nothing
+        StateProperties95.IconRightImage = Nothing
+        Me.ds_archive.onHoverState = StateProperties95
+        StateProperties96.BorderColor = System.Drawing.Color.Peru
+        StateProperties96.BorderRadius = 25
+        StateProperties96.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties96.BorderThickness = 1
+        StateProperties96.FillColor = System.Drawing.Color.Peru
+        StateProperties96.ForeColor = System.Drawing.Color.White
+        StateProperties96.IconLeftImage = Nothing
+        StateProperties96.IconRightImage = Nothing
+        Me.ds_archive.OnPressedState = StateProperties96
+        Me.ds_archive.Size = New System.Drawing.Size(125, 45)
+        Me.ds_archive.TabIndex = 34
+        Me.ds_archive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ds_archive.TextMarginLeft = 0
+        Me.ds_archive.UseDefaultRadiusAndThickness = True
+        '
+        'ds_update
+        '
+        Me.ds_update.AllowToggling = False
+        Me.ds_update.AnimationSpeed = 200
+        Me.ds_update.AutoGenerateColors = False
+        Me.ds_update.BackColor = System.Drawing.Color.Transparent
+        Me.ds_update.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.ds_update.BackgroundImage = CType(resources.GetObject("ds_update.BackgroundImage"), System.Drawing.Image)
+        Me.ds_update.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.ds_update.ButtonText = "UPDATE"
+        Me.ds_update.ButtonTextMarginLeft = 0
+        Me.ds_update.ColorContrastOnClick = 45
+        Me.ds_update.ColorContrastOnHover = 45
+        Me.ds_update.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges31.BottomLeft = True
+        BorderEdges31.BottomRight = True
+        BorderEdges31.TopLeft = True
+        BorderEdges31.TopRight = True
+        Me.ds_update.CustomizableEdges = BorderEdges31
+        Me.ds_update.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.ds_update.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.ds_update.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.ds_update.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.ds_update.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.ds_update.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.ds_update.ForeColor = System.Drawing.Color.White
+        Me.ds_update.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_update.IconMarginLeft = 11
+        Me.ds_update.IconPadding = 10
+        Me.ds_update.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_update.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.ds_update.IdleBorderRadius = 25
+        Me.ds_update.IdleBorderThickness = 1
+        Me.ds_update.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.ds_update.IdleIconLeftImage = Nothing
+        Me.ds_update.IdleIconRightImage = Nothing
+        Me.ds_update.IndicateFocus = False
+        Me.ds_update.Location = New System.Drawing.Point(153, 418)
+        Me.ds_update.Name = "ds_update"
+        StateProperties97.BorderColor = System.Drawing.Color.Peru
+        StateProperties97.BorderRadius = 25
+        StateProperties97.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties97.BorderThickness = 1
+        StateProperties97.FillColor = System.Drawing.Color.Peru
+        StateProperties97.ForeColor = System.Drawing.Color.White
+        StateProperties97.IconLeftImage = Nothing
+        StateProperties97.IconRightImage = Nothing
+        Me.ds_update.onHoverState = StateProperties97
+        StateProperties98.BorderColor = System.Drawing.Color.Peru
+        StateProperties98.BorderRadius = 25
+        StateProperties98.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties98.BorderThickness = 1
+        StateProperties98.FillColor = System.Drawing.Color.Peru
+        StateProperties98.ForeColor = System.Drawing.Color.White
+        StateProperties98.IconLeftImage = Nothing
+        StateProperties98.IconRightImage = Nothing
+        Me.ds_update.OnPressedState = StateProperties98
+        Me.ds_update.Size = New System.Drawing.Size(125, 45)
+        Me.ds_update.TabIndex = 33
+        Me.ds_update.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ds_update.TextMarginLeft = 0
+        Me.ds_update.UseDefaultRadiusAndThickness = True
+        '
+        'ds_add
+        '
+        Me.ds_add.AllowToggling = False
+        Me.ds_add.AnimationSpeed = 200
+        Me.ds_add.AutoGenerateColors = False
+        Me.ds_add.BackColor = System.Drawing.Color.Transparent
+        Me.ds_add.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.ds_add.BackgroundImage = CType(resources.GetObject("ds_add.BackgroundImage"), System.Drawing.Image)
+        Me.ds_add.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.ds_add.ButtonText = "ADD"
+        Me.ds_add.ButtonTextMarginLeft = 0
+        Me.ds_add.ColorContrastOnClick = 45
+        Me.ds_add.ColorContrastOnHover = 45
+        Me.ds_add.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges32.BottomLeft = True
+        BorderEdges32.BottomRight = True
+        BorderEdges32.TopLeft = True
+        BorderEdges32.TopRight = True
+        Me.ds_add.CustomizableEdges = BorderEdges32
+        Me.ds_add.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.ds_add.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.ds_add.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.ds_add.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.ds_add.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.ds_add.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.ds_add.ForeColor = System.Drawing.Color.White
+        Me.ds_add.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_add.IconMarginLeft = 11
+        Me.ds_add.IconPadding = 10
+        Me.ds_add.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.ds_add.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.ds_add.IdleBorderRadius = 25
+        Me.ds_add.IdleBorderThickness = 1
+        Me.ds_add.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.ds_add.IdleIconLeftImage = Nothing
+        Me.ds_add.IdleIconRightImage = Nothing
+        Me.ds_add.IndicateFocus = False
+        Me.ds_add.Location = New System.Drawing.Point(22, 418)
+        Me.ds_add.Name = "ds_add"
+        StateProperties99.BorderColor = System.Drawing.Color.Peru
+        StateProperties99.BorderRadius = 25
+        StateProperties99.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties99.BorderThickness = 1
+        StateProperties99.FillColor = System.Drawing.Color.Peru
+        StateProperties99.ForeColor = System.Drawing.Color.White
+        StateProperties99.IconLeftImage = Nothing
+        StateProperties99.IconRightImage = Nothing
+        Me.ds_add.onHoverState = StateProperties99
+        StateProperties100.BorderColor = System.Drawing.Color.Peru
+        StateProperties100.BorderRadius = 25
+        StateProperties100.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties100.BorderThickness = 1
+        StateProperties100.FillColor = System.Drawing.Color.Peru
+        StateProperties100.ForeColor = System.Drawing.Color.White
+        StateProperties100.IconLeftImage = Nothing
+        StateProperties100.IconRightImage = Nothing
+        Me.ds_add.OnPressedState = StateProperties100
+        Me.ds_add.Size = New System.Drawing.Size(125, 45)
+        Me.ds_add.TabIndex = 32
+        Me.ds_add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.ds_add.TextMarginLeft = 0
+        Me.ds_add.UseDefaultRadiusAndThickness = True
+        '
+        'search_ds
+        '
+        Me.search_ds.AcceptsReturn = False
+        Me.search_ds.AcceptsTab = False
+        Me.search_ds.AnimationSpeed = 200
+        Me.search_ds.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
+        Me.search_ds.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
+        Me.search_ds.BackColor = System.Drawing.Color.Transparent
+        Me.search_ds.BackgroundImage = CType(resources.GetObject("search_ds.BackgroundImage"), System.Drawing.Image)
+        Me.search_ds.BorderColorActive = System.Drawing.Color.Peru
+        Me.search_ds.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
+        Me.search_ds.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.search_ds.BorderColorIdle = System.Drawing.Color.Silver
+        Me.search_ds.BorderRadius = 30
+        Me.search_ds.BorderThickness = 1
+        Me.search_ds.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
+        Me.search_ds.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_ds.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
+        Me.search_ds.DefaultText = ""
+        Me.search_ds.FillColor = System.Drawing.Color.White
+        Me.search_ds.HideSelection = True
+        Me.search_ds.IconLeft = Nothing
+        Me.search_ds.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_ds.IconPadding = 10
+        Me.search_ds.IconRight = Global.ELYSIUM_FMS.My.Resources.Resources.SEARCH
+        Me.search_ds.IconRightCursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_ds.Lines = New String(-1) {}
+        Me.search_ds.Location = New System.Drawing.Point(552, 14)
+        Me.search_ds.MaxLength = 32767
+        Me.search_ds.MinimumSize = New System.Drawing.Size(100, 35)
+        Me.search_ds.Modified = False
+        Me.search_ds.Multiline = False
+        Me.search_ds.Name = "search_ds"
+        StateProperties101.BorderColor = System.Drawing.Color.Peru
+        StateProperties101.FillColor = System.Drawing.Color.Empty
+        StateProperties101.ForeColor = System.Drawing.Color.Empty
+        StateProperties101.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_ds.OnActiveState = StateProperties101
+        StateProperties102.BorderColor = System.Drawing.Color.Empty
+        StateProperties102.FillColor = System.Drawing.Color.White
+        StateProperties102.ForeColor = System.Drawing.Color.Empty
+        StateProperties102.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_ds.OnDisabledState = StateProperties102
+        StateProperties103.BorderColor = System.Drawing.Color.Peru
+        StateProperties103.FillColor = System.Drawing.Color.Empty
+        StateProperties103.ForeColor = System.Drawing.Color.Empty
+        StateProperties103.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_ds.OnHoverState = StateProperties103
+        StateProperties104.BorderColor = System.Drawing.Color.Silver
+        StateProperties104.FillColor = System.Drawing.Color.White
+        StateProperties104.ForeColor = System.Drawing.Color.Empty
+        StateProperties104.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_ds.OnIdleState = StateProperties104
+        Me.search_ds.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.search_ds.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_ds.PlaceholderText = "SEARCH"
+        Me.search_ds.ReadOnly = False
+        Me.search_ds.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.search_ds.SelectedText = ""
+        Me.search_ds.SelectionLength = 0
+        Me.search_ds.SelectionStart = 0
+        Me.search_ds.ShortcutsEnabled = True
+        Me.search_ds.Size = New System.Drawing.Size(262, 35)
+        Me.search_ds.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
+        Me.search_ds.TabIndex = 27
+        Me.search_ds.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.search_ds.TextMarginBottom = 0
+        Me.search_ds.TextMarginLeft = 5
+        Me.search_ds.TextMarginTop = 0
+        Me.search_ds.TextPlaceholder = "SEARCH"
+        Me.search_ds.UseSystemPasswordChar = False
+        Me.search_ds.WordWrap = True
+        '
         'TabPage8
         '
         Me.TabPage8.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.TabPage8.Controls.Add(Me.BunifuButton25)
-        Me.TabPage8.Controls.Add(Me.BunifuTextBox5)
-        Me.TabPage8.Controls.Add(Me.BunifuButton26)
-        Me.TabPage8.Controls.Add(Me.BunifuButton27)
-        Me.TabPage8.Controls.Add(Me.BunifuButton28)
-        Me.TabPage8.Controls.Add(Me.BunifuCustomDataGrid5)
+        Me.TabPage8.Controls.Add(Me.inventory_dgv)
         Me.TabPage8.Controls.Add(Me.BunifuLabel25)
+        Me.TabPage8.Controls.Add(Me.inv_archived_data)
+        Me.TabPage8.Controls.Add(Me.inv_archive)
+        Me.TabPage8.Controls.Add(Me.inv_update)
+        Me.TabPage8.Controls.Add(Me.inv_add)
+        Me.TabPage8.Controls.Add(Me.search_inventory)
         Me.TabPage8.Location = New System.Drawing.Point(4, 4)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
@@ -3779,244 +4193,194 @@ Partial Class admin_dashboard
         Me.TabPage8.TabIndex = 7
         Me.TabPage8.Text = "inventory"
         '
-        'BunifuButton25
+        'inventory_dgv
         '
-        Me.BunifuButton25.AllowToggling = False
-        Me.BunifuButton25.AnimationSpeed = 200
-        Me.BunifuButton25.AutoGenerateColors = False
-        Me.BunifuButton25.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton25.BackColor1 = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton25.BackgroundImage = CType(resources.GetObject("BunifuButton25.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton25.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton25.ButtonText = " "
-        Me.BunifuButton25.ButtonTextMarginLeft = 0
-        Me.BunifuButton25.ColorContrastOnClick = 45
-        Me.BunifuButton25.ColorContrastOnHover = 45
-        Me.BunifuButton25.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges30.BottomLeft = True
-        BorderEdges30.BottomRight = True
-        BorderEdges30.TopLeft = True
-        BorderEdges30.TopRight = True
-        Me.BunifuButton25.CustomizableEdges = BorderEdges30
-        Me.BunifuButton25.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton25.DisabledBorderColor = System.Drawing.Color.Empty
-        Me.BunifuButton25.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton25.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton25.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton25.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton25.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton25.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton25.IconMarginLeft = 11
-        Me.BunifuButton25.IconPadding = 10
-        Me.BunifuButton25.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton25.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton25.IdleBorderRadius = 3
-        Me.BunifuButton25.IdleBorderThickness = 1
-        Me.BunifuButton25.IdleFillColor = System.Drawing.Color.BlanchedAlmond
-        Me.BunifuButton25.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
-        Me.BunifuButton25.IdleIconRightImage = Nothing
-        Me.BunifuButton25.IndicateFocus = False
-        Me.BunifuButton25.Location = New System.Drawing.Point(752, 406)
-        Me.BunifuButton25.Name = "BunifuButton25"
-        StateProperties99.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties99.BorderRadius = 3
-        StateProperties99.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties99.BorderThickness = 1
-        StateProperties99.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties99.ForeColor = System.Drawing.Color.White
-        StateProperties99.IconLeftImage = Nothing
-        StateProperties99.IconRightImage = Nothing
-        Me.BunifuButton25.onHoverState = StateProperties99
-        StateProperties100.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties100.BorderRadius = 3
-        StateProperties100.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties100.BorderThickness = 1
-        StateProperties100.FillColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties100.ForeColor = System.Drawing.Color.White
-        StateProperties100.IconLeftImage = Nothing
-        StateProperties100.IconRightImage = Nothing
-        Me.BunifuButton25.OnPressedState = StateProperties100
-        Me.BunifuButton25.Size = New System.Drawing.Size(62, 62)
-        Me.BunifuButton25.TabIndex = 23
-        Me.BunifuButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton25.TextMarginLeft = 0
-        Me.BunifuButton25.UseDefaultRadiusAndThickness = True
+        Me.inventory_dgv.AllowCustomTheming = True
+        DataGridViewCellStyle21.BackColor = System.Drawing.Color.NavajoWhite
+        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
+        Me.inventory_dgv.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle21
+        Me.inventory_dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.inventory_dgv.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.inventory_dgv.BackgroundColor = System.Drawing.Color.Tan
+        Me.inventory_dgv.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.inventory_dgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.inventory_dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle22.BackColor = System.Drawing.Color.Sienna
+        DataGridViewCellStyle22.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.inventory_dgv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle22
+        Me.inventory_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.inventory_dgv.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.NavajoWhite
+        Me.inventory_dgv.CurrentTheme.AlternatingRowsStyle.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inventory_dgv.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.inventory_dgv.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.AntiqueWhite
+        Me.inventory_dgv.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black
+        Me.inventory_dgv.CurrentTheme.BackColor = System.Drawing.Color.Tan
+        Me.inventory_dgv.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.inventory_dgv.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.Sienna
+        Me.inventory_dgv.CurrentTheme.HeaderStyle.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inventory_dgv.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.inventory_dgv.CurrentTheme.Name = Nothing
+        Me.inventory_dgv.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.NavajoWhite
+        Me.inventory_dgv.CurrentTheme.RowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.inventory_dgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.inventory_dgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.Chocolate
+        Me.inventory_dgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle23.BackColor = System.Drawing.Color.NavajoWhite
+        DataGridViewCellStyle23.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Chocolate
+        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.inventory_dgv.DefaultCellStyle = DataGridViewCellStyle23
+        Me.inventory_dgv.EnableHeadersVisualStyles = False
+        Me.inventory_dgv.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.inventory_dgv.HeaderBackColor = System.Drawing.Color.Sienna
+        Me.inventory_dgv.HeaderBgColor = System.Drawing.Color.Empty
+        Me.inventory_dgv.HeaderForeColor = System.Drawing.Color.White
+        Me.inventory_dgv.Location = New System.Drawing.Point(21, 67)
+        Me.inventory_dgv.Name = "inventory_dgv"
+        Me.inventory_dgv.ReadOnly = True
+        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle24.BackColor = System.Drawing.Color.Tan
+        DataGridViewCellStyle24.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Sienna
+        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.inventory_dgv.RowHeadersDefaultCellStyle = DataGridViewCellStyle24
+        Me.inventory_dgv.RowHeadersVisible = False
+        Me.inventory_dgv.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders
+        DataGridViewCellStyle25.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inventory_dgv.RowsDefaultCellStyle = DataGridViewCellStyle25
+        Me.inventory_dgv.RowTemplate.Height = 40
+        Me.inventory_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.inventory_dgv.Size = New System.Drawing.Size(792, 330)
+        Me.inventory_dgv.TabIndex = 42
+        Me.inventory_dgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Chocolate
         '
-        'BunifuTextBox5
+        'BunifuLabel25
         '
-        Me.BunifuTextBox5.AcceptsReturn = False
-        Me.BunifuTextBox5.AcceptsTab = False
-        Me.BunifuTextBox5.AnimationSpeed = 200
-        Me.BunifuTextBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.BunifuTextBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.BunifuTextBox5.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTextBox5.BackgroundImage = CType(resources.GetObject("BunifuTextBox5.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuTextBox5.BorderColorActive = System.Drawing.Color.DodgerBlue
-        Me.BunifuTextBox5.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.BunifuTextBox5.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuTextBox5.BorderColorIdle = System.Drawing.Color.Silver
-        Me.BunifuTextBox5.BorderRadius = 30
-        Me.BunifuTextBox5.BorderThickness = 1
-        Me.BunifuTextBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.BunifuTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox5.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuTextBox5.DefaultText = ""
-        Me.BunifuTextBox5.FillColor = System.Drawing.Color.White
-        Me.BunifuTextBox5.HideSelection = True
-        Me.BunifuTextBox5.IconLeft = Nothing
-        Me.BunifuTextBox5.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox5.IconPadding = 10
-        Me.BunifuTextBox5.IconRight = Global.ELYSIUM_FMS.My.Resources.Resources.SEARCH
-        Me.BunifuTextBox5.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuTextBox5.Lines = New String(-1) {}
-        Me.BunifuTextBox5.Location = New System.Drawing.Point(552, 19)
-        Me.BunifuTextBox5.MaxLength = 32767
-        Me.BunifuTextBox5.MinimumSize = New System.Drawing.Size(100, 35)
-        Me.BunifuTextBox5.Modified = False
-        Me.BunifuTextBox5.Multiline = False
-        Me.BunifuTextBox5.Name = "BunifuTextBox5"
-        StateProperties101.BorderColor = System.Drawing.Color.DodgerBlue
-        StateProperties101.FillColor = System.Drawing.Color.Empty
-        StateProperties101.ForeColor = System.Drawing.Color.Empty
-        StateProperties101.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox5.OnActiveState = StateProperties101
-        StateProperties102.BorderColor = System.Drawing.Color.Empty
-        StateProperties102.FillColor = System.Drawing.Color.White
-        StateProperties102.ForeColor = System.Drawing.Color.Empty
-        StateProperties102.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.BunifuTextBox5.OnDisabledState = StateProperties102
-        StateProperties103.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties103.FillColor = System.Drawing.Color.Empty
-        StateProperties103.ForeColor = System.Drawing.Color.Empty
-        StateProperties103.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox5.OnHoverState = StateProperties103
-        StateProperties104.BorderColor = System.Drawing.Color.Silver
-        StateProperties104.FillColor = System.Drawing.Color.White
-        StateProperties104.ForeColor = System.Drawing.Color.Empty
-        StateProperties104.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.BunifuTextBox5.OnIdleState = StateProperties104
-        Me.BunifuTextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BunifuTextBox5.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.BunifuTextBox5.PlaceholderText = "SEARCH"
-        Me.BunifuTextBox5.ReadOnly = False
-        Me.BunifuTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.BunifuTextBox5.SelectedText = ""
-        Me.BunifuTextBox5.SelectionLength = 0
-        Me.BunifuTextBox5.SelectionStart = 0
-        Me.BunifuTextBox5.ShortcutsEnabled = True
-        Me.BunifuTextBox5.Size = New System.Drawing.Size(262, 35)
-        Me.BunifuTextBox5.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
-        Me.BunifuTextBox5.TabIndex = 27
-        Me.BunifuTextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.BunifuTextBox5.TextMarginBottom = 0
-        Me.BunifuTextBox5.TextMarginLeft = 5
-        Me.BunifuTextBox5.TextMarginTop = 0
-        Me.BunifuTextBox5.TextPlaceholder = "SEARCH"
-        Me.BunifuTextBox5.UseSystemPasswordChar = False
-        Me.BunifuTextBox5.WordWrap = True
+        Me.BunifuLabel25.AutoEllipsis = False
+        Me.BunifuLabel25.CursorType = Nothing
+        Me.BunifuLabel25.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.BunifuLabel25.ForeColor = System.Drawing.Color.DimGray
+        Me.BunifuLabel25.Location = New System.Drawing.Point(22, 14)
+        Me.BunifuLabel25.Name = "BunifuLabel25"
+        Me.BunifuLabel25.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel25.Size = New System.Drawing.Size(142, 44)
+        Me.BunifuLabel25.TabIndex = 21
+        Me.BunifuLabel25.Text = "INVENTORY"
+        Me.BunifuLabel25.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel25.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'BunifuButton26
+        'inv_archived_data
         '
-        Me.BunifuButton26.AllowToggling = False
-        Me.BunifuButton26.AnimationSpeed = 200
-        Me.BunifuButton26.AutoGenerateColors = False
-        Me.BunifuButton26.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton26.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton26.BackgroundImage = CType(resources.GetObject("BunifuButton26.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton26.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton26.ButtonText = "ARCHIVE"
-        Me.BunifuButton26.ButtonTextMarginLeft = 0
-        Me.BunifuButton26.ColorContrastOnClick = 45
-        Me.BunifuButton26.ColorContrastOnHover = 45
-        Me.BunifuButton26.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges31.BottomLeft = True
-        BorderEdges31.BottomRight = True
-        BorderEdges31.TopLeft = True
-        BorderEdges31.TopRight = True
-        Me.BunifuButton26.CustomizableEdges = BorderEdges31
-        Me.BunifuButton26.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton26.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton26.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton26.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton26.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton26.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton26.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton26.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton26.IconMarginLeft = 11
-        Me.BunifuButton26.IconPadding = 10
-        Me.BunifuButton26.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton26.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton26.IdleBorderRadius = 25
-        Me.BunifuButton26.IdleBorderThickness = 1
-        Me.BunifuButton26.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton26.IdleIconLeftImage = Nothing
-        Me.BunifuButton26.IdleIconRightImage = Nothing
-        Me.BunifuButton26.IndicateFocus = False
-        Me.BunifuButton26.Location = New System.Drawing.Point(332, 423)
-        Me.BunifuButton26.Name = "BunifuButton26"
+        Me.inv_archived_data.AllowToggling = False
+        Me.inv_archived_data.AnimationSpeed = 200
+        Me.inv_archived_data.AutoGenerateColors = False
+        Me.inv_archived_data.BackColor = System.Drawing.Color.Transparent
+        Me.inv_archived_data.BackColor1 = System.Drawing.Color.BlanchedAlmond
+        Me.inv_archived_data.BackgroundImage = CType(resources.GetObject("inv_archived_data.BackgroundImage"), System.Drawing.Image)
+        Me.inv_archived_data.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.inv_archived_data.ButtonText = " "
+        Me.inv_archived_data.ButtonTextMarginLeft = 0
+        Me.inv_archived_data.ColorContrastOnClick = 45
+        Me.inv_archived_data.ColorContrastOnHover = 45
+        Me.inv_archived_data.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges33.BottomLeft = True
+        BorderEdges33.BottomRight = True
+        BorderEdges33.TopLeft = True
+        BorderEdges33.TopRight = True
+        Me.inv_archived_data.CustomizableEdges = BorderEdges33
+        Me.inv_archived_data.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.inv_archived_data.DisabledBorderColor = System.Drawing.Color.Empty
+        Me.inv_archived_data.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.inv_archived_data.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.inv_archived_data.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.inv_archived_data.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.inv_archived_data.ForeColor = System.Drawing.Color.White
+        Me.inv_archived_data.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_archived_data.IconMarginLeft = 11
+        Me.inv_archived_data.IconPadding = 10
+        Me.inv_archived_data.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_archived_data.IdleBorderColor = System.Drawing.Color.BlanchedAlmond
+        Me.inv_archived_data.IdleBorderRadius = 3
+        Me.inv_archived_data.IdleBorderThickness = 1
+        Me.inv_archived_data.IdleFillColor = System.Drawing.Color.BlanchedAlmond
+        Me.inv_archived_data.IdleIconLeftImage = Global.ELYSIUM_FMS.My.Resources.Resources.ARCHIVE
+        Me.inv_archived_data.IdleIconRightImage = Nothing
+        Me.inv_archived_data.IndicateFocus = False
+        Me.inv_archived_data.Location = New System.Drawing.Point(751, 408)
+        Me.inv_archived_data.Name = "inv_archived_data"
         StateProperties105.BorderColor = System.Drawing.Color.Peru
-        StateProperties105.BorderRadius = 25
+        StateProperties105.BorderRadius = 3
         StateProperties105.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties105.BorderThickness = 1
         StateProperties105.FillColor = System.Drawing.Color.Peru
         StateProperties105.ForeColor = System.Drawing.Color.White
         StateProperties105.IconLeftImage = Nothing
         StateProperties105.IconRightImage = Nothing
-        Me.BunifuButton26.onHoverState = StateProperties105
-        StateProperties106.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties106.BorderRadius = 25
+        Me.inv_archived_data.onHoverState = StateProperties105
+        StateProperties106.BorderColor = System.Drawing.Color.Peru
+        StateProperties106.BorderRadius = 3
         StateProperties106.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties106.BorderThickness = 1
-        StateProperties106.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties106.FillColor = System.Drawing.Color.Peru
         StateProperties106.ForeColor = System.Drawing.Color.White
         StateProperties106.IconLeftImage = Nothing
         StateProperties106.IconRightImage = Nothing
-        Me.BunifuButton26.OnPressedState = StateProperties106
-        Me.BunifuButton26.Size = New System.Drawing.Size(149, 45)
-        Me.BunifuButton26.TabIndex = 26
-        Me.BunifuButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton26.TextMarginLeft = 0
-        Me.BunifuButton26.UseDefaultRadiusAndThickness = True
+        Me.inv_archived_data.OnPressedState = StateProperties106
+        Me.inv_archived_data.Size = New System.Drawing.Size(62, 62)
+        Me.inv_archived_data.TabIndex = 37
+        Me.inv_archived_data.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.inv_archived_data.TextMarginLeft = 0
+        Me.inv_archived_data.UseDefaultRadiusAndThickness = True
         '
-        'BunifuButton27
+        'inv_archive
         '
-        Me.BunifuButton27.AllowToggling = False
-        Me.BunifuButton27.AnimationSpeed = 200
-        Me.BunifuButton27.AutoGenerateColors = False
-        Me.BunifuButton27.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton27.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton27.BackgroundImage = CType(resources.GetObject("BunifuButton27.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton27.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton27.ButtonText = "UPDATE"
-        Me.BunifuButton27.ButtonTextMarginLeft = 0
-        Me.BunifuButton27.ColorContrastOnClick = 45
-        Me.BunifuButton27.ColorContrastOnHover = 45
-        Me.BunifuButton27.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges32.BottomLeft = True
-        BorderEdges32.BottomRight = True
-        BorderEdges32.TopLeft = True
-        BorderEdges32.TopRight = True
-        Me.BunifuButton27.CustomizableEdges = BorderEdges32
-        Me.BunifuButton27.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton27.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton27.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton27.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton27.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton27.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton27.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton27.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton27.IconMarginLeft = 11
-        Me.BunifuButton27.IconPadding = 10
-        Me.BunifuButton27.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton27.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton27.IdleBorderRadius = 25
-        Me.BunifuButton27.IdleBorderThickness = 1
-        Me.BunifuButton27.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton27.IdleIconLeftImage = Nothing
-        Me.BunifuButton27.IdleIconRightImage = Nothing
-        Me.BunifuButton27.IndicateFocus = False
-        Me.BunifuButton27.Location = New System.Drawing.Point(177, 423)
-        Me.BunifuButton27.Name = "BunifuButton27"
+        Me.inv_archive.AllowToggling = False
+        Me.inv_archive.AnimationSpeed = 200
+        Me.inv_archive.AutoGenerateColors = False
+        Me.inv_archive.BackColor = System.Drawing.Color.Transparent
+        Me.inv_archive.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.inv_archive.BackgroundImage = CType(resources.GetObject("inv_archive.BackgroundImage"), System.Drawing.Image)
+        Me.inv_archive.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.inv_archive.ButtonText = "ARCHIVE"
+        Me.inv_archive.ButtonTextMarginLeft = 0
+        Me.inv_archive.ColorContrastOnClick = 45
+        Me.inv_archive.ColorContrastOnHover = 45
+        Me.inv_archive.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges34.BottomLeft = True
+        BorderEdges34.BottomRight = True
+        BorderEdges34.TopLeft = True
+        BorderEdges34.TopRight = True
+        Me.inv_archive.CustomizableEdges = BorderEdges34
+        Me.inv_archive.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.inv_archive.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.inv_archive.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.inv_archive.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.inv_archive.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.inv_archive.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.inv_archive.ForeColor = System.Drawing.Color.White
+        Me.inv_archive.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_archive.IconMarginLeft = 11
+        Me.inv_archive.IconPadding = 10
+        Me.inv_archive.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_archive.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.inv_archive.IdleBorderRadius = 25
+        Me.inv_archive.IdleBorderThickness = 1
+        Me.inv_archive.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.inv_archive.IdleIconLeftImage = Nothing
+        Me.inv_archive.IdleIconRightImage = Nothing
+        Me.inv_archive.IndicateFocus = False
+        Me.inv_archive.Location = New System.Drawing.Point(284, 418)
+        Me.inv_archive.Name = "inv_archive"
         StateProperties107.BorderColor = System.Drawing.Color.Peru
         StateProperties107.BorderRadius = 25
         StateProperties107.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
@@ -4025,61 +4389,61 @@ Partial Class admin_dashboard
         StateProperties107.ForeColor = System.Drawing.Color.White
         StateProperties107.IconLeftImage = Nothing
         StateProperties107.IconRightImage = Nothing
-        Me.BunifuButton27.onHoverState = StateProperties107
-        StateProperties108.BorderColor = System.Drawing.Color.SaddleBrown
+        Me.inv_archive.onHoverState = StateProperties107
+        StateProperties108.BorderColor = System.Drawing.Color.Peru
         StateProperties108.BorderRadius = 25
         StateProperties108.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties108.BorderThickness = 1
-        StateProperties108.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties108.FillColor = System.Drawing.Color.Peru
         StateProperties108.ForeColor = System.Drawing.Color.White
         StateProperties108.IconLeftImage = Nothing
         StateProperties108.IconRightImage = Nothing
-        Me.BunifuButton27.OnPressedState = StateProperties108
-        Me.BunifuButton27.Size = New System.Drawing.Size(149, 45)
-        Me.BunifuButton27.TabIndex = 25
-        Me.BunifuButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton27.TextMarginLeft = 0
-        Me.BunifuButton27.UseDefaultRadiusAndThickness = True
+        Me.inv_archive.OnPressedState = StateProperties108
+        Me.inv_archive.Size = New System.Drawing.Size(125, 45)
+        Me.inv_archive.TabIndex = 40
+        Me.inv_archive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.inv_archive.TextMarginLeft = 0
+        Me.inv_archive.UseDefaultRadiusAndThickness = True
         '
-        'BunifuButton28
+        'inv_update
         '
-        Me.BunifuButton28.AllowToggling = False
-        Me.BunifuButton28.AnimationSpeed = 200
-        Me.BunifuButton28.AutoGenerateColors = False
-        Me.BunifuButton28.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuButton28.BackColor1 = System.Drawing.Color.BurlyWood
-        Me.BunifuButton28.BackgroundImage = CType(resources.GetObject("BunifuButton28.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuButton28.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.BunifuButton28.ButtonText = "ADD"
-        Me.BunifuButton28.ButtonTextMarginLeft = 0
-        Me.BunifuButton28.ColorContrastOnClick = 45
-        Me.BunifuButton28.ColorContrastOnHover = 45
-        Me.BunifuButton28.Cursor = System.Windows.Forms.Cursors.Hand
-        BorderEdges33.BottomLeft = True
-        BorderEdges33.BottomRight = True
-        BorderEdges33.TopLeft = True
-        BorderEdges33.TopRight = True
-        Me.BunifuButton28.CustomizableEdges = BorderEdges33
-        Me.BunifuButton28.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.BunifuButton28.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
-        Me.BunifuButton28.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuButton28.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
-        Me.BunifuButton28.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton28.Font = New System.Drawing.Font("Poppins", 12.0!)
-        Me.BunifuButton28.ForeColor = System.Drawing.Color.White
-        Me.BunifuButton28.IconLeftCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton28.IconMarginLeft = 11
-        Me.BunifuButton28.IconPadding = 10
-        Me.BunifuButton28.IconRightCursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuButton28.IdleBorderColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton28.IdleBorderRadius = 25
-        Me.BunifuButton28.IdleBorderThickness = 1
-        Me.BunifuButton28.IdleFillColor = System.Drawing.Color.BurlyWood
-        Me.BunifuButton28.IdleIconLeftImage = Nothing
-        Me.BunifuButton28.IdleIconRightImage = Nothing
-        Me.BunifuButton28.IndicateFocus = False
-        Me.BunifuButton28.Location = New System.Drawing.Point(22, 423)
-        Me.BunifuButton28.Name = "BunifuButton28"
+        Me.inv_update.AllowToggling = False
+        Me.inv_update.AnimationSpeed = 200
+        Me.inv_update.AutoGenerateColors = False
+        Me.inv_update.BackColor = System.Drawing.Color.Transparent
+        Me.inv_update.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.inv_update.BackgroundImage = CType(resources.GetObject("inv_update.BackgroundImage"), System.Drawing.Image)
+        Me.inv_update.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.inv_update.ButtonText = "UPDATE"
+        Me.inv_update.ButtonTextMarginLeft = 0
+        Me.inv_update.ColorContrastOnClick = 45
+        Me.inv_update.ColorContrastOnHover = 45
+        Me.inv_update.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges35.BottomLeft = True
+        BorderEdges35.BottomRight = True
+        BorderEdges35.TopLeft = True
+        BorderEdges35.TopRight = True
+        Me.inv_update.CustomizableEdges = BorderEdges35
+        Me.inv_update.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.inv_update.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.inv_update.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.inv_update.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.inv_update.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.inv_update.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.inv_update.ForeColor = System.Drawing.Color.White
+        Me.inv_update.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_update.IconMarginLeft = 11
+        Me.inv_update.IconPadding = 10
+        Me.inv_update.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_update.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.inv_update.IdleBorderRadius = 25
+        Me.inv_update.IdleBorderThickness = 1
+        Me.inv_update.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.inv_update.IdleIconLeftImage = Nothing
+        Me.inv_update.IdleIconRightImage = Nothing
+        Me.inv_update.IndicateFocus = False
+        Me.inv_update.Location = New System.Drawing.Point(153, 418)
+        Me.inv_update.Name = "inv_update"
         StateProperties109.BorderColor = System.Drawing.Color.Peru
         StateProperties109.BorderRadius = 25
         StateProperties109.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
@@ -4088,62 +4452,157 @@ Partial Class admin_dashboard
         StateProperties109.ForeColor = System.Drawing.Color.White
         StateProperties109.IconLeftImage = Nothing
         StateProperties109.IconRightImage = Nothing
-        Me.BunifuButton28.onHoverState = StateProperties109
-        StateProperties110.BorderColor = System.Drawing.Color.SaddleBrown
+        Me.inv_update.onHoverState = StateProperties109
+        StateProperties110.BorderColor = System.Drawing.Color.Peru
         StateProperties110.BorderRadius = 25
         StateProperties110.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
         StateProperties110.BorderThickness = 1
-        StateProperties110.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties110.FillColor = System.Drawing.Color.Peru
         StateProperties110.ForeColor = System.Drawing.Color.White
         StateProperties110.IconLeftImage = Nothing
         StateProperties110.IconRightImage = Nothing
-        Me.BunifuButton28.OnPressedState = StateProperties110
-        Me.BunifuButton28.Size = New System.Drawing.Size(149, 45)
-        Me.BunifuButton28.TabIndex = 24
-        Me.BunifuButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuButton28.TextMarginLeft = 0
-        Me.BunifuButton28.UseDefaultRadiusAndThickness = True
+        Me.inv_update.OnPressedState = StateProperties110
+        Me.inv_update.Size = New System.Drawing.Size(125, 45)
+        Me.inv_update.TabIndex = 39
+        Me.inv_update.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.inv_update.TextMarginLeft = 0
+        Me.inv_update.UseDefaultRadiusAndThickness = True
         '
-        'BunifuCustomDataGrid5
+        'inv_add
         '
-        DataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.BunifuCustomDataGrid5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle15
-        Me.BunifuCustomDataGrid5.BackgroundColor = System.Drawing.Color.Gainsboro
-        Me.BunifuCustomDataGrid5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.BunifuCustomDataGrid5.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.BackColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.SeaGreen
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.BunifuCustomDataGrid5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle16
-        Me.BunifuCustomDataGrid5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.BunifuCustomDataGrid5.DoubleBuffered = True
-        Me.BunifuCustomDataGrid5.EnableHeadersVisualStyles = False
-        Me.BunifuCustomDataGrid5.HeaderBgColor = System.Drawing.Color.SeaGreen
-        Me.BunifuCustomDataGrid5.HeaderForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuCustomDataGrid5.Location = New System.Drawing.Point(22, 69)
-        Me.BunifuCustomDataGrid5.Name = "BunifuCustomDataGrid5"
-        Me.BunifuCustomDataGrid5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.BunifuCustomDataGrid5.Size = New System.Drawing.Size(792, 331)
-        Me.BunifuCustomDataGrid5.TabIndex = 22
+        Me.inv_add.AllowToggling = False
+        Me.inv_add.AnimationSpeed = 200
+        Me.inv_add.AutoGenerateColors = False
+        Me.inv_add.BackColor = System.Drawing.Color.Transparent
+        Me.inv_add.BackColor1 = System.Drawing.Color.BurlyWood
+        Me.inv_add.BackgroundImage = CType(resources.GetObject("inv_add.BackgroundImage"), System.Drawing.Image)
+        Me.inv_add.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.inv_add.ButtonText = "ADD"
+        Me.inv_add.ButtonTextMarginLeft = 0
+        Me.inv_add.ColorContrastOnClick = 45
+        Me.inv_add.ColorContrastOnHover = 45
+        Me.inv_add.Cursor = System.Windows.Forms.Cursors.Hand
+        BorderEdges36.BottomLeft = True
+        BorderEdges36.BottomRight = True
+        BorderEdges36.TopLeft = True
+        BorderEdges36.TopRight = True
+        Me.inv_add.CustomizableEdges = BorderEdges36
+        Me.inv_add.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.inv_add.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.inv_add.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.inv_add.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.inv_add.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.inv_add.Font = New System.Drawing.Font("Poppins", 12.0!)
+        Me.inv_add.ForeColor = System.Drawing.Color.White
+        Me.inv_add.IconLeftCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_add.IconMarginLeft = 11
+        Me.inv_add.IconPadding = 10
+        Me.inv_add.IconRightCursor = System.Windows.Forms.Cursors.Hand
+        Me.inv_add.IdleBorderColor = System.Drawing.Color.BurlyWood
+        Me.inv_add.IdleBorderRadius = 25
+        Me.inv_add.IdleBorderThickness = 1
+        Me.inv_add.IdleFillColor = System.Drawing.Color.BurlyWood
+        Me.inv_add.IdleIconLeftImage = Nothing
+        Me.inv_add.IdleIconRightImage = Nothing
+        Me.inv_add.IndicateFocus = False
+        Me.inv_add.Location = New System.Drawing.Point(22, 418)
+        Me.inv_add.Name = "inv_add"
+        StateProperties111.BorderColor = System.Drawing.Color.Peru
+        StateProperties111.BorderRadius = 25
+        StateProperties111.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties111.BorderThickness = 1
+        StateProperties111.FillColor = System.Drawing.Color.Peru
+        StateProperties111.ForeColor = System.Drawing.Color.White
+        StateProperties111.IconLeftImage = Nothing
+        StateProperties111.IconRightImage = Nothing
+        Me.inv_add.onHoverState = StateProperties111
+        StateProperties112.BorderColor = System.Drawing.Color.Peru
+        StateProperties112.BorderRadius = 25
+        StateProperties112.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties112.BorderThickness = 1
+        StateProperties112.FillColor = System.Drawing.Color.Peru
+        StateProperties112.ForeColor = System.Drawing.Color.White
+        StateProperties112.IconLeftImage = Nothing
+        StateProperties112.IconRightImage = Nothing
+        Me.inv_add.OnPressedState = StateProperties112
+        Me.inv_add.Size = New System.Drawing.Size(125, 45)
+        Me.inv_add.TabIndex = 38
+        Me.inv_add.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.inv_add.TextMarginLeft = 0
+        Me.inv_add.UseDefaultRadiusAndThickness = True
         '
-        'BunifuLabel25
+        'search_inventory
         '
-        Me.BunifuLabel25.AutoEllipsis = False
-        Me.BunifuLabel25.CursorType = Nothing
-        Me.BunifuLabel25.Font = New System.Drawing.Font("Poppins", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.BunifuLabel25.ForeColor = System.Drawing.Color.DimGray
-        Me.BunifuLabel25.Location = New System.Drawing.Point(22, 19)
-        Me.BunifuLabel25.Name = "BunifuLabel25"
-        Me.BunifuLabel25.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel25.Size = New System.Drawing.Size(142, 44)
-        Me.BunifuLabel25.TabIndex = 21
-        Me.BunifuLabel25.Text = "INVENTORY"
-        Me.BunifuLabel25.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel25.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.search_inventory.AcceptsReturn = False
+        Me.search_inventory.AcceptsTab = False
+        Me.search_inventory.AnimationSpeed = 200
+        Me.search_inventory.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
+        Me.search_inventory.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
+        Me.search_inventory.BackColor = System.Drawing.Color.Transparent
+        Me.search_inventory.BackgroundImage = CType(resources.GetObject("search_inventory.BackgroundImage"), System.Drawing.Image)
+        Me.search_inventory.BorderColorActive = System.Drawing.Color.DodgerBlue
+        Me.search_inventory.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
+        Me.search_inventory.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.search_inventory.BorderColorIdle = System.Drawing.Color.Silver
+        Me.search_inventory.BorderRadius = 30
+        Me.search_inventory.BorderThickness = 1
+        Me.search_inventory.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
+        Me.search_inventory.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_inventory.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
+        Me.search_inventory.DefaultText = ""
+        Me.search_inventory.FillColor = System.Drawing.Color.White
+        Me.search_inventory.HideSelection = True
+        Me.search_inventory.IconLeft = Nothing
+        Me.search_inventory.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_inventory.IconPadding = 10
+        Me.search_inventory.IconRight = Global.ELYSIUM_FMS.My.Resources.Resources.SEARCH
+        Me.search_inventory.IconRightCursor = System.Windows.Forms.Cursors.IBeam
+        Me.search_inventory.Lines = New String(-1) {}
+        Me.search_inventory.Location = New System.Drawing.Point(552, 14)
+        Me.search_inventory.MaxLength = 32767
+        Me.search_inventory.MinimumSize = New System.Drawing.Size(100, 35)
+        Me.search_inventory.Modified = False
+        Me.search_inventory.Multiline = False
+        Me.search_inventory.Name = "search_inventory"
+        StateProperties113.BorderColor = System.Drawing.Color.Peru
+        StateProperties113.FillColor = System.Drawing.Color.Empty
+        StateProperties113.ForeColor = System.Drawing.Color.Empty
+        StateProperties113.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_inventory.OnActiveState = StateProperties113
+        StateProperties114.BorderColor = System.Drawing.Color.Empty
+        StateProperties114.FillColor = System.Drawing.Color.White
+        StateProperties114.ForeColor = System.Drawing.Color.Empty
+        StateProperties114.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_inventory.OnDisabledState = StateProperties114
+        StateProperties115.BorderColor = System.Drawing.Color.Peru
+        StateProperties115.FillColor = System.Drawing.Color.Empty
+        StateProperties115.ForeColor = System.Drawing.Color.Empty
+        StateProperties115.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_inventory.OnHoverState = StateProperties115
+        StateProperties116.BorderColor = System.Drawing.Color.Silver
+        StateProperties116.FillColor = System.Drawing.Color.White
+        StateProperties116.ForeColor = System.Drawing.Color.Empty
+        StateProperties116.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.search_inventory.OnIdleState = StateProperties116
+        Me.search_inventory.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.search_inventory.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.search_inventory.PlaceholderText = "SEARCH"
+        Me.search_inventory.ReadOnly = False
+        Me.search_inventory.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.search_inventory.SelectedText = ""
+        Me.search_inventory.SelectionLength = 0
+        Me.search_inventory.SelectionStart = 0
+        Me.search_inventory.ShortcutsEnabled = True
+        Me.search_inventory.Size = New System.Drawing.Size(262, 35)
+        Me.search_inventory.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
+        Me.search_inventory.TabIndex = 27
+        Me.search_inventory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.search_inventory.TextMarginBottom = 0
+        Me.search_inventory.TextMarginLeft = 5
+        Me.search_inventory.TextMarginTop = 0
+        Me.search_inventory.TextPlaceholder = "SEARCH"
+        Me.search_inventory.UseSystemPasswordChar = False
+        Me.search_inventory.WordWrap = True
         '
         'Column1
         '
@@ -4315,7 +4774,7 @@ Partial Class admin_dashboard
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.ClientSize = New System.Drawing.Size(1054, 615)
+        Me.ClientSize = New System.Drawing.Size(1054, 603)
         Me.Controls.Add(Me.admin_pages)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
@@ -4329,6 +4788,9 @@ Partial Class admin_dashboard
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.admin_pages.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
@@ -4347,19 +4809,24 @@ Partial Class admin_dashboard
         CType(Me.staff_dgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
+        CType(Me.EC_pass, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EC_user, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EO_pass, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EO_user, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.admin_picture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage5.ResumeLayout(False)
         Me.TabPage5.PerformLayout()
         CType(Me.appointment_dgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage6.ResumeLayout(False)
         Me.TabPage6.PerformLayout()
-        CType(Me.BunifuCustomDataGrid3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        CType(Me.lifeplan_dgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage7.ResumeLayout(False)
         Me.TabPage7.PerformLayout()
-        CType(Me.BunifuCustomDataGrid4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ds_dgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage8.ResumeLayout(False)
         Me.TabPage8.PerformLayout()
-        CType(Me.BunifuCustomDataGrid5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.inventory_dgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -4370,7 +4837,7 @@ Partial Class admin_dashboard
     Friend WithEvents date_label As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents time_label As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents username_label As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BunifuLabel1 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents role_label As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuButton1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuButton8 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuButton7 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
@@ -4383,9 +4850,9 @@ Partial Class admin_dashboard
     Friend WithEvents admin_pages As Bunifu.UI.WinForms.BunifuPages
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents appt_label2 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BunifuLabel7 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents lf_label2 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents appt_label As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BunifuLabel5 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents lf_label As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TabPage2 As TabPage
@@ -4451,30 +4918,41 @@ Partial Class admin_dashboard
     Friend WithEvents appt_archivebtn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents appt_updatebtn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuLabel22 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BunifuButton17 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton18 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuTextBox3 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
-    Friend WithEvents BunifuButton19 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton20 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton30 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuCustomDataGrid3 As Bunifu.Framework.UI.BunifuCustomDataGrid
+    Friend WithEvents lf_archived_data As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents search_lifeplan As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
+    Friend WithEvents lf_archivebtn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents lf_updatebtn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents lf_addbtn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuLabel23 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BunifuButton21 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuTextBox4 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
-    Friend WithEvents BunifuButton22 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton23 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton24 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuCustomDataGrid4 As Bunifu.Framework.UI.BunifuCustomDataGrid
+    Friend WithEvents search_ds As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel24 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents BunifuButton25 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuTextBox5 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
-    Friend WithEvents BunifuButton26 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton27 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuButton28 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuCustomDataGrid5 As Bunifu.Framework.UI.BunifuCustomDataGrid
+    Friend WithEvents search_inventory As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel25 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents Timer1 As Timer
     Friend WithEvents admin_rfid1 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents staff_dgv As Bunifu.UI.WinForms.BunifuDataGridView
     Friend WithEvents appointment_dgv As Bunifu.UI.WinForms.BunifuDataGridView
+    Friend WithEvents lifeplan_dgv As Bunifu.UI.WinForms.BunifuDataGridView
+    Friend WithEvents ds_dgv As Bunifu.UI.WinForms.BunifuDataGridView
+    Friend WithEvents ds_archived_data As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents ds_archive As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents ds_update As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents ds_add As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents inventory_dgv As Bunifu.UI.WinForms.BunifuDataGridView
+    Friend WithEvents inv_archived_data As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents inv_archive As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents inv_update As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents inv_add As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents msg_duedate As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents msg_welcome As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents refresh_apptBTN As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents BunifuButton10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents EO_user As PictureBox
+    Friend WithEvents EC_pass As PictureBox
+    Friend WithEvents EC_user As PictureBox
+    Friend WithEvents EO_pass As PictureBox
 End Class

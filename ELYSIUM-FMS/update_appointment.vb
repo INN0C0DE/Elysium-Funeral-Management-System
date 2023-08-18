@@ -48,7 +48,7 @@ Public Class update_appointment
                 MessageBox.Show("Data not found!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
         Else
-            MessageBox.Show("Please select an account to update.", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Please select a data to update.", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 

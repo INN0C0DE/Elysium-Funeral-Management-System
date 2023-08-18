@@ -17,7 +17,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>E:\ELYSIUM-FMS BACKUP\Published APP\</PublishUrl>
+    <PublishUrl>C:\RASC\Published App\5\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -27,7 +27,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -96,6 +96,9 @@
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
       <HintPath>E:\BUNIFU CRACKED\pass is 123 azadeducation_Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\..\..\..\RASC\PRE-REQ FOR VS2019\pass is 123 azadeducation_Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
       <HintPath>E:\BUNIFU CRACKED\pass is 123 azadeducation_Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
@@ -241,10 +244,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_directServices.Designer.vb">
+      <DependentUpon>add_directServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_directServices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_inventory.Designer.vb">
+      <DependentUpon>add_inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_lifeplan.Designer.vb">
+      <DependentUpon>add_lifeplan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_lifeplan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="add_staffaccount.Designer.vb">
       <DependentUpon>add_staffaccount.vb</DependentUpon>
     </Compile>
     <Compile Include="add_staffaccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_authRFID.Designer.vb">
+      <DependentUpon>admin_authRFID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_authRFID.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="admin_dashboard.Designer.vb">
@@ -253,10 +280,28 @@
     <Compile Include="admin_dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="admin_rfid.Designer.vb">
+      <DependentUpon>admin_rfid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_rfid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="appointment_authRFID.Designer.vb">
+      <DependentUpon>appointment_authRFID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="appointment_authRFID.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="archived_form.Designer.vb">
       <DependentUpon>archived_form.vb</DependentUpon>
     </Compile>
     <Compile Include="archived_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_authRFID.Designer.vb">
+      <DependentUpon>ds_authRFID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ds_authRFID.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ds_packages.Designer.vb">
@@ -270,6 +315,18 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventory_authRFID.Designer.vb">
+      <DependentUpon>inventory_authRFID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventory_authRFID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lifeplan_authRFID.Designer.vb">
+      <DependentUpon>lifeplan_authRFID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lifeplan_authRFID.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="lifeplan_packages.Designer.vb">
@@ -300,10 +357,52 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="notifier_appointment.Designer.vb">
+      <DependentUpon>notifier_appointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notifier_appointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notifier_duePayment.Designer.vb">
+      <DependentUpon>notifier_duePayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notifier_duePayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notifier_welcomeSMS.Designer.vb">
+      <DependentUpon>notifier_welcomeSMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notifier_welcomeSMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_rfid.Designer.vb">
+      <DependentUpon>staff_rfid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staff_rfid.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="update_appointment.Designer.vb">
       <DependentUpon>update_appointment.vb</DependentUpon>
     </Compile>
     <Compile Include="update_appointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_directServices.Designer.vb">
+      <DependentUpon>update_directServices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_directServices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_inventory.Designer.vb">
+      <DependentUpon>update_inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_lifeplan.Designer.vb">
+      <DependentUpon>update_lifeplan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_lifeplan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="update_staffaccount.Designer.vb">
@@ -314,20 +413,47 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="add_directServices.resx">
+      <DependentUpon>add_directServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_inventory.resx">
+      <DependentUpon>add_inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_lifeplan.resx">
+      <DependentUpon>add_lifeplan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="add_staffaccount.resx">
       <DependentUpon>add_staffaccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_authRFID.resx">
+      <DependentUpon>admin_authRFID.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="admin_dashboard.resx">
       <DependentUpon>admin_dashboard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="admin_rfid.resx">
+      <DependentUpon>admin_rfid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="appointment_authRFID.resx">
+      <DependentUpon>appointment_authRFID.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="archived_form.resx">
       <DependentUpon>archived_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_authRFID.resx">
+      <DependentUpon>ds_authRFID.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ds_packages.resx">
       <DependentUpon>ds_packages.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventory_authRFID.resx">
+      <DependentUpon>inventory_authRFID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lifeplan_authRFID.resx">
+      <DependentUpon>lifeplan_authRFID.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lifeplan_packages.resx">
       <DependentUpon>lifeplan_packages.vb</DependentUpon>
@@ -341,8 +467,29 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="notifier_appointment.resx">
+      <DependentUpon>notifier_appointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notifier_duePayment.resx">
+      <DependentUpon>notifier_duePayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notifier_welcomeSMS.resx">
+      <DependentUpon>notifier_welcomeSMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff_rfid.resx">
+      <DependentUpon>staff_rfid.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="update_appointment.resx">
       <DependentUpon>update_appointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_directServices.resx">
+      <DependentUpon>update_directServices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_inventory.resx">
+      <DependentUpon>update_inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_lifeplan.resx">
+      <DependentUpon>update_lifeplan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="update_staffaccount.resx">
       <DependentUpon>update_staffaccount.vb</DependentUpon>
@@ -410,8 +557,21 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ELYSIUM-FMS-CIRCLE-ICON2.ico" />
     <Content Include="fms logo %282%29.ico" />
     <Content Include="mongocrypt.dll" />
+    <None Include="Resources\eye-closed.png" />
+    <None Include="Resources\eye.png" />
+    <None Include="Resources\show-admin.png" />
+    <None Include="Resources\hide-admin.png" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\verfified_user.png" />
+    <None Include="Resources\info2.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\rfid-scan.png" />
+    <None Include="Resources\user_password.png" />
+    <None Include="Resources\user_login.png" />
     <None Include="Resources\admin-male.png" />
     <None Include="Resources\admin-female.png" />
     <None Include="Resources\exit.png" />

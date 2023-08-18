@@ -29,7 +29,7 @@ Public Class add_staffaccount
             document.Add("email", add_email.Text)
             document.Add("number", add_number.Text)
             collection.InsertOne(document)
-            MessageBox.Show("Staff added successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("Data added successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Me.Hide()
             admin_dashboard.StaffDVGLoad()
             CLEARTEXT()

@@ -52,7 +52,7 @@ Public Class update_staffaccount
                 ' Update the document in the collection
                 collection.ReplaceOne(filter, existingDocument)
 
-                MessageBox.Show("Staff updated successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                MessageBox.Show("Data updated successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 admin_dashboard.StaffDVGLoad()
                 CLEARTEXT()
                 Me.Hide()
