@@ -11,7 +11,7 @@ Public Class update_lifeplan
     Public Sub CLEARTEXT()
         add_id.Clear()
         add_name.Clear()
-        add_birthday.Clear()
+        add_birthday.Value = Date.Now
         add_number.Clear()
         add_name.Clear()
         add_email.Clear()
@@ -41,14 +41,14 @@ Public Class update_lifeplan
         If Not String.IsNullOrEmpty(objectId) Then
             ' Create the filter to match the ObjectId
             Dim filter = Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", New ObjectId(objectId))
-
+            Dim selectedBirthday As String = add_birthday.Value.ToString("MM/dd/yyyy")
             ' Retrieve the existing document
             Dim existingDocument = collection.Find(filter).FirstOrDefault()
 
             If existingDocument IsNot Nothing Then
                 ' Modify the document as needed
                 existingDocument.Set("fullname", add_name.Text)
-                existingDocument.Set("birthday", add_birthday.Text)
+                existingDocument.Set("birthday", selectedBirthday)
                 existingDocument.Set("number", add_number.Text)
                 existingDocument.Set("email", add_email.Text)
                 existingDocument.Set("address", add_address.Text)

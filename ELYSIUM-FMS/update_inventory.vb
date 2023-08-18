@@ -12,7 +12,7 @@ Public Class update_inventory
         inv_ProductName.Clear()
         inv_Quantity.Clear()
         inv_Availability.Text = Nothing
-        inv_DateAdded.Clear()
+        inv_DateAdded.Value = Date.Now
         inv_id.Clear()
     End Sub
     Private Sub update_inventory_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -24,7 +24,7 @@ Public Class update_inventory
     End Sub
     Private Sub updateInv_btn_Click(sender As Object, e As EventArgs) Handles updateInv_btn.Click
         Dim objectId As String = inv_id.Text.Trim()
-
+        Dim selectedDate As String = inv_DateAdded.Value.ToString("MM/dd/yyyy")
         If Not String.IsNullOrEmpty(objectId) Then
             ' Create the filter to match the ObjectId
             Dim filter = Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", New ObjectId(objectId))
@@ -37,7 +37,7 @@ Public Class update_inventory
                 existingDocument.Set("inv_ProductName", inv_ProductName.Text)
                 existingDocument.Set("inv_Quantity", inv_Quantity.Text)
                 existingDocument.Set("inv_Availability", inv_Availability.Text)
-                existingDocument.Set("inv_DateAdded", inv_DateAdded.Text)
+                existingDocument.Set("inv_DateAdded", selectedDate)
 
                 ' Update the document in the collection
                 collection.ReplaceOne(filter, existingDocument)

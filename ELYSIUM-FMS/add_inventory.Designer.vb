@@ -41,10 +41,6 @@ Partial Class add_inventory
         Dim StateProperties14 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties15 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties16 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties17 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties18 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties19 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties20 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Me.inv_Availability = New Bunifu.UI.WinForms.BunifuDropdown()
         Me.BunifuLabel6 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -56,8 +52,8 @@ Partial Class add_inventory
         Me.inv_Quantity = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.inv_ProductName = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.inv_id = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
-        Me.inv_DateAdded = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel4 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.inv_DateAdded = New Bunifu.UI.WinForms.BunifuDatePicker()
         Me.SuspendLayout()
         '
         'inv_Availability
@@ -513,79 +509,6 @@ Partial Class add_inventory
         Me.inv_id.UseSystemPasswordChar = False
         Me.inv_id.WordWrap = True
         '
-        'inv_DateAdded
-        '
-        Me.inv_DateAdded.AcceptsReturn = False
-        Me.inv_DateAdded.AcceptsTab = False
-        Me.inv_DateAdded.AnimationSpeed = 200
-        Me.inv_DateAdded.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.inv_DateAdded.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.inv_DateAdded.BackColor = System.Drawing.Color.Transparent
-        Me.inv_DateAdded.BackgroundImage = CType(resources.GetObject("inv_DateAdded.BackgroundImage"), System.Drawing.Image)
-        Me.inv_DateAdded.BorderColorActive = System.Drawing.Color.DarkGoldenrod
-        Me.inv_DateAdded.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.inv_DateAdded.BorderColorHover = System.Drawing.Color.Goldenrod
-        Me.inv_DateAdded.BorderColorIdle = System.Drawing.Color.Silver
-        Me.inv_DateAdded.BorderRadius = 25
-        Me.inv_DateAdded.BorderThickness = 1
-        Me.inv_DateAdded.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.inv_DateAdded.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.inv_DateAdded.DefaultFont = New System.Drawing.Font("Poppins", 14.25!)
-        Me.inv_DateAdded.DefaultText = ""
-        Me.inv_DateAdded.FillColor = System.Drawing.Color.White
-        Me.inv_DateAdded.HideSelection = True
-        Me.inv_DateAdded.IconLeft = Nothing
-        Me.inv_DateAdded.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
-        Me.inv_DateAdded.IconPadding = 10
-        Me.inv_DateAdded.IconRight = Nothing
-        Me.inv_DateAdded.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.inv_DateAdded.Lines = New String(-1) {}
-        Me.inv_DateAdded.Location = New System.Drawing.Point(186, 247)
-        Me.inv_DateAdded.MaxLength = 32767
-        Me.inv_DateAdded.MinimumSize = New System.Drawing.Size(100, 35)
-        Me.inv_DateAdded.Modified = False
-        Me.inv_DateAdded.Multiline = False
-        Me.inv_DateAdded.Name = "inv_DateAdded"
-        StateProperties17.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties17.FillColor = System.Drawing.Color.Empty
-        StateProperties17.ForeColor = System.Drawing.Color.Empty
-        StateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.inv_DateAdded.OnActiveState = StateProperties17
-        StateProperties18.BorderColor = System.Drawing.Color.Empty
-        StateProperties18.FillColor = System.Drawing.Color.White
-        StateProperties18.ForeColor = System.Drawing.Color.Empty
-        StateProperties18.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.inv_DateAdded.OnDisabledState = StateProperties18
-        StateProperties19.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties19.FillColor = System.Drawing.Color.Empty
-        StateProperties19.ForeColor = System.Drawing.Color.Empty
-        StateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.inv_DateAdded.OnHoverState = StateProperties19
-        StateProperties20.BorderColor = System.Drawing.Color.Silver
-        StateProperties20.FillColor = System.Drawing.Color.White
-        StateProperties20.ForeColor = System.Drawing.Color.Empty
-        StateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.inv_DateAdded.OnIdleState = StateProperties20
-        Me.inv_DateAdded.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.inv_DateAdded.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.inv_DateAdded.PlaceholderText = ""
-        Me.inv_DateAdded.ReadOnly = False
-        Me.inv_DateAdded.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.inv_DateAdded.SelectedText = ""
-        Me.inv_DateAdded.SelectionLength = 0
-        Me.inv_DateAdded.SelectionStart = 0
-        Me.inv_DateAdded.ShortcutsEnabled = True
-        Me.inv_DateAdded.Size = New System.Drawing.Size(232, 40)
-        Me.inv_DateAdded.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
-        Me.inv_DateAdded.TabIndex = 76
-        Me.inv_DateAdded.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.inv_DateAdded.TextMarginBottom = 0
-        Me.inv_DateAdded.TextMarginLeft = 5
-        Me.inv_DateAdded.TextMarginTop = 0
-        Me.inv_DateAdded.TextPlaceholder = ""
-        Me.inv_DateAdded.UseSystemPasswordChar = False
-        Me.inv_DateAdded.WordWrap = True
-        '
         'BunifuLabel4
         '
         Me.BunifuLabel4.AutoEllipsis = False
@@ -600,6 +523,32 @@ Partial Class add_inventory
         Me.BunifuLabel4.Text = "Date Added :"
         Me.BunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'inv_DateAdded
+        '
+        Me.inv_DateAdded.BackColor = System.Drawing.Color.OldLace
+        Me.inv_DateAdded.BorderRadius = 12
+        Me.inv_DateAdded.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inv_DateAdded.Color = System.Drawing.SystemColors.ActiveBorder
+        Me.inv_DateAdded.CustomFormat = "MM/dd/yyyy"
+        Me.inv_DateAdded.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
+        Me.inv_DateAdded.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
+        Me.inv_DateAdded.DisabledColor = System.Drawing.Color.Gray
+        Me.inv_DateAdded.DisplayWeekNumbers = False
+        Me.inv_DateAdded.DPHeight = 0
+        Me.inv_DateAdded.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.inv_DateAdded.FillDatePicker = False
+        Me.inv_DateAdded.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inv_DateAdded.ForeColor = System.Drawing.Color.Black
+        Me.inv_DateAdded.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.inv_DateAdded.Icon = CType(resources.GetObject("inv_DateAdded.Icon"), System.Drawing.Image)
+        Me.inv_DateAdded.IconColor = System.Drawing.Color.SaddleBrown
+        Me.inv_DateAdded.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
+        Me.inv_DateAdded.Location = New System.Drawing.Point(185, 247)
+        Me.inv_DateAdded.MinimumSize = New System.Drawing.Size(232, 40)
+        Me.inv_DateAdded.Name = "inv_DateAdded"
+        Me.inv_DateAdded.Size = New System.Drawing.Size(232, 40)
+        Me.inv_DateAdded.TabIndex = 77
         '
         'add_inventory
         '
@@ -642,6 +591,6 @@ Partial Class add_inventory
     Friend WithEvents inv_id As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel3 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuLabel9 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents inv_DateAdded As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel4 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents inv_DateAdded As Bunifu.UI.WinForms.BunifuDatePicker
 End Class

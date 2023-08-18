@@ -1,6 +1,7 @@
 ﻿Imports MongoDB.Bson
 Imports MongoDB.Driver
 Imports MongoDB.Driver.Linq
+Imports System.Globalization
 Public Class add_directServices
     Dim client As MongoClient = New MongoClient("mongodb+srv://trickted2:123@cluster0.bss9bgz.mongodb.net/?retryWrites=true&w=majority")
     Dim database As IMongoDatabase = client.GetDatabase("elysium-fms-database")
@@ -32,6 +33,9 @@ Public Class add_directServices
         If ds_appName.Text = "" Or ds_contact.Text = "" Or ds_email.Text = "" Or ds_address.Text = "" Or ds_bankAccount.Text = "" Or ds_deceasedName.Text = "" Or ds_dob.Value = DateTimePicker.MinimumDateTime Or ds_dod.Value = DateTimePicker.MinimumDateTime Or ds_cod.Text = "" Or ds_package.Text = "" Or ds_price.Text = "" Then
             MsgBox("Please fill up all forms needed.", vbInformation, "You forgot to fill something!")
         Else
+            Dim selectedDOB As String = ds_dob.Value.ToString("MM/dd/yyyy")
+            Dim selectedDOD As String = ds_dod.Value.ToString("MM/dd/yyyy")
+
             Dim document As BsonDocument = New BsonDocument()
             document.Add("ds_appName", ds_appName.Text)
             document.Add("ds_contact", ds_contact.Text)
@@ -39,9 +43,8 @@ Public Class add_directServices
             document.Add("ds_address", ds_address.Text)
             document.Add("ds_bankAccount", ds_bankAccount.Text)
             document.Add("ds_deceasedName", ds_deceasedName.Text)
-            'document.Add("ds_dob", ds_dob.Text)
-            document.Add("ds_dob", ds_dob.Value)
-            document.Add("ds_dod", ds_dod.Value)
+            document.Add("ds_dob", selectedDOB)
+            document.Add("ds_dod", selectedDOD)
             document.Add("ds_cod", ds_cod.Text)
             document.Add("ds_package", ds_package.Text)
             document.Add("ds_price", ds_price.Text)

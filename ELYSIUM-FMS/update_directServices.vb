@@ -1,18 +1,24 @@
 ﻿Imports MongoDB.Bson
 Imports MongoDB.Driver
+Imports System.Globalization
 Public Class update_directServices
     Private client As MongoClient
     Private database As IMongoDatabase
     Private collection As IMongoCollection(Of BsonDocument)
+
+
     Private Sub updateds_btn_Click(sender As Object, e As EventArgs) Handles updateds_btn.Click
         Dim objectId As String = ds_id.Text.Trim()
-
+        Dim selectedDOB As String = ds_dob.Value.ToString("MM/dd/yyyy")
+        Dim selectedDOD As String = ds_dod.Value.ToString("MM/dd/yyyy")
         If Not String.IsNullOrEmpty(objectId) Then
             ' Create the filter to match the ObjectId
             Dim filter = Builders(Of BsonDocument).Filter.Eq(Of ObjectId)("_id", New ObjectId(objectId))
 
+
+
             ' Retrieve the existing document
-            Dim existingDocument = Collection.Find(filter).FirstOrDefault()
+            Dim existingDocument = collection.Find(filter).FirstOrDefault()
 
             If existingDocument IsNot Nothing Then
                 ' Modify the document as needed
@@ -23,8 +29,8 @@ Public Class update_directServices
                 existingDocument.Set("ds_address", ds_address.Text)
                 existingDocument.Set("ds_bankAccount", ds_bankAccount.Text)
                 existingDocument.Set("ds_deceasedName", ds_deceasedName.Text)
-                existingDocument.Set("ds_dob", ds_dob.Text)
-                existingDocument.Set("ds_dod", ds_dod.Text)
+                existingDocument.Set("ds_dob", selectedDOB)
+                existingDocument.Set("ds_dod", selectedDOD)
                 existingDocument.Set("ds_cod", ds_cod.Text)
                 existingDocument.Set("ds_package", ds_package.Text)
                 existingDocument.Set("ds_price", ds_price.Text)
@@ -62,8 +68,8 @@ Public Class update_directServices
         ds_address.Clear()
         ds_bankAccount.Clear()
         ds_deceasedName.Clear()
-        ds_dob.Clear()
-        ds_dod.Clear()
+        ds_dob.Value = Date.Now
+        ds_dod.Value = Date.Now
         ds_cod.Clear()
         ds_package.Text = Nothing
         ds_price.Clear()

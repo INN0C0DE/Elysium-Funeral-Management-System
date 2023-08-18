@@ -64,9 +64,10 @@ Public Class add_lifeplan
         If add_name.Text = "" Or add_birthday.Text = "" Or add_number.Text = "" Or add_email.Text = "" Or add_package.Text = "" Or package_price.Text = "" Or add_paymentplan.Text = "" Or plan_price.Text = "" Or current_period.Text = "" Or total_period.Text = "" Or add_bankAccount.Text = "" Then
             MsgBox("Please fill up all forms needed.", vbInformation, "You forgot to fill something!")
         Else
+            Dim selectedBirthday As String = add_birthday.Value.ToString("MM/dd/yyyy")
             Dim document As BsonDocument = New BsonDocument()
             document.Add("fullname", add_name.Text)
-            document.Add("birthday", add_birthday.Text)
+            document.Add("birthday", selectedBirthday)
             document.Add("number", add_number.Text)
             document.Add("email", add_email.Text)
             document.Add("address", add_address.Text)
@@ -95,7 +96,7 @@ Public Class add_lifeplan
     End Sub
     Public Sub CLEARTEXT()
         add_name.Clear()
-        add_birthday.Clear()
+        add_birthday.Value = Date.Now
         add_number.Clear()
         add_name.Clear()
         add_email.Clear()

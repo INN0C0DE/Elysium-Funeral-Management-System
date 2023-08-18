@@ -1,4 +1,5 @@
-﻿Imports MongoDB.Bson
+﻿Imports System.Globalization
+Imports MongoDB.Bson
 Imports MongoDB.Driver
 Public Class admin_dashboard
     'Timer for refresh APPT
@@ -523,8 +524,19 @@ Public Class admin_dashboard
                     .update_email.Text = appointment_dgv.SelectedRows.Item(0).Cells(2).Value
                     .update_number.Text = appointment_dgv.SelectedRows.Item(0).Cells(3).Value
                     .update_address.Text = appointment_dgv.SelectedRows.Item(0).Cells(4).Value
-                    .update_date.Text = appointment_dgv.SelectedRows.Item(0).Cells(5).Value
-                    .update_time.Text = appointment_dgv.SelectedRows.Item(0).Cells(6).Value
+
+                    Dim aptDate As Object = appointment_dgv.SelectedRows.Item(0).Cells(5).Value
+                    Dim aptdate2 As DateTime
+                    If DateTime.TryParseExact(aptDate.ToString(), "M/d/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, aptdate2) Then
+                        .update_date.Value = aptdate2
+                    End If
+
+                    Dim aptTime As Object = appointment_dgv.SelectedRows.Item(0).Cells(6).Value
+                    Dim aptTime2 As DateTime
+                    If DateTime.TryParseExact(aptTime.ToString(), "hh:mm tt", CultureInfo.InvariantCulture, DateTimeStyles.None, aptTime2) Then
+                        .update_time.Value = aptTime2
+                    End If
+
                     .update_status.Text = appointment_dgv.SelectedRows.Item(0).Cells(7).Value
                     .ShowDialog()
 
@@ -759,7 +771,11 @@ Public Class admin_dashboard
                 With update_lifeplan
                     .add_id.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value
                     .add_name.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(1).Value
-                    .add_birthday.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
+                    Dim bdayCellValue As Object = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
+                    Dim bday As DateTime
+                    If DateTime.TryParseExact(bdayCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, bday) Then
+                        .add_birthday.Value = bday
+                    End If
                     .add_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(3).Value
                     .add_email.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(4).Value
                     .add_address.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(5).Value
@@ -976,8 +992,8 @@ Public Class admin_dashboard
             row("Address") = document("ds_address").AsString
             row("Bank Account No.") = document("ds_bankAccount").AsString
             row("Deceased Full Name") = document("ds_deceasedName").AsString
-            row("Date of Birth") = document("ds_dob").AsDateTime.ToUniversalTime().ToLocalTime().ToString("MM/dd/yyyy")
-            row("Date Died") = document("ds_dod").AsDateTime.ToUniversalTime().ToLocalTime().ToString("MM/dd/yyyy")
+            row("Date of Birth") = document("ds_dob").AsString
+            row("Date Died") = document("ds_dod").AsString
             row("Cause of Death") = document("ds_cod").AsString
             row("Package") = document("ds_package").AsString
             row("Price") = document("ds_price").AsString
@@ -992,7 +1008,6 @@ Public Class admin_dashboard
     End Sub
 
     Private Sub ds_update_Click(sender As Object, e As EventArgs) Handles ds_update.Click
-        'update_staffaccount.Show()
         Try
             If ds_dgv.SelectedRows.Count > 0 Then
                 With update_directServices
@@ -1003,8 +1018,20 @@ Public Class admin_dashboard
                     .ds_address.Text = ds_dgv.SelectedRows.Item(0).Cells(4).Value
                     .ds_bankAccount.Text = ds_dgv.SelectedRows.Item(0).Cells(5).Value
                     .ds_deceasedName.Text = ds_dgv.SelectedRows.Item(0).Cells(6).Value
-                    .ds_dob.Text = ds_dgv.SelectedRows.Item(0).Cells(7).Value
-                    .ds_dod.Text = ds_dgv.SelectedRows.Item(0).Cells(8).Value
+                    '.ds_dob.Value = ds_dgv.SelectedRows.Item(0).Cells(7).Value
+                    '.ds_dod.Value = ds_dgv.SelectedRows.Item(0).Cells(8).Value
+                    Dim dobCellValue As Object = ds_dgv.SelectedRows.Item(0).Cells(7).Value
+                    Dim dob As DateTime
+                    If DateTime.TryParseExact(dobCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, dob) Then
+                        .ds_dob.Value = dob
+                    End If
+
+                    Dim dodCellValue As Object = ds_dgv.SelectedRows.Item(0).Cells(8).Value
+                    Dim dod As DateTime
+                    If DateTime.TryParseExact(dodCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, dod) Then
+                        .ds_dod.Value = dod
+                    End If
+
                     .ds_cod.Text = ds_dgv.SelectedRows.Item(0).Cells(9).Value
                     .ds_package.Text = ds_dgv.SelectedRows.Item(0).Cells(10).Value
                     .ds_price.Text = ds_dgv.SelectedRows.Item(0).Cells(11).Value
@@ -1015,7 +1042,7 @@ Public Class admin_dashboard
                 MsgBox("Please select lifeplan to edit.", MessageBoxButtons.OK, MessageBoxIcon.Information)
             End If
         Catch ex As Exception
-
+            MessageBox.Show("An error occurred: " & ex.Message, "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
 
@@ -1214,7 +1241,11 @@ Public Class admin_dashboard
                     .inv_ProductName.Text = inventory_dgv.SelectedRows.Item(0).Cells(1).Value
                     .inv_Quantity.Text = inventory_dgv.SelectedRows.Item(0).Cells(2).Value
                     .inv_Availability.Text = inventory_dgv.SelectedRows.Item(0).Cells(3).Value
-                    .inv_DateAdded.Text = inventory_dgv.SelectedRows.Item(0).Cells(4).Value
+                    Dim dateAddedCellValue As Object = inventory_dgv.SelectedRows.Item(0).Cells(4).Value
+                    Dim dateAdd As DateTime
+                    If DateTime.TryParseExact(dateAddedCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, dateAdd) Then
+                        .inv_DateAdded.Value = dateAdd
+                    End If
                     .ShowDialog()
 
                 End With

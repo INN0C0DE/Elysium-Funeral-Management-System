@@ -14,8 +14,8 @@ Public Class update_appointment
         update_status.Text = Nothing
         update_email.Clear()
         update_number.Clear()
-        update_date.Clear()
-        update_time.Clear()
+        update_date.Value = Date.Now
+        update_time.Value = Date.Now
     End Sub
 
     Private Sub updateAppt_btn_Click(sender As Object, e As EventArgs) Handles updateAppt_btn.Click

@@ -18,7 +18,7 @@ Public Class admin_rfid
                     admin_dashboard.admin_pages.SetPage("home")
                     admin_dashboard.BunifuButton3.Visible = True
                     admin_dashboard.BunifuButton4.Visible = True
-                    admin_dashboard.username_label.Text = GetAdminFullName(cardNumber) + "!" ' Set the admin name label in admin_dashboard form
+                    admin_dashboard.username_label.Text = GetAdminFullName(cardNumber) + "" ' Set the admin name label in admin_dashboard form
                     login_form.Hide()
                     Me.Close()
                 Else

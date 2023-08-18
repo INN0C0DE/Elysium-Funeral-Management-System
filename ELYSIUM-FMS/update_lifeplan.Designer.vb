@@ -63,16 +63,12 @@ Partial Class update_lifeplan
         Dim StateProperties38 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties39 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties40 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties41 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties42 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties43 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties44 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties45 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties46 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties41 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties42 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim StateProperties47 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim StateProperties48 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties43 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
+        Dim StateProperties44 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.add_bankAccount = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel14 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -96,7 +92,6 @@ Partial Class update_lifeplan
         Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.add_number = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel4 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.add_birthday = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.add_name = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel1 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -104,6 +99,7 @@ Partial Class update_lifeplan
         Me.BunifuLabel3 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuButton1 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.updatelf_btn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.add_birthday = New Bunifu.UI.WinForms.BunifuDatePicker()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -686,13 +682,13 @@ Partial Class update_lifeplan
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.add_birthday)
         Me.GroupBox1.Controls.Add(Me.add_address)
         Me.GroupBox1.Controls.Add(Me.BunifuLabel13)
         Me.GroupBox1.Controls.Add(Me.add_email)
         Me.GroupBox1.Controls.Add(Me.BunifuLabel5)
         Me.GroupBox1.Controls.Add(Me.add_number)
         Me.GroupBox1.Controls.Add(Me.BunifuLabel4)
-        Me.GroupBox1.Controls.Add(Me.add_birthday)
         Me.GroupBox1.Controls.Add(Me.BunifuLabel2)
         Me.GroupBox1.Controls.Add(Me.add_name)
         Me.GroupBox1.Controls.Add(Me.BunifuLabel1)
@@ -970,79 +966,6 @@ Partial Class update_lifeplan
         Me.BunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'add_birthday
-        '
-        Me.add_birthday.AcceptsReturn = False
-        Me.add_birthday.AcceptsTab = False
-        Me.add_birthday.AnimationSpeed = 200
-        Me.add_birthday.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.add_birthday.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.add_birthday.BackColor = System.Drawing.Color.Transparent
-        Me.add_birthday.BackgroundImage = CType(resources.GetObject("add_birthday.BackgroundImage"), System.Drawing.Image)
-        Me.add_birthday.BorderColorActive = System.Drawing.Color.DarkGoldenrod
-        Me.add_birthday.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.add_birthday.BorderColorHover = System.Drawing.Color.Goldenrod
-        Me.add_birthday.BorderColorIdle = System.Drawing.Color.Silver
-        Me.add_birthday.BorderRadius = 25
-        Me.add_birthday.BorderThickness = 1
-        Me.add_birthday.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.add_birthday.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.add_birthday.DefaultFont = New System.Drawing.Font("Poppins", 14.25!)
-        Me.add_birthday.DefaultText = ""
-        Me.add_birthday.FillColor = System.Drawing.Color.White
-        Me.add_birthday.HideSelection = True
-        Me.add_birthday.IconLeft = Nothing
-        Me.add_birthday.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
-        Me.add_birthday.IconPadding = 10
-        Me.add_birthday.IconRight = Nothing
-        Me.add_birthday.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.add_birthday.Lines = New String(-1) {}
-        Me.add_birthday.Location = New System.Drawing.Point(138, 130)
-        Me.add_birthday.MaxLength = 32767
-        Me.add_birthday.MinimumSize = New System.Drawing.Size(100, 35)
-        Me.add_birthday.Modified = False
-        Me.add_birthday.Multiline = False
-        Me.add_birthday.Name = "add_birthday"
-        StateProperties33.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties33.FillColor = System.Drawing.Color.Empty
-        StateProperties33.ForeColor = System.Drawing.Color.Empty
-        StateProperties33.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_birthday.OnActiveState = StateProperties33
-        StateProperties34.BorderColor = System.Drawing.Color.Empty
-        StateProperties34.FillColor = System.Drawing.Color.White
-        StateProperties34.ForeColor = System.Drawing.Color.Empty
-        StateProperties34.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.add_birthday.OnDisabledState = StateProperties34
-        StateProperties35.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties35.FillColor = System.Drawing.Color.Empty
-        StateProperties35.ForeColor = System.Drawing.Color.Empty
-        StateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_birthday.OnHoverState = StateProperties35
-        StateProperties36.BorderColor = System.Drawing.Color.Silver
-        StateProperties36.FillColor = System.Drawing.Color.White
-        StateProperties36.ForeColor = System.Drawing.Color.Empty
-        StateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_birthday.OnIdleState = StateProperties36
-        Me.add_birthday.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.add_birthday.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.add_birthday.PlaceholderText = ""
-        Me.add_birthday.ReadOnly = False
-        Me.add_birthday.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.add_birthday.SelectedText = ""
-        Me.add_birthday.SelectionLength = 0
-        Me.add_birthday.SelectionStart = 0
-        Me.add_birthday.ShortcutsEnabled = True
-        Me.add_birthday.Size = New System.Drawing.Size(263, 40)
-        Me.add_birthday.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
-        Me.add_birthday.TabIndex = 43
-        Me.add_birthday.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.add_birthday.TextMarginBottom = 0
-        Me.add_birthday.TextMarginLeft = 5
-        Me.add_birthday.TextMarginTop = 0
-        Me.add_birthday.TextPlaceholder = ""
-        Me.add_birthday.UseSystemPasswordChar = False
-        Me.add_birthday.WordWrap = True
-        '
         'BunifuLabel2
         '
         Me.BunifuLabel2.AutoEllipsis = False
@@ -1091,26 +1014,26 @@ Partial Class update_lifeplan
         Me.add_name.Modified = False
         Me.add_name.Multiline = False
         Me.add_name.Name = "add_name"
-        StateProperties37.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties37.FillColor = System.Drawing.Color.Empty
-        StateProperties37.ForeColor = System.Drawing.Color.Empty
-        StateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_name.OnActiveState = StateProperties37
-        StateProperties38.BorderColor = System.Drawing.Color.Empty
-        StateProperties38.FillColor = System.Drawing.Color.White
-        StateProperties38.ForeColor = System.Drawing.Color.Empty
-        StateProperties38.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.add_name.OnDisabledState = StateProperties38
-        StateProperties39.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties39.FillColor = System.Drawing.Color.Empty
-        StateProperties39.ForeColor = System.Drawing.Color.Empty
-        StateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_name.OnHoverState = StateProperties39
-        StateProperties40.BorderColor = System.Drawing.Color.Silver
-        StateProperties40.FillColor = System.Drawing.Color.White
-        StateProperties40.ForeColor = System.Drawing.Color.Empty
-        StateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_name.OnIdleState = StateProperties40
+        StateProperties33.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties33.FillColor = System.Drawing.Color.Empty
+        StateProperties33.ForeColor = System.Drawing.Color.Empty
+        StateProperties33.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.add_name.OnActiveState = StateProperties33
+        StateProperties34.BorderColor = System.Drawing.Color.Empty
+        StateProperties34.FillColor = System.Drawing.Color.White
+        StateProperties34.ForeColor = System.Drawing.Color.Empty
+        StateProperties34.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.add_name.OnDisabledState = StateProperties34
+        StateProperties35.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties35.FillColor = System.Drawing.Color.Empty
+        StateProperties35.ForeColor = System.Drawing.Color.Empty
+        StateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.add_name.OnHoverState = StateProperties35
+        StateProperties36.BorderColor = System.Drawing.Color.Silver
+        StateProperties36.FillColor = System.Drawing.Color.White
+        StateProperties36.ForeColor = System.Drawing.Color.Empty
+        StateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.add_name.OnIdleState = StateProperties36
         Me.add_name.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.add_name.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.add_name.PlaceholderText = ""
@@ -1180,26 +1103,26 @@ Partial Class update_lifeplan
         Me.add_id.Modified = False
         Me.add_id.Multiline = False
         Me.add_id.Name = "add_id"
-        StateProperties41.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties41.FillColor = System.Drawing.Color.Empty
-        StateProperties41.ForeColor = System.Drawing.Color.Empty
-        StateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_id.OnActiveState = StateProperties41
-        StateProperties42.BorderColor = System.Drawing.Color.Empty
-        StateProperties42.FillColor = System.Drawing.Color.White
-        StateProperties42.ForeColor = System.Drawing.Color.Empty
-        StateProperties42.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.add_id.OnDisabledState = StateProperties42
-        StateProperties43.BorderColor = System.Drawing.Color.Goldenrod
-        StateProperties43.FillColor = System.Drawing.Color.Empty
-        StateProperties43.ForeColor = System.Drawing.Color.Empty
-        StateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_id.OnHoverState = StateProperties43
-        StateProperties44.BorderColor = System.Drawing.Color.Silver
-        StateProperties44.FillColor = System.Drawing.Color.White
-        StateProperties44.ForeColor = System.Drawing.Color.Empty
-        StateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.add_id.OnIdleState = StateProperties44
+        StateProperties37.BorderColor = System.Drawing.Color.DarkGoldenrod
+        StateProperties37.FillColor = System.Drawing.Color.Empty
+        StateProperties37.ForeColor = System.Drawing.Color.Empty
+        StateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.add_id.OnActiveState = StateProperties37
+        StateProperties38.BorderColor = System.Drawing.Color.Empty
+        StateProperties38.FillColor = System.Drawing.Color.White
+        StateProperties38.ForeColor = System.Drawing.Color.Empty
+        StateProperties38.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.add_id.OnDisabledState = StateProperties38
+        StateProperties39.BorderColor = System.Drawing.Color.Goldenrod
+        StateProperties39.FillColor = System.Drawing.Color.Empty
+        StateProperties39.ForeColor = System.Drawing.Color.Empty
+        StateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.add_id.OnHoverState = StateProperties39
+        StateProperties40.BorderColor = System.Drawing.Color.Silver
+        StateProperties40.FillColor = System.Drawing.Color.White
+        StateProperties40.ForeColor = System.Drawing.Color.Empty
+        StateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.add_id.OnIdleState = StateProperties40
         Me.add_id.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.add_id.PlaceholderForeColor = System.Drawing.Color.Silver
         Me.add_id.PlaceholderText = ""
@@ -1274,24 +1197,24 @@ Partial Class update_lifeplan
         Me.BunifuButton1.IndicateFocus = False
         Me.BunifuButton1.Location = New System.Drawing.Point(459, 382)
         Me.BunifuButton1.Name = "BunifuButton1"
-        StateProperties45.BorderColor = System.Drawing.Color.Peru
-        StateProperties45.BorderRadius = 25
-        StateProperties45.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties45.BorderThickness = 1
-        StateProperties45.FillColor = System.Drawing.Color.Peru
-        StateProperties45.ForeColor = System.Drawing.Color.White
-        StateProperties45.IconLeftImage = Nothing
-        StateProperties45.IconRightImage = Nothing
-        Me.BunifuButton1.onHoverState = StateProperties45
-        StateProperties46.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties46.BorderRadius = 25
-        StateProperties46.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties46.BorderThickness = 1
-        StateProperties46.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties46.ForeColor = System.Drawing.Color.White
-        StateProperties46.IconLeftImage = Nothing
-        StateProperties46.IconRightImage = Nothing
-        Me.BunifuButton1.OnPressedState = StateProperties46
+        StateProperties41.BorderColor = System.Drawing.Color.Peru
+        StateProperties41.BorderRadius = 25
+        StateProperties41.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties41.BorderThickness = 1
+        StateProperties41.FillColor = System.Drawing.Color.Peru
+        StateProperties41.ForeColor = System.Drawing.Color.White
+        StateProperties41.IconLeftImage = Nothing
+        StateProperties41.IconRightImage = Nothing
+        Me.BunifuButton1.onHoverState = StateProperties41
+        StateProperties42.BorderColor = System.Drawing.Color.SaddleBrown
+        StateProperties42.BorderRadius = 25
+        StateProperties42.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties42.BorderThickness = 1
+        StateProperties42.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties42.ForeColor = System.Drawing.Color.White
+        StateProperties42.IconLeftImage = Nothing
+        StateProperties42.IconRightImage = Nothing
+        Me.BunifuButton1.OnPressedState = StateProperties42
         Me.BunifuButton1.Size = New System.Drawing.Size(149, 45)
         Me.BunifuButton1.TabIndex = 65
         Me.BunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1337,29 +1260,55 @@ Partial Class update_lifeplan
         Me.updatelf_btn.IndicateFocus = False
         Me.updatelf_btn.Location = New System.Drawing.Point(271, 382)
         Me.updatelf_btn.Name = "updatelf_btn"
-        StateProperties47.BorderColor = System.Drawing.Color.Peru
-        StateProperties47.BorderRadius = 25
-        StateProperties47.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties47.BorderThickness = 1
-        StateProperties47.FillColor = System.Drawing.Color.Peru
-        StateProperties47.ForeColor = System.Drawing.Color.White
-        StateProperties47.IconLeftImage = Nothing
-        StateProperties47.IconRightImage = Nothing
-        Me.updatelf_btn.onHoverState = StateProperties47
-        StateProperties48.BorderColor = System.Drawing.Color.SaddleBrown
-        StateProperties48.BorderRadius = 25
-        StateProperties48.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        StateProperties48.BorderThickness = 1
-        StateProperties48.FillColor = System.Drawing.Color.SaddleBrown
-        StateProperties48.ForeColor = System.Drawing.Color.White
-        StateProperties48.IconLeftImage = Nothing
-        StateProperties48.IconRightImage = Nothing
-        Me.updatelf_btn.OnPressedState = StateProperties48
+        StateProperties43.BorderColor = System.Drawing.Color.Peru
+        StateProperties43.BorderRadius = 25
+        StateProperties43.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties43.BorderThickness = 1
+        StateProperties43.FillColor = System.Drawing.Color.Peru
+        StateProperties43.ForeColor = System.Drawing.Color.White
+        StateProperties43.IconLeftImage = Nothing
+        StateProperties43.IconRightImage = Nothing
+        Me.updatelf_btn.onHoverState = StateProperties43
+        StateProperties44.BorderColor = System.Drawing.Color.SaddleBrown
+        StateProperties44.BorderRadius = 25
+        StateProperties44.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        StateProperties44.BorderThickness = 1
+        StateProperties44.FillColor = System.Drawing.Color.SaddleBrown
+        StateProperties44.ForeColor = System.Drawing.Color.White
+        StateProperties44.IconLeftImage = Nothing
+        StateProperties44.IconRightImage = Nothing
+        Me.updatelf_btn.OnPressedState = StateProperties44
         Me.updatelf_btn.Size = New System.Drawing.Size(149, 45)
         Me.updatelf_btn.TabIndex = 64
         Me.updatelf_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.updatelf_btn.TextMarginLeft = 0
         Me.updatelf_btn.UseDefaultRadiusAndThickness = True
+        '
+        'add_birthday
+        '
+        Me.add_birthday.BackColor = System.Drawing.Color.OldLace
+        Me.add_birthday.BorderRadius = 12
+        Me.add_birthday.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.add_birthday.Color = System.Drawing.SystemColors.ActiveBorder
+        Me.add_birthday.CustomFormat = "MM/dd/yyyy"
+        Me.add_birthday.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
+        Me.add_birthday.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
+        Me.add_birthday.DisabledColor = System.Drawing.Color.Gray
+        Me.add_birthday.DisplayWeekNumbers = False
+        Me.add_birthday.DPHeight = 0
+        Me.add_birthday.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.add_birthday.FillDatePicker = False
+        Me.add_birthday.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.add_birthday.ForeColor = System.Drawing.Color.Black
+        Me.add_birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.add_birthday.Icon = CType(resources.GetObject("add_birthday.Icon"), System.Drawing.Image)
+        Me.add_birthday.IconColor = System.Drawing.Color.SaddleBrown
+        Me.add_birthday.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
+        Me.add_birthday.Location = New System.Drawing.Point(138, 130)
+        Me.add_birthday.MinimumSize = New System.Drawing.Size(261, 40)
+        Me.add_birthday.Name = "add_birthday"
+        Me.add_birthday.Size = New System.Drawing.Size(261, 40)
+        Me.add_birthday.TabIndex = 91
         '
         'update_lifeplan
         '
@@ -1412,10 +1361,10 @@ Partial Class update_lifeplan
     Friend WithEvents BunifuLabel5 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents add_number As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel4 As Bunifu.UI.WinForms.BunifuLabel
-    Friend WithEvents add_birthday As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel2 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents add_name As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel1 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents add_id As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuLabel3 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents add_birthday As Bunifu.UI.WinForms.BunifuDatePicker
 End Class
