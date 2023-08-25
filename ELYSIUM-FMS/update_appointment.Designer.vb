@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class update_appointment
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class update_appointment
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(update_appointment))
         Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
@@ -746,7 +746,7 @@ Partial Class update_appointment
         Me.update_date.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.update_date.ForeColor = System.Drawing.Color.Black
         Me.update_date.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.update_date.Icon = CType(resources.GetObject("update_date.Icon"), System.Drawing.Image)
+        Me.update_date.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
         Me.update_date.IconColor = System.Drawing.Color.SaddleBrown
         Me.update_date.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
         Me.update_date.Location = New System.Drawing.Point(231, 302)
@@ -772,7 +772,7 @@ Partial Class update_appointment
         Me.update_time.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.update_time.ForeColor = System.Drawing.Color.Black
         Me.update_time.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.update_time.Icon = CType(resources.GetObject("update_time.Icon"), System.Drawing.Image)
+        Me.update_time.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.time_pick
         Me.update_time.IconColor = System.Drawing.Color.SaddleBrown
         Me.update_time.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
         Me.update_time.Location = New System.Drawing.Point(231, 348)

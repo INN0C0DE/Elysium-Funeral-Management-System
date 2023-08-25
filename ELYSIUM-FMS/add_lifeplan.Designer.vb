@@ -22,6 +22,7 @@ Partial Class add_lifeplan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(add_lifeplan))
         Dim StateProperties1 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties2 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties3 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
@@ -68,8 +69,8 @@ Partial Class add_lifeplan
         Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties43 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties44 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(add_lifeplan))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.add_birthday = New Bunifu.UI.WinForms.BunifuDatePicker()
         Me.add_address = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel13 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.add_email = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
@@ -99,7 +100,6 @@ Partial Class add_lifeplan
         Me.BunifuLabel6 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuButton1 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.addlf_btn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.add_birthday = New Bunifu.UI.WinForms.BunifuDatePicker()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -125,6 +125,32 @@ Partial Class add_lifeplan
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "CLIENT INFORMATION:"
+        '
+        'add_birthday
+        '
+        Me.add_birthday.BackColor = System.Drawing.Color.OldLace
+        Me.add_birthday.BorderRadius = 12
+        Me.add_birthday.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.add_birthday.Color = System.Drawing.SystemColors.ActiveBorder
+        Me.add_birthday.CustomFormat = "MM/dd/yyyy"
+        Me.add_birthday.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
+        Me.add_birthday.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
+        Me.add_birthday.DisabledColor = System.Drawing.Color.Gray
+        Me.add_birthday.DisplayWeekNumbers = False
+        Me.add_birthday.DPHeight = 0
+        Me.add_birthday.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.add_birthday.FillDatePicker = False
+        Me.add_birthday.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.add_birthday.ForeColor = System.Drawing.Color.Black
+        Me.add_birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.add_birthday.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
+        Me.add_birthday.IconColor = System.Drawing.Color.SaddleBrown
+        Me.add_birthday.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
+        Me.add_birthday.Location = New System.Drawing.Point(138, 130)
+        Me.add_birthday.MinimumSize = New System.Drawing.Size(261, 40)
+        Me.add_birthday.Name = "add_birthday"
+        Me.add_birthday.Size = New System.Drawing.Size(261, 40)
+        Me.add_birthday.TabIndex = 90
         '
         'add_address
         '
@@ -1283,32 +1309,6 @@ Partial Class add_lifeplan
         Me.addlf_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.addlf_btn.TextMarginLeft = 0
         Me.addlf_btn.UseDefaultRadiusAndThickness = True
-        '
-        'add_birthday
-        '
-        Me.add_birthday.BackColor = System.Drawing.Color.OldLace
-        Me.add_birthday.BorderRadius = 12
-        Me.add_birthday.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.add_birthday.Color = System.Drawing.SystemColors.ActiveBorder
-        Me.add_birthday.CustomFormat = "MM/dd/yyyy"
-        Me.add_birthday.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
-        Me.add_birthday.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
-        Me.add_birthday.DisabledColor = System.Drawing.Color.Gray
-        Me.add_birthday.DisplayWeekNumbers = False
-        Me.add_birthday.DPHeight = 0
-        Me.add_birthday.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.add_birthday.FillDatePicker = False
-        Me.add_birthday.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.add_birthday.ForeColor = System.Drawing.Color.Black
-        Me.add_birthday.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.add_birthday.Icon = CType(resources.GetObject("add_birthday.Icon"), System.Drawing.Image)
-        Me.add_birthday.IconColor = System.Drawing.Color.SaddleBrown
-        Me.add_birthday.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
-        Me.add_birthday.Location = New System.Drawing.Point(138, 130)
-        Me.add_birthday.MinimumSize = New System.Drawing.Size(261, 40)
-        Me.add_birthday.Name = "add_birthday"
-        Me.add_birthday.Size = New System.Drawing.Size(261, 40)
-        Me.add_birthday.TabIndex = 90
         '
         'add_lifeplan
         '

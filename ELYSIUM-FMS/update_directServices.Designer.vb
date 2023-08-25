@@ -22,6 +22,7 @@ Partial Class update_directServices
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(update_directServices))
         Dim StateProperties1 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties2 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties3 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
@@ -64,8 +65,9 @@ Partial Class update_directServices
         Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim StateProperties39 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
         Dim StateProperties40 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(update_directServices))
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.ds_dod = New Bunifu.UI.WinForms.BunifuDatePicker()
+        Me.ds_dob = New Bunifu.UI.WinForms.BunifuDatePicker()
         Me.ds_cod = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel7 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -92,8 +94,6 @@ Partial Class update_directServices
         Me.BunifuLabel9 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuButton1 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.updateds_btn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.ds_dod = New Bunifu.UI.WinForms.BunifuDatePicker()
-        Me.ds_dob = New Bunifu.UI.WinForms.BunifuDatePicker()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -119,6 +119,58 @@ Partial Class update_directServices
         Me.GroupBox2.TabIndex = 65
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "DECEASED INFORMATION:"
+        '
+        'ds_dod
+        '
+        Me.ds_dod.BackColor = System.Drawing.Color.OldLace
+        Me.ds_dod.BorderRadius = 12
+        Me.ds_dod.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dod.Color = System.Drawing.SystemColors.ActiveBorder
+        Me.ds_dod.CustomFormat = "MM/dd/yyyy"
+        Me.ds_dod.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
+        Me.ds_dod.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
+        Me.ds_dod.DisabledColor = System.Drawing.Color.Gray
+        Me.ds_dod.DisplayWeekNumbers = False
+        Me.ds_dod.DPHeight = 0
+        Me.ds_dod.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.ds_dod.FillDatePicker = False
+        Me.ds_dod.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dod.ForeColor = System.Drawing.Color.Black
+        Me.ds_dod.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.ds_dod.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
+        Me.ds_dod.IconColor = System.Drawing.Color.SaddleBrown
+        Me.ds_dod.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
+        Me.ds_dod.Location = New System.Drawing.Point(179, 130)
+        Me.ds_dod.MinimumSize = New System.Drawing.Size(224, 40)
+        Me.ds_dod.Name = "ds_dod"
+        Me.ds_dod.Size = New System.Drawing.Size(224, 40)
+        Me.ds_dod.TabIndex = 81
+        '
+        'ds_dob
+        '
+        Me.ds_dob.BackColor = System.Drawing.Color.OldLace
+        Me.ds_dob.BorderRadius = 12
+        Me.ds_dob.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dob.Color = System.Drawing.SystemColors.ActiveBorder
+        Me.ds_dob.CustomFormat = "MM/dd/yyyy"
+        Me.ds_dob.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
+        Me.ds_dob.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
+        Me.ds_dob.DisabledColor = System.Drawing.Color.Gray
+        Me.ds_dob.DisplayWeekNumbers = False
+        Me.ds_dob.DPHeight = 0
+        Me.ds_dob.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.ds_dob.FillDatePicker = False
+        Me.ds_dob.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ds_dob.ForeColor = System.Drawing.Color.Black
+        Me.ds_dob.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.ds_dob.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
+        Me.ds_dob.IconColor = System.Drawing.Color.SaddleBrown
+        Me.ds_dob.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
+        Me.ds_dob.Location = New System.Drawing.Point(179, 84)
+        Me.ds_dob.MinimumSize = New System.Drawing.Size(224, 40)
+        Me.ds_dob.Name = "ds_dob"
+        Me.ds_dob.Size = New System.Drawing.Size(224, 40)
+        Me.ds_dob.TabIndex = 80
         '
         'ds_cod
         '
@@ -1153,58 +1205,6 @@ Partial Class update_directServices
         Me.updateds_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.updateds_btn.TextMarginLeft = 0
         Me.updateds_btn.UseDefaultRadiusAndThickness = True
-        '
-        'ds_dod
-        '
-        Me.ds_dod.BackColor = System.Drawing.Color.OldLace
-        Me.ds_dod.BorderRadius = 12
-        Me.ds_dod.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ds_dod.Color = System.Drawing.SystemColors.ActiveBorder
-        Me.ds_dod.CustomFormat = "MM/dd/yyyy"
-        Me.ds_dod.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
-        Me.ds_dod.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
-        Me.ds_dod.DisabledColor = System.Drawing.Color.Gray
-        Me.ds_dod.DisplayWeekNumbers = False
-        Me.ds_dod.DPHeight = 0
-        Me.ds_dod.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.ds_dod.FillDatePicker = False
-        Me.ds_dod.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ds_dod.ForeColor = System.Drawing.Color.Black
-        Me.ds_dod.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.ds_dod.Icon = CType(resources.GetObject("ds_dod.Icon"), System.Drawing.Image)
-        Me.ds_dod.IconColor = System.Drawing.Color.SaddleBrown
-        Me.ds_dod.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
-        Me.ds_dod.Location = New System.Drawing.Point(179, 130)
-        Me.ds_dod.MinimumSize = New System.Drawing.Size(224, 40)
-        Me.ds_dod.Name = "ds_dod"
-        Me.ds_dod.Size = New System.Drawing.Size(224, 40)
-        Me.ds_dod.TabIndex = 81
-        '
-        'ds_dob
-        '
-        Me.ds_dob.BackColor = System.Drawing.Color.OldLace
-        Me.ds_dob.BorderRadius = 12
-        Me.ds_dob.CalendarFont = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ds_dob.Color = System.Drawing.SystemColors.ActiveBorder
-        Me.ds_dob.CustomFormat = "MM/dd/yyyy"
-        Me.ds_dob.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin
-        Me.ds_dob.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left
-        Me.ds_dob.DisabledColor = System.Drawing.Color.Gray
-        Me.ds_dob.DisplayWeekNumbers = False
-        Me.ds_dob.DPHeight = 0
-        Me.ds_dob.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.ds_dob.FillDatePicker = False
-        Me.ds_dob.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ds_dob.ForeColor = System.Drawing.Color.Black
-        Me.ds_dob.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.ds_dob.Icon = CType(resources.GetObject("ds_dob.Icon"), System.Drawing.Image)
-        Me.ds_dob.IconColor = System.Drawing.Color.SaddleBrown
-        Me.ds_dob.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
-        Me.ds_dob.Location = New System.Drawing.Point(179, 84)
-        Me.ds_dob.MinimumSize = New System.Drawing.Size(224, 40)
-        Me.ds_dob.Name = "ds_dob"
-        Me.ds_dob.Size = New System.Drawing.Size(224, 40)
-        Me.ds_dob.TabIndex = 80
         '
         'update_directServices
         '

@@ -703,7 +703,7 @@ Partial Class add_directServices
         Me.ds_dod.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ds_dod.ForeColor = System.Drawing.Color.Black
         Me.ds_dod.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.ds_dod.Icon = CType(resources.GetObject("ds_dod.Icon"), System.Drawing.Image)
+        Me.ds_dod.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
         Me.ds_dod.IconColor = System.Drawing.Color.SaddleBrown
         Me.ds_dod.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
         Me.ds_dod.Location = New System.Drawing.Point(179, 130)
@@ -729,7 +729,7 @@ Partial Class add_directServices
         Me.ds_dob.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ds_dob.ForeColor = System.Drawing.Color.Black
         Me.ds_dob.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.ds_dob.Icon = CType(resources.GetObject("ds_dob.Icon"), System.Drawing.Image)
+        Me.ds_dob.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
         Me.ds_dob.IconColor = System.Drawing.Color.SaddleBrown
         Me.ds_dob.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
         Me.ds_dob.Location = New System.Drawing.Point(179, 84)

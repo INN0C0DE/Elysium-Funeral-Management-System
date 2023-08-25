@@ -58,5 +58,10 @@ Public Class update_appointment
         client = New MongoClient(connectionString)
         database = client.GetDatabase("elysium-fms-database")
         collection = database.GetCollection(Of BsonDocument)("appointments")
+
+        ' Configure DateTimePicker for time selection
+        update_time.Format = DateTimePickerFormat.Custom
+        update_time.CustomFormat = "hh:mm tt"
+        update_time.ShowUpDown = True
     End Sub
 End Class

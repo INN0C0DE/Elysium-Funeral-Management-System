@@ -541,7 +541,7 @@ Partial Class update_inventory
         Me.inv_DateAdded.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.inv_DateAdded.ForeColor = System.Drawing.Color.Black
         Me.inv_DateAdded.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.inv_DateAdded.Icon = CType(resources.GetObject("inv_DateAdded.Icon"), System.Drawing.Image)
+        Me.inv_DateAdded.Icon = Global.ELYSIUM_FMS.My.Resources.Resources.calendar_pick
         Me.inv_DateAdded.IconColor = System.Drawing.Color.SaddleBrown
         Me.inv_DateAdded.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right
         Me.inv_DateAdded.Location = New System.Drawing.Point(185, 247)

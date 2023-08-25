@@ -113,6 +113,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property calendar_pick() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("calendar_pick", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property CASKET1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("CASKET1", resourceCulture)
@@ -316,6 +326,16 @@ Namespace My.Resources
         Friend ReadOnly Property show_new_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("show(new)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property time_pick() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("time_pick", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

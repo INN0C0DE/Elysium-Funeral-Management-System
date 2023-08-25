@@ -47,6 +47,11 @@ ELYSIUM-FMS
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.calendar_pick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.CASKET1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -148,6 +153,11 @@ ELYSIUM-FMS
 </summary>
 </member>
 <member name="P:ELYSIUM_FMS.My.Resources.Resources.show_new_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ELYSIUM_FMS.My.Resources.Resources.time_pick">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
