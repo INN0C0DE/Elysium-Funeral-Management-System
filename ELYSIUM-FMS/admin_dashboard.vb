@@ -302,14 +302,27 @@ Public Class admin_dashboard
         ' Access the collection containing your data
         Dim collection As IMongoCollection(Of BsonDocument) = database.GetCollection(Of BsonDocument)("appointments")
 
+        '' Define an index for sorting by "insertionOrder" in descending order
+        'Dim indexKeysDefinition = Builders(Of BsonDocument).IndexKeys.Descending("insertionOrder")
+        'Dim indexModel = New CreateIndexModel(Of BsonDocument)(indexKeysDefinition)
+
+        '' Create the index
+        'collection.Indexes.CreateOne(indexModel)
+
+        '' Fetch the data from the collection sorted by the "insertionOrder" field in descending order
+        'Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).Sort(Builders(Of BsonDocument).Sort.Descending("insertionOrder")).ToList()
+
+
+
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
-
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Full Name")
         dataTable.Columns.Add("Email")
         dataTable.Columns.Add("Number")
@@ -317,6 +330,7 @@ Public Class admin_dashboard
         dataTable.Columns.Add("Appointment Date")
         dataTable.Columns.Add("Appointment Time")
         dataTable.Columns.Add("Appointment Status")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -341,7 +355,8 @@ Public Class admin_dashboard
             ' Add the DataRow to the DataTable
             dataTable.Rows.Add(row)
         Next
-
+        '' Sort the DataTable by the "Appointment Date" in descending order
+        'dataTable.DefaultView.Sort = "Appointment Date DESC"
         ' Bind the DataTable to the DataGridView
         appointment_dgv.DataSource = dataTable
     End Sub
@@ -519,25 +534,26 @@ Public Class admin_dashboard
         Try
             If appointment_dgv.SelectedRows.Count > 0 Then
                 With update_appointment
-                    .update_id.Text = appointment_dgv.SelectedRows.Item(0).Cells(0).Value
-                    .update_name.Text = appointment_dgv.SelectedRows.Item(0).Cells(1).Value
-                    .update_email.Text = appointment_dgv.SelectedRows.Item(0).Cells(2).Value
-                    .update_number.Text = appointment_dgv.SelectedRows.Item(0).Cells(3).Value
-                    .update_address.Text = appointment_dgv.SelectedRows.Item(0).Cells(4).Value
 
-                    Dim aptDate As Object = appointment_dgv.SelectedRows.Item(0).Cells(5).Value
+                    .update_name.Text = appointment_dgv.SelectedRows.Item(0).Cells(0).Value
+                    .update_email.Text = appointment_dgv.SelectedRows.Item(0).Cells(1).Value
+                    .update_number.Text = appointment_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .update_address.Text = appointment_dgv.SelectedRows.Item(0).Cells(3).Value
+
+                    Dim aptDate As Object = appointment_dgv.SelectedRows.Item(0).Cells(4).Value
                     Dim aptdate2 As DateTime
                     If DateTime.TryParseExact(aptDate.ToString(), "M/d/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, aptdate2) Then
                         .update_date.Value = aptdate2
                     End If
 
-                    Dim aptTime As Object = appointment_dgv.SelectedRows.Item(0).Cells(6).Value
+                    Dim aptTime As Object = appointment_dgv.SelectedRows.Item(0).Cells(5).Value
                     Dim aptTime2 As DateTime
                     If DateTime.TryParseExact(aptTime.ToString(), "hh:mm tt", CultureInfo.InvariantCulture, DateTimeStyles.None, aptTime2) Then
                         .update_time.Value = aptTime2
                     End If
 
-                    .update_status.Text = appointment_dgv.SelectedRows.Item(0).Cells(7).Value
+                    .update_status.Text = appointment_dgv.SelectedRows.Item(0).Cells(6).Value
+                    .update_id.Text = appointment_dgv.SelectedRows.Item(0).Cells(7).Value
                     .ShowDialog()
 
                 End With
@@ -621,7 +637,8 @@ Public Class admin_dashboard
 
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
-
+        ' Reverse the result of the search filter by new to old data
+        searchResults.Reverse()
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -688,11 +705,14 @@ Public Class admin_dashboard
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Full Name")
         dataTable.Columns.Add("Birthday")
         dataTable.Columns.Add("Number")
@@ -705,6 +725,7 @@ Public Class admin_dashboard
         dataTable.Columns.Add("Current Paid")
         dataTable.Columns.Add("Contract to be Paid")
         dataTable.Columns.Add("Bank Account No.")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -769,23 +790,24 @@ Public Class admin_dashboard
         Try
             If lifeplan_dgv.SelectedRows.Count > 0 Then
                 With update_lifeplan
-                    .add_id.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value
-                    .add_name.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(1).Value
-                    Dim bdayCellValue As Object = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
+
+                    .add_name.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value
+                    Dim bdayCellValue As Object = lifeplan_dgv.SelectedRows.Item(0).Cells(1).Value
                     Dim bday As DateTime
                     If DateTime.TryParseExact(bdayCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, bday) Then
                         .add_birthday.Value = bday
                     End If
-                    .add_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(3).Value
-                    .add_email.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(4).Value
-                    .add_address.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(5).Value
-                    .add_package.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(6).Value
-                    .add_paymentplan.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(7).Value
-                    .package_price.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(8).Value
-                    .plan_price.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(9).Value
-                    .current_period.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(10).Value
-                    .total_period.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(11).Value
-                    .add_bankAccount.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value
+                    .add_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .add_email.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .add_address.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(4).Value
+                    .add_package.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(5).Value
+                    .add_paymentplan.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(6).Value
+                    .package_price.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(7).Value
+                    .plan_price.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(8).Value
+                    .current_period.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(9).Value
+                    .total_period.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(10).Value
+                    .add_bankAccount.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(11).Value
+                    .add_id.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value
                     .ShowDialog()
 
                 End With
@@ -880,6 +902,9 @@ Public Class admin_dashboard
 
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
+
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
 
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()

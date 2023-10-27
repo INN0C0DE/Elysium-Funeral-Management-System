@@ -269,7 +269,7 @@ Partial Class login_form
         Me.BunifuPictureBox3.BorderRadius = 50
         Me.BunifuPictureBox3.Image = Global.ELYSIUM_FMS.My.Resources.Resources.login_staff
         Me.BunifuPictureBox3.IsCircle = True
-        Me.BunifuPictureBox3.Location = New System.Drawing.Point(120, 53)
+        Me.BunifuPictureBox3.Location = New System.Drawing.Point(121, 53)
         Me.BunifuPictureBox3.Name = "BunifuPictureBox3"
         Me.BunifuPictureBox3.Size = New System.Drawing.Size(120, 120)
         Me.BunifuPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -283,7 +283,7 @@ Partial Class login_form
         Me.BunifuLabel2.CursorType = Nothing
         Me.BunifuLabel2.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuLabel2.ForeColor = System.Drawing.Color.SaddleBrown
-        Me.BunifuLabel2.Location = New System.Drawing.Point(152, 184)
+        Me.BunifuLabel2.Location = New System.Drawing.Point(153, 185)
         Me.BunifuLabel2.Name = "BunifuLabel2"
         Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.BunifuLabel2.Size = New System.Drawing.Size(60, 36)
