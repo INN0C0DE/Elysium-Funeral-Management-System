@@ -82,15 +82,16 @@ Public Class admin_dashboard
         Try
             If staff_dgv.SelectedRows.Count > 0 Then
                 With update_staffaccount
-                    .update_id.Text = staff_dgv.SelectedRows.Item(0).Cells(0).Value
-                    .update_name.Text = staff_dgv.SelectedRows.Item(0).Cells(1).Value
-                    .update_username.Text = staff_dgv.SelectedRows.Item(0).Cells(2).Value
-                    .update_pwd.Text = staff_dgv.SelectedRows.Item(0).Cells(3).Value
-                    .update_rfid.Text = staff_dgv.SelectedRows.Item(0).Cells(4).Value
-                    .update_gender.Text = staff_dgv.SelectedRows.Item(0).Cells(5).Value
-                    .update_age.Text = staff_dgv.SelectedRows.Item(0).Cells(6).Value
-                    .update_email.Text = staff_dgv.SelectedRows.Item(0).Cells(7).Value
-                    .update_number.Text = staff_dgv.SelectedRows.Item(0).Cells(8).Value
+
+                    .update_name.Text = staff_dgv.SelectedRows.Item(0).Cells(0).Value
+                    .update_username.Text = staff_dgv.SelectedRows.Item(0).Cells(1).Value
+                    .update_pwd.Text = staff_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .update_rfid.Text = staff_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .update_gender.Text = staff_dgv.SelectedRows.Item(0).Cells(4).Value
+                    .update_age.Text = staff_dgv.SelectedRows.Item(0).Cells(5).Value
+                    .update_email.Text = staff_dgv.SelectedRows.Item(0).Cells(6).Value
+                    .update_number.Text = staff_dgv.SelectedRows.Item(0).Cells(7).Value
+                    .update_id.Text = staff_dgv.SelectedRows.Item(0).Cells(8).Value
                     .ShowDialog()
 
                 End With
@@ -247,11 +248,14 @@ Public Class admin_dashboard
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Full Name")
         dataTable.Columns.Add("Username")
         dataTable.Columns.Add("Password")
@@ -260,6 +264,7 @@ Public Class admin_dashboard
         dataTable.Columns.Add("Age")
         dataTable.Columns.Add("Email")
         dataTable.Columns.Add("Number")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -398,6 +403,9 @@ Public Class admin_dashboard
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -406,7 +414,7 @@ Public Class admin_dashboard
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("fullname", "Full Name")
         columnNames.Add("username", "Username")
         columnNames.Add("password", "Password")
@@ -415,6 +423,7 @@ Public Class admin_dashboard
         columnNames.Add("age", "Age")
         columnNames.Add("email", "Email")
         columnNames.Add("number", "Number")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -647,7 +656,7 @@ Public Class admin_dashboard
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("fullname", "Full Name")
         columnNames.Add("email", "Email")
         columnNames.Add("number", "Number")
@@ -655,6 +664,7 @@ Public Class admin_dashboard
         columnNames.Add("apptDate", "Appointment Date")
         columnNames.Add("apptTime", "Appointment Time")
         columnNames.Add("apptStatus", "Appointment Status")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -914,7 +924,7 @@ Public Class admin_dashboard
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("fullname", "Full Name")
         columnNames.Add("birthday", "Birthday")
         columnNames.Add("number", "Number")
@@ -927,6 +937,7 @@ Public Class admin_dashboard
         columnNames.Add("current_period", "Current Paid")
         columnNames.Add("total_period", "Contract to be Paid")
         columnNames.Add("bank", "Bank Account No.")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -983,11 +994,14 @@ Public Class admin_dashboard
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Applicant Full Name")
         dataTable.Columns.Add("Contact No.")
         dataTable.Columns.Add("Email")
@@ -999,6 +1013,7 @@ Public Class admin_dashboard
         dataTable.Columns.Add("Cause of Death")
         dataTable.Columns.Add("Package")
         dataTable.Columns.Add("Price")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -1036,30 +1051,31 @@ Public Class admin_dashboard
         Try
             If ds_dgv.SelectedRows.Count > 0 Then
                 With update_directServices
-                    .ds_id.Text = ds_dgv.SelectedRows.Item(0).Cells(0).Value
-                    .ds_appName.Text = ds_dgv.SelectedRows.Item(0).Cells(1).Value
-                    .ds_contact.Text = ds_dgv.SelectedRows.Item(0).Cells(2).Value
-                    .ds_email.Text = ds_dgv.SelectedRows.Item(0).Cells(3).Value
-                    .ds_address.Text = ds_dgv.SelectedRows.Item(0).Cells(4).Value
-                    .ds_bankAccount.Text = ds_dgv.SelectedRows.Item(0).Cells(5).Value
-                    .ds_deceasedName.Text = ds_dgv.SelectedRows.Item(0).Cells(6).Value
+
+                    .ds_appName.Text = ds_dgv.SelectedRows.Item(0).Cells(0).Value
+                    .ds_contact.Text = ds_dgv.SelectedRows.Item(0).Cells(1).Value
+                    .ds_email.Text = ds_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .ds_address.Text = ds_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .ds_bankAccount.Text = ds_dgv.SelectedRows.Item(0).Cells(4).Value
+                    .ds_deceasedName.Text = ds_dgv.SelectedRows.Item(0).Cells(5).Value
                     '.ds_dob.Value = ds_dgv.SelectedRows.Item(0).Cells(7).Value
                     '.ds_dod.Value = ds_dgv.SelectedRows.Item(0).Cells(8).Value
-                    Dim dobCellValue As Object = ds_dgv.SelectedRows.Item(0).Cells(7).Value
+                    Dim dobCellValue As Object = ds_dgv.SelectedRows.Item(0).Cells(6).Value
                     Dim dob As DateTime
                     If DateTime.TryParseExact(dobCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, dob) Then
                         .ds_dob.Value = dob
                     End If
 
-                    Dim dodCellValue As Object = ds_dgv.SelectedRows.Item(0).Cells(8).Value
+                    Dim dodCellValue As Object = ds_dgv.SelectedRows.Item(0).Cells(7).Value
                     Dim dod As DateTime
                     If DateTime.TryParseExact(dodCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, dod) Then
                         .ds_dod.Value = dod
                     End If
 
-                    .ds_cod.Text = ds_dgv.SelectedRows.Item(0).Cells(9).Value
-                    .ds_package.Text = ds_dgv.SelectedRows.Item(0).Cells(10).Value
-                    .ds_price.Text = ds_dgv.SelectedRows.Item(0).Cells(11).Value
+                    .ds_cod.Text = ds_dgv.SelectedRows.Item(0).Cells(8).Value
+                    .ds_package.Text = ds_dgv.SelectedRows.Item(0).Cells(9).Value
+                    .ds_price.Text = ds_dgv.SelectedRows.Item(0).Cells(10).Value
+                    .ds_id.Text = ds_dgv.SelectedRows.Item(0).Cells(11).Value
                     .ShowDialog()
 
                 End With
@@ -1154,6 +1170,9 @@ Public Class admin_dashboard
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -1162,7 +1181,7 @@ Public Class admin_dashboard
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("ds_appName", "Applicant Full Name")
         columnNames.Add("ds_contact", "Contact No.")
         columnNames.Add("ds_email", "Email")
@@ -1174,6 +1193,7 @@ Public Class admin_dashboard
         columnNames.Add("ds_cod", "Cause of Death")
         columnNames.Add("ds_package", "Package")
         columnNames.Add("ds_price", "Price")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -1223,15 +1243,19 @@ Public Class admin_dashboard
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Product Name")
         dataTable.Columns.Add("Quantity")
         dataTable.Columns.Add("Availability")
         dataTable.Columns.Add("Date Added")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -1262,15 +1286,16 @@ Public Class admin_dashboard
         Try
             If inventory_dgv.SelectedRows.Count > 0 Then
                 With update_inventory
-                    .inv_id.Text = inventory_dgv.SelectedRows.Item(0).Cells(0).Value
-                    .inv_ProductName.Text = inventory_dgv.SelectedRows.Item(0).Cells(1).Value
-                    .inv_Quantity.Text = inventory_dgv.SelectedRows.Item(0).Cells(2).Value
-                    .inv_Availability.Text = inventory_dgv.SelectedRows.Item(0).Cells(3).Value
-                    Dim dateAddedCellValue As Object = inventory_dgv.SelectedRows.Item(0).Cells(4).Value
+
+                    .inv_ProductName.Text = inventory_dgv.SelectedRows.Item(0).Cells(0).Value
+                    .inv_Quantity.Text = inventory_dgv.SelectedRows.Item(0).Cells(1).Value
+                    .inv_Availability.Text = inventory_dgv.SelectedRows.Item(0).Cells(2).Value
+                    Dim dateAddedCellValue As Object = inventory_dgv.SelectedRows.Item(0).Cells(3).Value
                     Dim dateAdd As DateTime
                     If DateTime.TryParseExact(dateAddedCellValue.ToString(), "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, dateAdd) Then
                         .inv_DateAdded.Value = dateAdd
                     End If
+                    .inv_id.Text = inventory_dgv.SelectedRows.Item(0).Cells(4).Value
                     .ShowDialog()
 
                 End With
@@ -1365,6 +1390,9 @@ Public Class admin_dashboard
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -1373,11 +1401,12 @@ Public Class admin_dashboard
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("inv_ProductName", "Product Name")
         columnNames.Add("inv_Quantity", "Quantity")
         columnNames.Add("inv_Availability", "Availability")
         columnNames.Add("inv_DateAdded", "Date Added")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -1415,8 +1444,8 @@ Public Class admin_dashboard
         Try
             If appointment_dgv.SelectedRows.Count > 0 Then
                 With notifier_appointment
-                    .notifier_number.Text = appointment_dgv.SelectedRows.Item(0).Cells(3).Value
-                    .notifier_message.Text = "Good day, " + appointment_dgv.SelectedRows.Item(0).Cells(1).Value + "! Your appointment request has been " + appointment_dgv.SelectedRows.Item(0).Cells(7).Value + ". Your appointment schedule date will be on " + appointment_dgv.SelectedRows.Item(0).Cells(5).Value + ", " + appointment_dgv.SelectedRows.Item(0).Cells(6).Value + ". Thank you for choosing Elysium!"
+                    .notifier_number.Text = appointment_dgv.SelectedRows.Item(0).Cells(2).Value
+                    .notifier_message.Text = "Good day, " + appointment_dgv.SelectedRows.Item(0).Cells(0).Value + "! Your appointment request has been " + appointment_dgv.SelectedRows.Item(0).Cells(6).Value + ". Your appointment date will be on " + appointment_dgv.SelectedRows.Item(0).Cells(4).Value + ", " + appointment_dgv.SelectedRows.Item(0).Cells(5).Value + "." + Environment.NewLine + Environment.NewLine + "Thank you for choosing Elysium!"
                     .ShowDialog()
                 End With
             Else
@@ -1431,9 +1460,9 @@ Public Class admin_dashboard
         Try
             If lifeplan_dgv.SelectedRows.Count > 0 Then
                 With notifier_welcomeSMS
-                    .notifier_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .notifier_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
                     'Note: message characters were not fully finalized
-                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(1).Value + "! You've successfully applied for the " + lifeplan_dgv.SelectedRows.Item(0).Cells(6).Value + " Life Plan package. Your transaction ticket is " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + ". You can track your plan to the Elysium App. Thank you for choosing Elysium!"
+                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + "! You've successfully applied for the " + lifeplan_dgv.SelectedRows.Item(0).Cells(5).Value + " Life Plan package. Your transaction ticket is " + lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value + Environment.NewLine + Environment.NewLine + "Track your plan using the Elysium App. Thank you for choosing Elysium!"
                     .ShowDialog()
                 End With
             Else
@@ -1448,9 +1477,9 @@ Public Class admin_dashboard
         Try
             If lifeplan_dgv.SelectedRows.Count > 0 Then
                 With notifier_welcomeSMS
-                    .notifier_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(3).Value
+                    .notifier_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
                     'Note: message characters were not fully finalized
-                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(1).Value + "! This message was a payment due notifier for you to pay for your plan. You can track your plan using your transaction ticket: " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + " in the Elysium App. Payments will reflect on your account after 3-5 business days. Thank you for choosing Elysium!"
+                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + "! This message was a payment due notifier for you to pay for your plan. You can track your plan using your transaction ticket: " + lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value + " in the Elysium App." + Environment.NewLine + Environment.NewLine + "Payments will reflect after 3-5 business days. Thank you for choosing Elysium!"
                     .ShowDialog()
                 End With
             Else

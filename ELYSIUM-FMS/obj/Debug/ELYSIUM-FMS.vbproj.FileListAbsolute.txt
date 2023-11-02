@@ -50,7 +50,6 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELY
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.exe
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.pdb
-C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.vbproj.AssemblyReference.cache
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
@@ -196,7 +195,6 @@ C:\Users\Ryzen 5 5600G\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FM
 C:\Users\Ryzen 5 5600G\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.lifeplan_authRFID.resources
 C:\Users\Ryzen 5 5600G\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
 C:\Users\Ryzen 5 5600G\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
-C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.add_directServices.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.add_inventory.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.admin_authRFID.resources
@@ -212,3 +210,4 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELY
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.update_directServices.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.update_inventory.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM_FMS.update_lifeplan.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\Elysium-Funeral-Management-System\ELYSIUM-FMS\obj\Debug\ELYSIUM-FMS.vbproj.AssemblyReference.cache

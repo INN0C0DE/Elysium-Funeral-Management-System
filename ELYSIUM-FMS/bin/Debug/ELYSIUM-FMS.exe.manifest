@@ -211,14 +211,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ELYSIUM-FMS.exe" size="13432376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ELYSIUM-FMS.exe" size="13420088">
       <assemblyIdentity name="ELYSIUM-FMS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9/KE1WSGjKSquuEvY4OjYvdYYJHD6R0urgZ8c+R+jPI=</dsig:DigestValue>
+        <dsig:DigestValue>riDZfivJ9PJY5E+++rSu0XY18KZycJQvafRnLZ4wNw0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

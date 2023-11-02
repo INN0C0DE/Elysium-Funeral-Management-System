@@ -1140,10 +1140,10 @@ Partial Class admin_dashboard
         Me.admin_pages.Location = New System.Drawing.Point(212, 84)
         Me.admin_pages.Multiline = True
         Me.admin_pages.Name = "admin_pages"
-        Me.admin_pages.Page = Me.TabPage5
-        Me.admin_pages.PageIndex = 4
-        Me.admin_pages.PageName = "TabPage5"
-        Me.admin_pages.PageTitle = "appointment"
+        Me.admin_pages.Page = Me.TabPage1
+        Me.admin_pages.PageIndex = 0
+        Me.admin_pages.PageName = "TabPage1"
+        Me.admin_pages.PageTitle = "home"
         Me.admin_pages.SelectedIndex = 0
         Me.admin_pages.Size = New System.Drawing.Size(844, 534)
         Me.admin_pages.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
@@ -4774,7 +4774,7 @@ Partial Class admin_dashboard
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.BlanchedAlmond
-        Me.ClientSize = New System.Drawing.Size(1054, 601)
+        Me.ClientSize = New System.Drawing.Size(1054, 579)
         Me.Controls.Add(Me.admin_pages)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)

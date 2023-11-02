@@ -41,6 +41,9 @@ Public Class archived_form
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -49,7 +52,7 @@ Public Class archived_form
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("fullname", "Full Name")
         columnNames.Add("username", "Username")
         columnNames.Add("password", "Password")
@@ -58,6 +61,7 @@ Public Class archived_form
         columnNames.Add("age", "Age")
         columnNames.Add("email", "Email")
         columnNames.Add("number", "Number")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -115,11 +119,14 @@ Public Class archived_form
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Full Name")
         dataTable.Columns.Add("Username")
         dataTable.Columns.Add("Password")
@@ -128,6 +135,7 @@ Public Class archived_form
         dataTable.Columns.Add("Age")
         dataTable.Columns.Add("Email")
         dataTable.Columns.Add("Number")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -245,11 +253,14 @@ Public Class archived_form
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Full Name")
         dataTable.Columns.Add("Email")
         dataTable.Columns.Add("Number")
@@ -257,6 +268,7 @@ Public Class archived_form
         dataTable.Columns.Add("Appointment Date")
         dataTable.Columns.Add("Appointment Time")
         dataTable.Columns.Add("Appointment Status")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -396,6 +408,9 @@ Public Class archived_form
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -404,7 +419,7 @@ Public Class archived_form
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("fullname", "Full Name")
         columnNames.Add("email", "Email")
         columnNames.Add("number", "Number")
@@ -412,6 +427,7 @@ Public Class archived_form
         columnNames.Add("apptDate", "Appointment Date")
         columnNames.Add("apptTime", "Appointment Time")
         columnNames.Add("apptStatus", "Appointment Status")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -462,11 +478,14 @@ Public Class archived_form
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Full Name")
         dataTable.Columns.Add("Birthday")
         dataTable.Columns.Add("Number")
@@ -479,6 +498,7 @@ Public Class archived_form
         dataTable.Columns.Add("Current Paid")
         dataTable.Columns.Add("Contract to be Paid")
         dataTable.Columns.Add("Bank Account No.")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -622,6 +642,9 @@ Public Class archived_form
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -630,7 +653,7 @@ Public Class archived_form
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("fullname", "Full Name")
         columnNames.Add("birthday", "Birthday")
         columnNames.Add("number", "Number")
@@ -643,6 +666,7 @@ Public Class archived_form
         columnNames.Add("current_period", "Current Paid")
         columnNames.Add("total_period", "Contract to be Paid")
         columnNames.Add("bank", "Bank Account No.")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -690,11 +714,14 @@ Public Class archived_form
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Applicant Full Name")
         dataTable.Columns.Add("Contact No.")
         dataTable.Columns.Add("Email")
@@ -706,6 +733,7 @@ Public Class archived_form
         dataTable.Columns.Add("Cause of Death")
         dataTable.Columns.Add("Package")
         dataTable.Columns.Add("Price")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -847,6 +875,9 @@ Public Class archived_form
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -855,7 +886,7 @@ Public Class archived_form
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("ds_appName", "Applicant Full Name")
         columnNames.Add("ds_contact", "Contact No.")
         columnNames.Add("ds_email", "Email")
@@ -867,6 +898,7 @@ Public Class archived_form
         columnNames.Add("ds_cod", "Cause of Death")
         columnNames.Add("ds_package", "Package")
         columnNames.Add("ds_price", "Price")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
@@ -958,15 +990,19 @@ Public Class archived_form
         ' Fetch the data from the collection
         Dim documents As List(Of BsonDocument) = collection.Find(New BsonDocument()).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        documents.Reverse()
+
         ' Create a DataTable to hold the data
         Dim dataTable As DataTable = New DataTable()
 
         ' Add columns to the DataTable (replace with your own field names)
-        dataTable.Columns.Add("ID")
+
         dataTable.Columns.Add("Product Name")
         dataTable.Columns.Add("Quantity")
         dataTable.Columns.Add("Availability")
         dataTable.Columns.Add("Date Added")
+        dataTable.Columns.Add("ID")
         ' ...
 
         ' Add rows to the DataTable
@@ -1056,6 +1092,9 @@ Public Class archived_form
         ' Retrieve the documents matching the filter
         Dim searchResults As List(Of BsonDocument) = collection.Find(filter).ToList()
 
+        ' Reverse the order of documents to have the most recent data on top
+        searchResults.Reverse()
+
         ' Convert the searchResults to a DataTable
         Dim dataTable As New DataTable()
 
@@ -1064,11 +1103,12 @@ Public Class archived_form
 
         ' Create a dictionary to map field names to custom column names
         Dim columnNames As New Dictionary(Of String, String)()
-        columnNames.Add("_id", "ID")
+
         columnNames.Add("inv_ProductName", "Product Name")
         columnNames.Add("inv_Quantity", "Quantity")
         columnNames.Add("inv_Availability", "Availability")
         columnNames.Add("inv_DateAdded", "Date Added")
+        columnNames.Add("_id", "ID")
         ' Add more field name to custom column name mappings as needed
 
         ' Add columns to the DataTable
