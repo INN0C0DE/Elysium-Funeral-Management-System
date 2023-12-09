@@ -78,6 +78,7 @@ Public Class add_lifeplan
             document.Add("current_period", current_period.Text)
             document.Add("total_period", total_period.Text)
             document.Add("bank", add_bankAccount.Text)
+            document.Add("plan_added", add_planAdded.Text)
             collection.InsertOne(document)
             MessageBox.Show("Data added successfully!", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Me.Hide()
@@ -107,9 +108,10 @@ Public Class add_lifeplan
         current_period.Clear()
         total_period.Clear()
         add_bankAccount.Clear()
+        add_planAdded.Value = Date.Now
     End Sub
 
     Private Sub add_lifeplan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        add_planAdded.Value = Date.Now
     End Sub
 End Class

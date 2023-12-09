@@ -74,4 +74,59 @@ Public Class update_lifeplan
             MessageBox.Show("Please select a data to update.", "ELYSIUM FMS:", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
+
+    Private Sub add_package_SelectedIndexChanged(sender As Object, e As EventArgs) Handles add_package.SelectedIndexChanged
+        If add_package.Text = "AGAPI (TRADITIONAL)" Then
+            package_price.Text = 85000.0
+            plan_price.Clear()
+            add_paymentplan.Text = Nothing
+            total_period.Clear()
+        ElseIf add_package.Text = "ELEOS (TRADITIONAL)" Then
+            package_price.Text = 63750.0
+            plan_price.Clear()
+            total_period.Clear()
+            add_paymentplan.Text = Nothing
+        ElseIf add_package.Text = "THALIA (TRADITIONAL)" Then
+            package_price.Text = 42500.0
+            plan_price.Clear()
+            total_period.Clear()
+            add_paymentplan.Text = Nothing
+        ElseIf add_package.Text = "SOPHRONIA (CREMATION)" Then
+            package_price.Text = 123250.0
+            plan_price.Clear()
+            total_period.Clear()
+            add_paymentplan.Text = Nothing
+        ElseIf add_package.Text = "THEON (CREMATION)" Then
+            package_price.Text = 80750.0
+            plan_price.Clear()
+            total_period.Clear()
+            add_paymentplan.Text = Nothing
+        ElseIf add_package.Text = "IRENE (CREMATION)" Then
+            package_price.Text = 57800.0
+            plan_price.Clear()
+            total_period.Clear()
+            add_paymentplan.Text = Nothing
+        End If
+    End Sub
+
+    Private Sub add_paymentplan_SelectedIndexChanged(sender As Object, e As EventArgs) Handles add_paymentplan.SelectedIndexChanged
+        Dim TotalPrice As Double
+        Dim RoundOffPrice As Double
+        If add_paymentplan.Text = "ANNUAL" Then
+            TotalPrice = package_price.Text / 5
+            RoundOffPrice = Math.Round(TotalPrice, MidpointRounding.AwayFromZero)
+            plan_price.Text = RoundOffPrice
+            total_period.Text = 5
+        ElseIf add_paymentplan.Text = "QUARTERLY" Then
+            TotalPrice = package_price.Text / 20
+            RoundOffPrice = Math.Round(TotalPrice, MidpointRounding.AwayFromZero)
+            plan_price.Text = RoundOffPrice
+            total_period.Text = 20
+        ElseIf add_paymentplan.Text = "MONTHLY" Then
+            TotalPrice = package_price.Text / 60
+            RoundOffPrice = Math.Round(TotalPrice, MidpointRounding.AwayFromZero)
+            plan_price.Text = RoundOffPrice
+            total_period.Text = 60
+        End If
+    End Sub
 End Class

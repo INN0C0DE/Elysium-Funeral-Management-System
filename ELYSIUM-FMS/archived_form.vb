@@ -498,6 +498,7 @@ Public Class archived_form
         dataTable.Columns.Add("Current Paid")
         dataTable.Columns.Add("Contract to be Paid")
         dataTable.Columns.Add("Bank Account No.")
+        dataTable.Columns.Add("Plan Added")
         dataTable.Columns.Add("ID")
         ' ...
 
@@ -523,6 +524,7 @@ Public Class archived_form
             row("Current Paid") = document("current_period").AsString
             row("Contract to be Paid") = document("total_period").AsString
             row("Bank Account No.") = document("bank").AsString
+            row("Plan Added") = document("plan_added").AsString
             ' ...
 
             ' Add the DataRow to the DataTable

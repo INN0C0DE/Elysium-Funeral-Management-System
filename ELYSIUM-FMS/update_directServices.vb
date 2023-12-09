@@ -74,4 +74,26 @@ Public Class update_directServices
         ds_package.Text = Nothing
         ds_price.Clear()
     End Sub
+
+    Private Sub ds_package_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ds_package.SelectedIndexChanged
+        If ds_package.Text = "AGAPI (TRADITIONAL)" Then
+            ds_price.Text = 100000.0
+
+        ElseIf ds_package.Text = "ELEOS (TRADITIONAL)" Then
+            ds_price.Text = 75000.0
+
+        ElseIf ds_package.Text = "THALIA (TRADITIONAL)" Then
+            ds_price.Text = 50000.0
+
+        ElseIf ds_package.Text = "SOPHRONIA (CREMATION)" Then
+            ds_price.Text = 145000.0
+
+        ElseIf ds_package.Text = "THEON (CREMATION)" Then
+            ds_price.Text = 95000.0
+
+        ElseIf ds_package.Text = "IRENE (CREMATION)" Then
+            ds_price.Text = 68000.0
+
+        End If
+    End Sub
 End Class

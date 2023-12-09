@@ -735,6 +735,7 @@ Public Class admin_dashboard
         dataTable.Columns.Add("Current Paid")
         dataTable.Columns.Add("Contract to be Paid")
         dataTable.Columns.Add("Bank Account No.")
+        dataTable.Columns.Add("Plan Added")
         dataTable.Columns.Add("ID")
         ' ...
 
@@ -760,6 +761,7 @@ Public Class admin_dashboard
             row("Current Paid") = document("current_period").AsString
             row("Contract to be Paid") = document("total_period").AsString
             row("Bank Account No.") = document("bank").AsString
+            row("Plan Added") = document("plan_added").AsString
             ' ...
 
             ' Add the DataRow to the DataTable
@@ -817,7 +819,8 @@ Public Class admin_dashboard
                     .current_period.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(9).Value
                     .total_period.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(10).Value
                     .add_bankAccount.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(11).Value
-                    .add_id.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value
+                    '.add_planAdded.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value
+                    .add_id.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(13).Value
                     .ShowDialog()
 
                 End With
@@ -1462,7 +1465,7 @@ Public Class admin_dashboard
                 With notifier_welcomeSMS
                     .notifier_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
                     'Note: message characters were not fully finalized
-                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + "! You've successfully applied for the " + lifeplan_dgv.SelectedRows.Item(0).Cells(5).Value + " Life Plan package. Your transaction ticket is " + lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value + Environment.NewLine + Environment.NewLine + "Track your plan using the Elysium App. Thank you for choosing Elysium!"
+                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + "! You've successfully applied for the " + lifeplan_dgv.SelectedRows.Item(0).Cells(5).Value + " Life Plan package. Your transaction ticket is " + lifeplan_dgv.SelectedRows.Item(0).Cells(13).Value + Environment.NewLine + Environment.NewLine + "Track your plan using the Elysium App. Thank you for choosing Elysium!"
                     .ShowDialog()
                 End With
             Else
@@ -1479,7 +1482,7 @@ Public Class admin_dashboard
                 With notifier_welcomeSMS
                     .notifier_number.Text = lifeplan_dgv.SelectedRows.Item(0).Cells(2).Value
                     'Note: message characters were not fully finalized
-                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + "! This message was a payment due notifier for you to pay for your plan. You can track your plan using your transaction ticket: " + lifeplan_dgv.SelectedRows.Item(0).Cells(12).Value + " in the Elysium App." + Environment.NewLine + Environment.NewLine + "Payments will reflect after 3-5 business days. Thank you for choosing Elysium!"
+                    .notifier_message.Text = "Good day, " + lifeplan_dgv.SelectedRows.Item(0).Cells(0).Value + "! This message was a payment due notifier for you to pay for your plan. You can track your plan using your transaction ticket: " + lifeplan_dgv.SelectedRows.Item(0).Cells(13).Value + " in the Elysium App." + Environment.NewLine + Environment.NewLine + "Payments will reflect after 3-5 business days. Thank you for choosing Elysium!"
                     .ShowDialog()
                 End With
             Else
@@ -1518,5 +1521,9 @@ Public Class admin_dashboard
         EC_pass.Visible = True
         EO_pass.Visible = False
         admin_pwd1.PasswordChar = "*"
+    End Sub
+
+    Private Sub TabPage6_Click(sender As Object, e As EventArgs) Handles TabPage6.Click
+
     End Sub
 End Class

@@ -209,6 +209,22 @@
   <data name="BunifuLabel9.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 1.2px; font-family: 'Poppins'; font-size: 15.75pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: DarkGoldenrod; text-align: left; }</value>
   </data>
+  <data name="add_birthday.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAItSURBVGhD7Vm7bttAEGThwE4XRJUd6Si/Sldq0hkJSTn5
+        gbjxA7Z4dmEoQB5lgCRVAqRK49+1b6k5a33eoygmAEXiBpjibmfndgDyCEFRVeTp8OhP1rtzmWfq16fX
+        /eeQVQb16Cz+LXnqbDiG7P8gTwZn0kGc03d765AvxPlhvCF5cOpUnUL+b7hJtnrSAS7zLP6MloUww32V
+        PFxOxv2XaKmPyXh47BrnY3Wl0/iLu4+WhXD7yIs83f08HXxAS33kiZpy0++H0RpKkXn+b3kN2wvBe8gD
+        2xF5P6qZs1GqD52pj9wU2wXyNP7rq5WB95AHtgvwGp2N7eqg2+EiUTuW5tn+yU0hK+AG4H1l5D1lAehs
+        3ld625mb4QVv9hHyAm6AOiwL4CPNCvkcklAi5AWaCkCEfAb9ZrAriSSipUCTAczLv40WGkT+ykpES4FG
+        A5iZ0UI3TfxeEklES4EmA9DMaFkuwCRTJ3Qj6KR/INXrkLzIk7ylusTaAVaFIUDT7HYAc8e+5Z9wTqpZ
+        nVTnXFZX9VxiaYDr9NU+Sk9ANdK4158E64elF/Y6rnKuZQgQAjCEAJ0L0PprtA3sdoDWvwMhAGD9sPQi
+        BAgBPLB+WHoRAnQuQBvY7QCtf4RCAMD6YelFCBACeGD9sPQiBNCJSnnR/P78Rn88izS1B51UZ1xaV/Fc
+        Is2M8aPoMh1s8WIbqI/UJsafQRKtMjH2HFej0TPzXP2QxKtEmpFmnU0dRfefWiaRR7H0oAAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
   <data name="add_address.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQcAAAAoCAYAAADzJj/wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
